@@ -90,21 +90,24 @@ def run_py(folder, script, timeout):
                           capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout)
 
 
-def prune_dart_cache(keep_days=2):
-    """DART 공시 원문 캐시: 파일명 앞 8자리(접수일) 기준 최근 keep_days일치만 남긴다."""
-    import re
-    keep_from = (TODAY - dt.timedelta(days=keep_days - 1)).strftime("%Y%m%d")
-    n = 0
+def prune_dart_cache(keep_runs=3):
+    """DART 공시 원문 캐시: 받은 날짜(수정일) 기준 최근 keep_runs회 실행분만 남긴다.
+    예) 1·2·3일차에 받았으면 4일차 실행 후 1일차에 받은 파일 삭제 (이번 + 직전 2회 보관)."""
+    files = []
     for d in ("kind", "html", "api_xml"):
         folder = ROOT / "04_DART_사업목적변경" / "data" / d
-        if not folder.is_dir():
-            continue
-        for f in folder.iterdir():
-            m = re.match(r"(\d{8})", f.name)
-            if f.is_file() and m and m.group(1) < keep_from:
-                f.unlink(); n += 1
-    if n:
-        log(f"DART 원문 캐시 {n}개 삭제 (접수일 {keep_from} 이전)")
+        if folder.is_dir():
+            files += [f for f in folder.iterdir() if f.is_file()]
+    day = lambda f: dt.date.fromtimestamp(f.stat().st_mtime)
+    days = sorted({day(f) for f in files}, reverse=True)
+    if len(days) <= keep_runs:
+        return
+    cutoff = days[keep_runs - 1]
+    n = 0
+    for f in files:
+        if day(f) < cutoff:
+            f.unlink(); n += 1
+    log(f"DART 원문 캐시 {n}개 삭제 ({cutoff} 이전에 받은 파일)")
 
 
 def main():
