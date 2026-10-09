@@ -1,0 +1,86 @@
+category:productivity/communication -> 32
+category:productivity/developer -> 32
+category:productivity/education -> 32
+category:productivity/tools -> 32
+category:productivity/workflow -> 32
+category:lifestyle/art -> 32
+category:lifestyle/entertainment -> 32
+category:lifestyle/fun -> 32
+category:lifestyle/games -> 32
+category:lifestyle/household -> 32
+category:lifestyle/news -> 32
+category:lifestyle/shopping -> 32
+category:lifestyle/social -> 32
+category:lifestyle/travel -> 32
+category:lifestyle/well_being -> 32
+category:make_chrome_yours/accessibility -> 32
+category:make_chrome_yours/functionality -> 32
+category:make_chrome_yours/privacy -> 32
+collection:ai_productivity -> 13
+collection:ai_content -> 10
+collection:2025_favorites -> 10
+collection:side_panel -> 14
+collection:gmail_extensions -> 17
+collection:language_learning -> 13
+collection:get_started -> 11
+collection:dark_mode -> 11
+collection:music_extensions -> 13
+search:AI -> 10
+search:ChatGPT -> 10
+search:요약 -> 10
+search:번역 -> 10
+search:PDF -> 10
+search:녹음 회의록 -> 9
+search:유튜브 요약 -> 10
+search:쿠팡 -> 10
+search:가격 추적 -> 10
+search:자막 -> 10
+search:스크린샷 -> 10
+search:광고 차단 -> 10
+search:탭 관리 -> 10
+search:메모 -> 10
+search:AI agent -> 10
+search:transcript -> 10
+search:Claude -> 10
+search:Gemini -> 10
+확장 행: 867 고유: 792
+reviews inomeogfingihgjfjlpeplalcfajhgai 48
+reviews aapbdbdomjkkjkaonfhkkikfgjllcleb 78
+reviews inoeonmfapjbbkmdafoankkfajkcphgd 78
+reviews fcoeoabgfenejglbffodgkkbkcdhcgfn 83
+reviews fjoaledfpmneenckfbpdfhkmimnjocfa 96
+reviews ihcjicgdanjaechkgeegckofjjedodee 97
+reviews llbcnfanfmjhpedaedhbcnpgeepdnnok 97
+reviews oocalimimngaihdkbihfgmpkcpnmlaoa 102
+reviews mmeijimgabbpbgpdklnllpncmdofkcpn 102
+reviews kgjfgplpablkjnlkjmjdecgdpfankdle 102
+reviews lpcaedmchfhocbbapmcbpinfpgnhiddi 118
+reviews nngceckbapebfimnlniiiahkandclblb 121
+reviews aeblfdkhhhdcdjpifhhbdiojplfjncoa 124
+reviews feepmdlmhplaojabeoecaobfmibooaid 124
+reviews hehggadaopoacecdllhhajmbjkdcmajg 130
+reviews gpdjojdkbbmdfjfahjcgigfpmkopogic 158
+reviews hdhinadidafjejdhmfkjgnolgimiaplp 159
+reviews fjgncogppolhfdpijihbpfmeohpaadpc 159
+reviews hjngolefdpdnooamgdldlkjgmdcmcjnc 161
+reviews hbkpclpemjeibhioopcebchdmohaieln 171
+reviews iidnbdjijdkbmajdffnidomddglmieko 171
+reviews camppjleccjaphfdbohjdohecfnoikec 173
+reviews mhnlakgilnojmhinhkckjpncpbhabphi 177
+reviews pdnenlnelpdomajfejgapbdpmjkfpjkp 178
+reviews eollffkcakegifhacjnlnegohfdlidhn 178
+reviews ihhkmalpkhkoedlmcnilbbhhbhnicjga 178
+reviews ilmdofdhpnhffldihboadndccenlnfll 178
+reviews jgocjgkdladclacgmkkiklmdcmngjcba 178
+reviews oacmmmjedhheaijfjidilonpngccnhdl 178
+reviews cdjifpfganmhoojfclednjdnnpooaojb 179
+reviews kagjkiiecagemklhmhkabbalfpbianbe 180
+reviews kchaponcodemjigejilffhfchecpgdpf 180
+reviews nomeamlnnhgiickcddocjalmlhdfknpo 180
+reviews cmeikcgfecnhojcbfapbmpbjgllklcbi 181
+reviews fmomjhjnmgpknbabfpojgifokaibeoje 181
+reviews bjkmnimffmhjbfikbempnbanngnnmknc 181
+reviews ppbfhhgcdehhbjigifndnfmcihegokbb 181
+reviews eacpodndpkokbialnikcedfbpjgkipil 181
+reviews cmfhopmhaagcfnjflfppceclmkenjkpc 181
+저평점 리뷰: 181

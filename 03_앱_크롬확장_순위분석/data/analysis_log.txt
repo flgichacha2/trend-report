@@ -1,0 +1,809 @@
+=== KR iOS Top30 ===
+ rank                           name     primary_genre release_date
+    1    NetShort - 인기 드라마 및 TV 프로그램     Entertainment   2024-07-12
+    2       하나은행, 새로워진 하나원큐를 경험해 보세요                금융   2026-02-18
+    3  TeraBox: 1TB 클라우드 저장소 & AI 공간      Productivity   2020-06-22
+    4                     네이버플러스 스토어                쇼핑   2025-03-18
+    5          101cam - 필름 & 디지털 카메라     Photo & Video   2026-07-10
+    6 내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱          사진 및 비디오   2026-06-29
+    7            Claude by Anthropic      Productivity   2024-05-01
+    8            bubble for STARSHIP           소셜 네트워킹   2023-02-18
+    9                            오렌즈                쇼핑   2016-01-08
+   10        NOL : 야놀자와 인터파크의 새로운 이름                여행   2011-05-24
+   11                  Google Gemini      Productivity   2024-11-13
+   12                      롯데월드 어드벤처            엔터테인먼트   2025-09-24
+   13             스파오 SPAO - 온라인 공식몰                쇼핑   2020-08-21
+   14                          캐치테이블           음식 및 음료   2019-12-12
+   15                        ChatGPT      Productivity   2023-05-18
+   16  카카오내비 - 주차,발렛,전기차충전,세차,보험,중고차             내비게이션   2011-03-10
+   17     ICN SMARTPASS (인천공항 스마트패스)              유틸리티   2023-07-05
+   18          듀오링고(Duolingo): 언어 학습         Education   2012-11-13
+   19                           테이블링           음식 및 음료   2018-06-23
+   20                      淘宝-万能的淘宝！                쇼핑   2010-09-03
+   21                   대한민국 모바일 신분증              유틸리티   2022-01-18
+   22 DramaWave -일본 / 한국 / 인기 단편 드라마     Entertainment   2024-09-23
+   23       Trip.com 트립닷컴 - 여행 할인 예약                여행   2013-08-05
+   24                            CGV            엔터테인먼트   2025-07-14
+   25                        Threads Social Networking   2023-07-05
+   26                           포켓CU            라이프스타일   2012-11-01
+   27                      모바일 건강보험증                의료   2023-03-13
+   28        신한 슈퍼SOL - 신한 유니버셜 금융 앱                금융   2010-03-09
+   29                           맥도날드           음식 및 음료   2019-06-28
+   30                         모바일티머니                금융   2020-03-29
+=== KR GPlay Top30 ===
+ rank                           name    score                               app_id
+    1         PDF ProX: PDF 리더 & 편집기 3.569405      com.trusted.pdfeditor.pdfreader
+    2                        ChatGPT 4.803333                   com.openai.chatgpt
+    3                     네이버플러스 스토어 4.872688          com.navercorp.navershopping
+    4        하나은행, 새로워진 하나원큐를 경험해보세요 4.309890                     com.hanabank.oqf
+    5   FreeReels -인기 단편/한일 드라마, 역전극 4.810458                    com.freereels.app
+    6    NetShort - 인기 드라마 및 TV 프로그램 4.645803                  com.netshort.abroad
+    7            Claude by Anthropic 4.753885                 com.anthropic.claude
+    8               하나증권V-대표MTS(NEW) 3.644231                      com.hanasec.pro
+    9     DramaBox - 미니시리즈 스트리밍 플레이어 4.605590                com.storymatrix.drama
+   10     TikTok Lite 포인트 & 쿠폰 & 리워드 4.660681       com.ss.android.ugc.tiktok.lite
+   11 TikTok 틱톡 - 숏폼 영상, 크리에이터, 수익창출 3.897066             com.ss.android.ugc.trill
+   12                 QR Create&Scan 3.363636      com.createqrcode.scanfordetails
+   13                         부산 동백전 3.297735             kr.co.busanbank.dongbaek
+   14              Temu: 억만장자처럼 쇼핑하기 4.473110                 com.einnovation.temu
+   15                   대한민국 모바일 신분증 3.700000                       kr.go.mobileid
+   16     MiSing - 언제 어디서나, 마음껏 노래해! 4.009709                   com.karaoke.pocket
+   17          듀오링고(Duolingo): 언어 학습 4.824382                         com.duolingo
+   18    Trip.com 트립닷컴 - 호텔, 항공권, 기차 4.735035                        ctrip.english
+   19       모니모(삼성금융통합앱) 생명 화재 카드 증권 4.582945                net.ib.android.smcard
+   20                      Instagram 4.004446                com.instagram.android
+   21                         QR 스캐너 3.687259 com.scannerreader.qrcode.creatorfree
+   22                      모바일 건강보험증 3.735465                           kr.or.nhiq
+   23 한글 뷰어 편집기 - 무료·광고 없고 HWP PDF저장 4.697916                    com.hwpviewer.hwp
+   24                 카카오톡 KakaoTalk 4.515636                       com.kakao.talk
+   25                        건강보험25시 3.622459                           kr.or.nhic
+   26         당근 - 당신 근처의 지역 생활 커뮤니티 3.172680                     com.towneers.www
+   27        신한 슈퍼SOL - 신한 유니버셜 금융 앱 4.731946                 com.shinhan.sbanking
+   28 맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로! 4.705883                 com.triggers.maxwalk
+   29             쿠팡(Coupang)-모바일 쇼핑 3.619931                   com.coupang.mobile
+   30  카카오내비 - 주차,발렛,전기차충전,세차,보험,중고차 3.645455                  com.locnall.KimGiSa
+=== 최근 12개월 출시 & Top100 (KR/US) ===
+country genre        chart  rank                           name     primary_genre release_date
+     kr  6000     top-free    16                        토스 비즈니스              비즈니스   2026-01-04
+     kr  6000     top-free    31                  대한민국 모바일 공무원증              비즈니스   2026-05-21
+     kr  6000     top-free    45                          트래블체크              비즈니스   2026-02-18
+     kr  6000     top-free    52                           건설e음              비즈니스   2026-01-04
+     kr  6000     top-free    53                        캐치파트너센터              비즈니스   2026-08-17
+     kr  6000     top-free    64                  Viettel Tammi              비즈니스   2026-05-05
+     kr  6000     top-free    74           정부 네이버웍스 NAVER WORKS              비즈니스   2026-04-28
+     kr  6000     top-free    78   굿빌더 - 스마트한 건설 현장 인력 관리의 모든 것              비즈니스   2026-08-12
+     kr  6000     top-free    81  공공 브리티웍스 통합인증 Brity SSO Agent              비즈니스   2026-03-17
+     kr  6000     top-free    89   공공 브리티웍스 메신저 Brity Messenger              비즈니스   2026-03-23
+     kr  6002     top-free     3      널스메이트 - 간호사를 위한 AI 업무 파트너              유틸리티   2026-08-30
+     kr  6002     top-free    20             FoxPeek - 기기 사양 확인              유틸리티   2026-07-27
+     kr  6002     top-free    25                        와이파이 렌즈              유틸리티   2026-09-28
+     kr  6002     top-free    32  MWall: 4K Aesthetic Wallpaper              유틸리티   2025-11-11
+     kr  6002     top-free    36       한글 뷰어 - HWPX, HWP 뷰어, 편집              유틸리티   2026-09-29
+     kr  6002     top-free    40                         경찰민원24              유틸리티   2026-01-25
+     kr  6002     top-free    65                   PixelQR Scan              유틸리티   2026-06-23
+     kr  6002     top-free    70           CarTV - M3U IPTV 동영상         Utilities   2026-08-16
+     kr  6002     top-free    74             쏘키: 기계식 키보드 사운드 테마              유틸리티   2026-08-27
+     kr  6002     top-free    76                             한획              유틸리티   2026-10-01
+     kr  6002     top-free    78                          안전디딤돌              유틸리티   2026-02-11
+     kr  6002     top-free    84                       방송대 통합인증              유틸리티   2026-06-01
+     kr  6002     top-free    91               알림함: 지난 알림 다시 보기              유틸리티   2026-09-29
+     kr  6002     top-free    97              Clutter - 스크린샷 정리              유틸리티   2026-08-26
+     kr  6005     top-free    10                         setlog Social Networking   2025-12-24
+     kr  6005     top-free    69         LiveOn 라이브온 - 실시간 영상통화           소셜 네트워킹   2026-09-28
+     kr  6005     top-free    80                         그라운드시소           소셜 네트워킹   2026-06-07
+     kr  6005     top-free    83                      감정적인 오렌지들           소셜 네트워킹   2026-07-07
+     kr  6005     top-free    84                       THE LEAD           소셜 네트워킹   2026-06-09
+     kr  6005     top-free    87                             야화           소셜 네트워킹   2026-07-17
+     kr  6005     top-free    95          Instagram 앱, Instants Social Networking   2026-05-12
+     kr  6007     top-free     9           LockDay: 투두리스트 & 플래너               생산성   2026-09-23
+     kr  6007     top-free    21    AnySchedule - 올인원 캘린더 & 플래너               생산성   2026-02-22
+     kr  6007     top-free    41 Network & System Admin Toolkit               생산성   2026-09-02
+     kr  6007     top-free    47  SocialLite-Block Reels&Shorts      Productivity   2026-01-29
+     kr  6007     top-free    49                       Grok Bot      Productivity   2026-08-11
+     kr  6007     top-free    63 Focus Town: Study With Friends               생산성   2026-02-06
+     kr  6007     top-free    70        할일차곡 : 귀여운 투두 일정 공유 캘린더               생산성   2026-02-16
+     kr  6007     top-free    75    PDF Reader: Edit & OCR Scan               생산성   2026-06-07
+     kr  6007     top-free    78      ApexDrive – 안전한 파일 저장 보관함               생산성   2026-02-24
+     kr  6007     top-free    96                            공드림               생산성   2026-06-28
+     kr  6008     top-free     1          101cam - 필름 & 디지털 카메라     Photo & Video   2026-07-10
+     kr  6008     top-free     2 내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱          사진 및 비디오   2026-06-29
+     kr  6008     top-free     5          Dance AI - AI 비디오 생성기     Photo & Video   2026-02-02
+     kr  6008     top-free     7                  네몽 - 카드뉴스 캐러셀          사진 및 비디오   2026-10-07
+     kr  6008     top-free    13             Highfield Video AI          사진 및 비디오   2026-08-04
+     kr  6008     top-free    50  AI Video Generator - Pixaflow          사진 및 비디오   2026-01-22
+     kr  6008     top-free    51                  PixVerse Lite     Photo & Video   2026-05-27
+     kr  6008     top-free    54  MIU AI: Photo Video Generator          사진 및 비디오   2025-12-30
+     kr  6008     top-free    66             N x N: 당신이 사랑한 순간들          사진 및 비디오   2026-05-05
+     kr  6008     top-free    67            ReFrame: 듀얼카메라 브이로그          사진 및 비디오   2026-04-01
+     kr  6008     top-free    70   Timeline Visualize: 여행 지도 영상          사진 및 비디오   2026-09-03
+     kr  6008     top-free    71                         카메라 SE          사진 및 비디오   2026-06-03
+     kr  6008     top-free    88            SorAI - 인공지능 영상 생성기     Photo & Video   2026-07-16
+     kr  6008     top-free    90                The Tens Camera          사진 및 비디오   2026-05-19
+     kr  6008     top-free    96  bake: AI 숏폼 만들기, 릴스·쇼츠·동영상·편집          사진 및 비디오   2026-09-08
+     kr  6012     top-free    22             금한돈 - 앱테크 돈버는앱 금적립            라이프스타일   2025-12-11
+     kr  6012     top-free    26 위프 - 원하는 전개 그대로, AI채팅 (로맨스&BL)            라이프스타일   2025-10-29
+     kr  6012     top-free    43                         나라사랑포털            라이프스타일   2026-01-04
+     kr  6012     top-free    55              김귀자 할머니 - 사주 캐릭터챗            라이프스타일   2026-04-19
+     kr  6012     top-free    80                복똑방 (동행복권 공식 앱)            라이프스타일   2026-01-19
+     kr  6012     top-free    87                            카공족            라이프스타일   2026-07-20
+     kr  6012     top-free    98                           장병e음            라이프스타일   2025-12-18
+     kr  6013     top-free    20                석가머니 - 운 모으는 부처         건강 및 피트니스   2026-07-04
+     kr  6013     top-free    38          오늘도 - 돈 버는 건강 습관, 만보기         건강 및 피트니스   2026-05-17
+     kr  6013     top-free    40             퍼플영-나만의 성형·시술 퍼플플랜         건강 및 피트니스   2026-01-22
+     kr  6013     top-free    41 칼로그 - 다이어트 식단 체중 기록, AI 칼로리 계산         건강 및 피트니스   2026-01-20
+     kr  6013     top-free    43                       도그메이트 Ai         건강 및 피트니스   2026-08-05
+     kr  6013     top-free    49                           스포애니         건강 및 피트니스   2026-01-12
+     kr  6013     top-free    51                           마블워크         건강 및 피트니스   2026-07-22
+     kr  6013     top-free    52                      더 클라임 라이프         건강 및 피트니스   2026-02-22
+     kr  6013     top-free    56 메타힌트(METAHINT) AI 건강·피부분석리포트보상         건강 및 피트니스   2026-07-13
+     kr  6013     top-free    57               파노라: 실시간 스트레스 워치         건강 및 피트니스   2026-02-17
+     kr  6013     top-free    72                           튼튼머니         건강 및 피트니스   2026-03-29
+     kr  6013     top-free    77                    버닝챌린지 - 뉴마핏         건강 및 피트니스   2026-06-24
+     kr  6013     top-free    82             포랜드 - 강아지 산책 영토 게임         건강 및 피트니스   2026-07-24
+     kr  6013     top-free    83                           건강의신         건강 및 피트니스   2025-12-04
+     kr  6013     top-free    89                           스마트칩         건강 및 피트니스   2026-02-20
+     kr  6015     top-free     1       하나은행, 새로워진 하나원큐를 경험해 보세요                금융   2026-02-18
+     kr  6015     top-free     9               하나증권V-대표MTS(NEW)                금융   2026-09-05
+     kr  6015     top-free    56                 머니차곡 : 똑똑한 가계부                금융   2026-07-09
+     kr  6015     top-free    62    노란우산, 사장님의 내일을 비추는 든든한 희망자산                금융   2026-08-06
+     kr  6015     top-free    69                      MOUM (모음)                금융   2026-08-31
+     kr  6015     top-free    95                        제주 탐나는전                금융   2025-12-09
+     kr  6016     top-free    35       DramaBox Lite - 숏폼드라마 TV     Entertainment   2026-01-09
+     kr  6016     top-free    36                           경주월드            엔터테인먼트   2025-12-31
+     kr  6016     top-free    38  노벨라플레이 - 여성향 드라마, 로맨스, 로판, BL            엔터테인먼트   2026-07-23
+     kr  6016     top-free    40            ValoStore - 발로란트 상점            엔터테인먼트   2026-05-18
+     kr  6016     top-free    42             Peekie: 미스터리 추리 게임            엔터테인먼트   2026-08-06
+     kr  6016     top-free    48   멜로디 파티 - 언제 어디서든, 신나는 노래 놀이터            엔터테인먼트   2025-11-09
+     kr  6016     top-free    49            레진스낵 - 볼수록 맛있는 숏드라마            엔터테인먼트   2026-02-02
+     kr  6016     top-free    53          아임미리 - AI 사주·타로·멘탈 코칭            엔터테인먼트   2026-04-17
+     kr  6016     top-free    55      StoryReel: 숏폼 드라마·영화 스트리밍     Entertainment   2026-04-08
+     kr  6016     top-free    56 프론티아 - AI 시네마틱 플레이, AI 채팅 프론티어            엔터테인먼트   2026-01-31
+     kr  6016     top-free    61          HotDrama - 숏폼 드라마와 릴스            엔터테인먼트   2026-04-22
+     kr  6016     top-free    62        BlinkDrama - 틈새시간에 숏드라마     Entertainment   2026-05-29
+     kr  6016     top-free    64               红果短剧 - 海量热门短剧随心看            엔터테인먼트   2026-04-27
+     kr  6016     top-free    65       VibeShort: AI 숏드라마 & 시리즈     Entertainment   2026-02-25
+     kr  6016     top-free    66              Tapit - AI 게임 만들기            엔터테인먼트   2026-09-03
+     kr  6016     top-free    71                 GHOST FESTIVAL            엔터테인먼트   2026-09-08
+     kr  6016     top-free    73           픽쿠리 - 두근두근 쿠지·가챠 뽑기샵            엔터테인먼트   2026-07-30
+     kr  6016     top-free    77              bilibili-弹幕动画高清视频            엔터테인먼트   2026-09-17
+     kr  6016     top-free    79        포켓펫 - 손안에서 키우는 나만의 반려동물            엔터테인먼트   2026-07-27
+     kr  6016     top-free    80                       엔진 시뮬레이터            엔터테인먼트   2026-09-28
+     kr  6016     top-free    92    왁뿌볼 - 왁뿌볼/말랑이/키캡 ASMR 피젯 토이            엔터테인먼트   2026-06-17
+     kr  6016     top-free    95                        ReelBox            엔터테인먼트   2026-08-29
+     kr  6016     top-free    98                           애니웨이            엔터테인먼트   2026-03-11
+     kr  6017     top-free    14                           편입로그                교육   2026-08-31
+     kr  6017     top-free    15       유니브 AI - 강의 녹음·PDF 요약·퀴즈                교육   2025-11-25
+     kr  6017     top-free    29                      LearnKata                교육   2026-08-02
+     kr  6017     top-free    30 이로이로 일본어 공부 JLPT 단어장: 한자도 한 번에                교육   2026-01-07
+     kr  6017     top-free    40                대한독립 - 역사 퀴즈 체험                교육   2026-08-13
+     kr  6017     top-free    45                           황소보카                교육   2026-09-28
+     kr  6017     top-free    47   싸다보카: 영어 공부, 영단어, 회화, 어원, 발음                교육   2025-12-29
+     kr  6017     top-free    59                          스터디우타                교육   2026-10-07
+     kr  6017     top-free    66                           기니어스                교육   2026-08-27
+     kr  6017     top-free    70           알레프 키즈: 놀면서 배우는 영어회화                교육   2026-02-23
+     kr  6017     top-free    82 랜딧(Landit): 영어회화·스픽·스피킹·표현·리스닝                교육   2026-07-16
+     kr  6017     top-free    83                        한국자격증협회                교육   2026-02-20
+     kr  6017     top-free    84              Tooter: AI 외국어 튜터                교육   2026-05-14
+     kr  6017     top-free    86    Langaku(란가쿠)-일본 만화로 배우는 일본어                교육   2026-09-17
+     kr  6017     top-free    93                    이투스 PLAY ON                교육   2026-08-09
+     kr  6024     top-free    11             픽앤팝 - 내 손안의 가챠&쿠지샵                쇼핑   2025-10-30
+     kr  6024     top-free    18                  쇼포트 - AI 쇼핑비서                쇼핑   2026-01-02
+     kr  6024     top-free    35                             사줘                쇼핑   2026-05-13
+     kr  6024     top-free    58          Ralph Lauren- 랄프 로렌 앱                쇼핑   2026-05-18
+     kr  6024     top-free    64         장신몰 - 장사의신이 만든 최저가 쇼핑몰                쇼핑   2026-08-03
+     kr  6024     top-free    68          지금하는공구 - 인스타 공동구매 검색기                쇼핑   2026-04-12
+     kr  6024     top-free    73            다비치마켓 - 눈이 먼저 찾는 마켓                쇼핑   2026-03-19
+     kr  6024     top-free    84                           사이페이                쇼핑   2026-06-29
+     kr   all     top-free    76     타베로그 Tabelog - 일본 현지 맛집 찾기           음식 및 음료   2025-11-09
+     kr   all top-grossing     9                         도깨비의세계                게임   2026-10-05
+     kr   all top-grossing    10                        메이플 키우기                게임   2025-11-05
+     kr   all top-grossing    18             쿠키런 키우기 - 쿠키런: 크럼블                게임   2026-07-29
+     kr   all top-grossing    23                     제우스: 오만의 신                게임   2026-08-24
+     kr   all top-grossing    27                           탑 로드                게임   2026-06-01
+     kr   all top-grossing    31                  이클립스: 더 어웨이크닝                게임   2026-09-09
+     kr   all top-grossing    40                        할리우드 머지                게임   2026-05-08
+     kr   all top-grossing    61               아쿠아랜드: 크레이지 서바이벌                게임   2026-09-01
+     kr   all top-grossing    68                      뚜까펫: 서바이벌                게임   2026-08-27
+     kr   all top-grossing    72           소울 헌터 키우기 : 신규 서버 출시                게임   2025-12-17
+     kr   all top-grossing    78                  라스트 어사일럼: 페스트                게임   2026-03-02
+     kr   all top-grossing    80                       후더덕 서바이벌                게임   2026-09-17
+     kr   all top-grossing    82                     더 코지 플로리스트                게임   2026-05-07
+     kr   all top-grossing    93                        드래곤빌리지3                게임   2026-05-27
+     kr   all top-grossing    99                      열혈강호: 넥스트                게임   2026-07-28
+     kr   all     top-paid     2         올디 Oldi - Phone Camera              None   2026-03-20
+     kr   all     top-paid     4      GIKA 기카 - 독보적인 올드폰 감성 카메라              None   2025-12-01
+     kr   all     top-paid     8                영뽀또 - 감성 구도 카메라              None   2026-06-26
+     kr   all     top-paid    12                           iY2K              None   2026-08-21
+     kr   all     top-paid    15        DayGrid: 데일리스케줄, 하루 계획표              None   2026-04-26
+     kr   all     top-paid    18    Runa: RPG Maker & VN Player              None   2026-07-02
+     kr   all     top-paid    22                       해병PTSD알람              None   2026-09-25
+     kr   all     top-paid    26                       해군PTSD알람              None   2026-09-03
+     kr   all     top-paid    28              play_music_theory              None   2026-08-19
+     kr   all     top-paid    29                 롤리즈: 감성 필름 카메라              None   2026-09-28
+     kr   all     top-paid    39                하루테이프 - 빈티지 캠코더              None   2026-07-28
+     kr   all     top-paid    45      STICKERS - 손글씨 사진 꾸미기 스티커              None   2026-04-14
+     kr   all     top-paid    55             AutoSnore: 코골이 녹음기              None   2025-11-02
+     kr   all     top-paid    56          FitToCal - 운동 캘린더 동기화              None   2026-01-30
+     kr   all     top-paid    57 RPGPlayer - An RPGMaker Player              None   2025-12-10
+     kr   all     top-paid    58 Auday - All-Day Watch Recorder              None   2026-10-01
+     kr   all     top-paid    62              애드제로: 광고 없이 쾌적한 웹              None   2026-07-30
+     kr   all     top-paid    64                     공군 PTSD 알람              None   2026-09-21
+     kr   all     top-paid    65           텔레마케팅관리사 실기 | 기출, 공부              None   2026-07-25
+     kr   all     top-paid    69                       PrinTodo              None   2026-06-21
+     kr   all     top-paid    77            2Do: 투두리스트 & 할 일 관리              None   2026-09-06
+     kr   all     top-paid    78  Alpin Quest PRO – Outdoor GPS              None   2026-03-23
+     kr   all     top-paid    82           CherryFilm 패션 셀카 카메라              None   2026-04-28
+     kr   all     top-paid    83      Cable Tray Bend Calc 2026              None   2026-07-15
+     kr   all     top-paid    84                   NostalgicPod              None   2026-10-05
+     kr   all     top-paid    86     DayPic(데이픽) - 하루 기록 사진 일기장              None   2026-05-26
+     kr   all     top-paid    91             ZRcamera Pro, Snap              None   2026-08-14
+     kr   all     top-paid    93                지구를 건너 - 디데이 위젯              None   2026-09-29
+     kr   all     top-paid   100        bluefie - 애니메틱한 색감 카메라앱              None   2025-10-09
+     us  6000     top-free    10     symplr Time and Scheduling          Business   2026-09-14
+     us  6000     top-free    43         Seller, a Facebook app          Business   2026-07-23
+     us  6000     top-free    47                 Trybe Creators          Business   2026-03-24
+     us  6000     top-free    61             Bandana Job Search          Business   2026-03-03
+     us  6000     top-free    98                      LegalZoom          Business   2026-08-14
+     us  6002     top-free    16            Authenticator ℠ App         Utilities   2025-11-19
+     us  6002     top-free    18 CarTV - M3U IPTV Player & Cast         Utilities   2026-08-16
+     us  6002     top-free    32                     Epic Games         Utilities   2025-11-18
+     us  6002     top-free    43 myCar: Car Widgets & Dashboard         Utilities   2025-11-20
+     us  6002     top-free    48   Holy Bible Faith:Verse&Audio         Utilities   2026-05-21
+     us  6002     top-free    55 VPN Unlimited・Proxy Master App         Utilities   2026-08-31
+     us  6002     top-free    61  TV Remote Control · Universal         Utilities   2026-01-15
+     us  6002     top-free    64      Watcho — Por La Comunidad         Utilities   2026-07-21
+     us  6002     top-free    69                           incy         Utilities   2026-01-27
+     us  6002     top-free    71    LocFind: GPS Family Tracker         Utilities   2026-08-20
+     us  6002     top-free    75             Authenticator© App         Utilities   2026-04-30
+     us  6002     top-free    76                       Zyra VPN         Utilities   2026-07-08
+     us  6002     top-free    91          frenzy - friends only         Utilities   2025-12-12
+     us  6002     top-free    92   Seekee: Ai Search & Ai Tools         Utilities   2026-06-25
+     us  6002     top-free    96                    Just ChatiX         Utilities   2025-10-22
+     us  6002     top-free    98      QR Code Barcode Ai Reader         Utilities   2026-04-07
+     us  6002     top-free   100                         OwnVPN         Utilities   2026-08-31
+     us  6005     top-free    14          Forum, a Facebook app Social Networking   2026-05-21
+     us  6005     top-free    18  Valid - Compliment Classmates Social Networking   2025-12-11
+     us  6005     top-free    24     Instants, an Instagram app Social Networking   2026-05-12
+     us  6005     top-free    26               MONOPOLY GO!Chat Social Networking   2026-03-30
+     us  6005     top-free    33        Facebook Creator Studio Social Networking   2026-08-10
+     us  6005     top-free    47                     ThingsBook Social Networking   2026-01-25
+     us  6005     top-free    64     GТL: Gеtting Оut Messaging Social Networking   2026-06-30
+     us  6005     top-free    68        setlog - friends camera Social Networking   2025-12-24
+     us  6005     top-free    72     Vlogit: Vlogs With Friends Social Networking   2026-06-15
+     us  6005     top-free    73                       Sea Soul Social Networking   2026-02-23
+     us  6005     top-free    77             LINUX DO Community Social Networking   2026-10-02
+     us  6005     top-free    82                      Tato Talk Social Networking   2026-04-03
+     us  6005     top-free   100       ClearTok: Repost Remover Social Networking   2026-01-30
+     us  6007     top-free     1                 Muse from Meta      Productivity   2026-09-08
+     us  6007     top-free    12                       Grok Bot      Productivity   2026-08-11
+     us  6007     top-free    46    Smart Printer App℠ for HP ·      Productivity   2026-01-20
+     us  6007     top-free    50  SocialLite-Block Reels&Shorts      Productivity   2026-01-29
+     us  6007     top-free    51        Charge Win: Win Rewards      Productivity   2026-07-28
+     us  6007     top-free    55  TranslateAll: Live Translator      Productivity   2026-05-14
+     us  6007     top-free    78     Office Word: Edit Document      Productivity   2026-04-01
+     us  6007     top-free    83 Dola AI: Smart Personal Helper      Productivity   2026-08-14
+     us  6007     top-free    93                  WasteConnect+      Productivity   2026-07-14
+     us  6008     top-free    10     AI Video Generator - Vixel     Photo & Video   2026-01-23
+     us  6008     top-free    11     Dance AI - Video Generator     Photo & Video   2026-02-02
+     us  6008     top-free    19                  PixVerse Lite     Photo & Video   2026-05-27
+     us  6008     top-free    43     SorAI - AI Video Generator     Photo & Video   2026-07-16
+     us  6008     top-free    79                 KICK - Go Live     Photo & Video   2025-12-15
+     us  6008     top-free    95 101cam - Film & Digital Camera     Photo & Video   2026-07-10
+     us  6008     top-free   100   Face Magic - AI Photo Editor     Photo & Video   2026-05-26
+     us  6012     top-free    12     KidHub by Unleashed Brands         Lifestyle   2026-06-01
+     us  6012     top-free    36                       Hark Pro         Lifestyle   2026-09-30
+     us  6012     top-free    46    Instant Cash Advance - Zora         Lifestyle   2026-06-09
+     us  6012     top-free    76   Wello - Heart Health Monitor         Lifestyle   2026-03-27
+     us  6012     top-free    80   Glucera: Blood Sugar Tracker         Lifestyle   2026-08-31
+     us  6012     top-free    88                     Contracted         Lifestyle   2026-04-23
+     us  6012     top-free    97         Gist - Life Well Lived         Lifestyle   2026-05-03
+     us  6013     top-free    10                New EōS Fitness  Health & Fitness   2026-05-03
+     us  6013     top-free    19   Wayk: Alarm Clock to Wake Up  Health & Fitness   2026-02-03
+     us  6013     top-free    40      SleepSense: Sleep Tracker  Health & Fitness   2026-07-22
+     us  6013     top-free    49            Quick BloodPressure  Health & Fitness   2026-01-29
+     us  6013     top-free    56         HealthPro: Blood Sugar  Health & Fitness   2026-03-25
+     us  6013     top-free    82                  PulseGuard Ai  Health & Fitness   2025-10-17
+     us  6013     top-free    84      FaceVital: Health Monitor  Health & Fitness   2026-06-19
+     us  6013     top-free    87                   Grow Therapy  Health & Fitness   2025-10-16
+     us  6015     top-free     1   Trump Accounts: Official App           Finance   2026-05-27
+     us  6015     top-free    28                   ebtEDGE NEW!           Finance   2025-12-05
+     us  6015     top-free    42      Rocco - Fast Cash Advance           Finance   2026-08-11
+     us  6015     top-free    64                   Centier Bank           Finance   2026-10-05
+     us  6015     top-free    86 Cherry: The Smarter Way to Pay           Finance   2026-03-05
+     us  6015     top-free    87            Willow® Mastercard®           Finance   2026-10-06
+     us  6015     top-free    95 250 Cash Advance: Borrow Money           Finance   2026-09-11
+     us  6016     top-free     2            TikTok Pro - Events     Entertainment   2026-06-03
+     us  6016     top-free     3       PineDrama - Short Dramas     Entertainment   2025-12-23
+     us  6016     top-free     6      BlinkDrama - Short Dramas     Entertainment   2026-05-29
+     us  6016     top-free     9   StoryReel: Drama Shorts & TV     Entertainment   2026-04-08
+     us  6016     top-free    27     VibeShort: AI Short Dramas     Entertainment   2026-02-25
+     us  6016     top-free    28                     Soda Reels     Entertainment   2026-02-17
+     us  6016     top-free    46     Drama: Watch Short Stories     Entertainment   2026-06-14
+     us  6016     top-free    48        OOC: The Playable Anime     Entertainment   2026-04-15
+     us  6016     top-free    59     Loopit - AI Playable Maker     Entertainment   2026-01-03
+     us  6016     top-free    63  DramaBox Lite - Mini Drama TV     Entertainment   2026-01-09
+     us  6016     top-free    66             VYBS: Earn Rewards     Entertainment   2026-06-26
+     us  6016     top-free    70                     ShowMiRush     Entertainment   2026-09-14
+     us  6016     top-free    75 SpeedCash: Play & Earn Rewards     Entertainment   2025-12-21
+     us  6016     top-free    79           Whispy AI: Cozy Chat     Entertainment   2026-06-04
+     us  6016     top-free    80          PuzzlePlay: Earn Cash     Entertainment   2026-07-20
+     us  6016     top-free    85                      HookDrama     Entertainment   2026-03-31
+     us  6016     top-free    93      Swerve: AI Chat & Stories     Entertainment   2025-11-16
+     us  6016     top-free    96 Heyyyy: Stories that text back     Entertainment   2026-04-10
+     us  6016     top-free    97                     DramaLocal     Entertainment   2026-01-29
+     us  6016     top-free    99   ColdTrace: Cold Case Mystery     Entertainment   2026-05-31
+     us  6017     top-free    29 Ziggy: Learn ASL Sign Language         Education   2026-07-21
+     us  6017     top-free    57    Abide-Daily Scripture Study         Education   2025-11-12
+     us  6017     top-free    59                      MapTap.gg         Education   2025-11-18
+     us  6017     top-free    74 GraceNotes – Gratitude Journal         Education   2025-11-06
+     us  6017     top-free    75       Pinu – Language Learning         Education   2026-03-11
+     us  6017     top-free    81    IQ Elevate - Brain Training         Education   2026-04-02
+     us  6017     top-free    82   Talko: Learn English with AI         Education   2026-05-04
+     us  6017     top-free    90 DMV: Practice Test before Exam         Education   2026-01-16
+     us  6024     top-free    11                Rips by Triumph          Shopping   2025-10-22
+     us  6024     top-free    61      MintPull - Rip TCG Pocket          Shopping   2026-04-26
+     us  6024     top-free    66                         IcyBox          Shopping   2026-03-07
+     us  6024     top-free    75     Comfrt: Shop Cozy Clothing          Shopping   2025-11-25
+     us  6024     top-free    82                      Lidl Plus          Shopping   2026-06-25
+     us  6024     top-free    93    Package Tracker - TrackPack          Shopping   2026-06-17
+     us   all     top-free    66     EarthScope: GPS Map Camera        Navigation   2026-07-08
+     us   all top-grossing    61 Block Out! - Color Sort Puzzle             Games   2025-10-31
+     us   all top-grossing    63                   Colony Flow!             Games   2026-06-13
+     us   all top-grossing    77     Jelly Busters: Puzzle Game             Games   2026-01-26
+     us   all top-grossing   100             Bus Traffic Fever!             Games   2026-03-13
+     us   all     top-paid     6              play_music_theory              None   2026-08-19
+     us   all     top-paid     9                        2AM CAM              None   2026-08-27
+     us   all     top-paid    23           Moment Pro Camera II              None   2025-11-14
+     us   all     top-paid    28                   NostalgicPod              None   2026-10-05
+     us   all     top-paid    51     Wildwood: Follow the Crows              None   2026-08-06
+     us   all     top-paid    88       V2Box Pro - V2ray Client              None   2026-05-16
+     us   all     top-paid    98     Plezy: Media Server Client              None   2025-10-30
+=== 미국 Top50에만 있는 앱 수(카테고리별, 한국 어떤 차트에도 없음) ===
+store            genre             
+appstore         all                    54
+appstore_itunes  6000                   38
+                 6002                   33
+                 6005                   36
+                 6007                   20
+                 6008                   21
+                 6012                   43
+                 6013                   44
+                 6015                   49
+                 6016                   34
+                 6017                   42
+                 6024                   44
+                 all                    38
+gplay            APPLICATION           101
+                 BUSINESS               40
+                 EDUCATION              41
+                 FINANCE                49
+                 HEALTH_AND_FITNESS     45
+                 LIFESTYLE              45
+                 PHOTOGRAPHY            26
+                 PRODUCTIVITY           25
+                 SHOPPING               45
+                 TOOLS                  38
+=== KR 카테고리 Top10 ===
+appstore all NetShort - 인기 드라마  | 하나은행, 새로워진 하나원큐를 경 | TeraBox: 1TB 클라우드  | 네이버플러스 스토어 | 101cam - 필름 & 디지털  | 내가 당신을 사랑할 때 보이는 순 | Claude by Anthropi | bubble for STARSHI | 오렌즈 | NOL : 야놀자와 인터파크의 새
+appstore_itunes 6000 고용24(Work24) | 알바몬 - 대한민국 1위 아르바이 | 사람인 - 취업 이직 커뮤니티 커 | 마이클 - 정비소 예약, 엔진오일 | Zoom Workplace | 국방모바일보안(외부인) | 모바일팩스 i | 엔카 - 중고차 필수 플랫폼, 내 | 잡코리아 - ai 커리어 플랫폼  | 스마트 위택스
+appstore_itunes 6002 ICN SMARTPASS (인천공 | 대한민국 모바일 신분증 | 널스메이트 - 간호사를 위한 AI | Google | Google Chrome | Google Authenticat | Samsung Smart Swit | Kia App | LED 전광판 - 전광판 · 네온 | 마이현대
+appstore_itunes 6005 bubble for STARSHI | Threads | Facebook | WhatsApp Messenger | Discord - 대화, 플레이, | 당근 | Telegram Messenger | 범프 - 친구들의 지도 | WeChat | setlog
+appstore_itunes 6007 TeraBox: 1TB 클라우드  | Claude by Anthropi | Google Gemini | ChatGPT | 모두의카드 | Gmail: Google이 제공하 | Google Sheets | Google 드라이브 – 안전한  | LockDay: 투두리스트 & 플 | VPN - Super Unlimi
+appstore_itunes 6008 101cam - 필름 & 디지털  | 내가 당신을 사랑할 때 보이는 순 | CapCut: 사진 및 동영상 에 | AI Catch(AI 캐치): A | Dance AI - AI 비디오  | Edits: 비디오 편집기 | 네몽 - 카드뉴스 캐러셀 | 메이투 Meitu - 얼굴보정·인 | Instagram | PHOTOISM - 포토이즘
+appstore_itunes 6012 포켓CU | 우리동네GS (GS25, GS더프 | 다이소몰 | 성범죄자 알림e | bhc 치킨 - Tasty, Cr | Alipay - Simplify  | 정부24(구 민원24) | 월드클래스 | 이마트 - 매장쇼핑 전 필수! | 교통민원24(이파인)
+appstore_itunes 6013 Nike Run Club: 러닝  | 챌린저스 - 돈이 돌아오는 쇼핑  | 모두닥 - 안과/치과 최저가, 인 | 강남언니: 1등 피부 / 성형 병 | InBody | 복지로 | Motivation - 명언 마인 | 마이모리 - 마음을 돌보는 일기 | 워크온(WalkOn) | 짐워크 - 헬스 홈트 운동일지 운
+appstore_itunes 6015 하나은행, 새로워진 하나원큐를 경 | 신한 슈퍼SOL - 신한 유니버셜 | 모바일티머니 | 실손24 | 모니모(삼성금융통합앱) 생명 화재 | NH올원뱅크(농협은행 대표 플랫폼 | 카카오페이 | 네이버페이 | 하나증권V-대표MTS(NEW) | 트래블월렛 – travel Pay
+appstore_itunes 6016 NetShort - 인기 드라마  | 롯데월드 어드벤처 | DramaWave -일본 / 한국 | CGV | Vigloo - 숏폼드라마 | Everland | Wavve (웨이브) | DramaBox - 영화와 숏폼  | TVING | TikTok 틱톡
+appstore_itunes 6017 듀오링고(Duolingo): 언어 | 오르조: 기출문제, 수능·내신·공 | 아스트라 AI: 학습 및 시험 준 | 모니토앱 | 말해보카: 단어, 문법, 스피킹, | 나이스플러스(NEIS+) | 열품타 | 운전면허 PLUS - 운전면허 필 | 랭플릭스 - 영어공부, 영어회화, | YayTalk: 영어 학습 및 말
+appstore_itunes 6024 네이버플러스 스토어 | 오렌즈 | 스파오 SPAO - 온라인 공식몰 | 淘宝-万能的淘宝！ | 유니클로 UNIQLO - 쇼핑 | 4910 : 사고 싶은 스타일의  | 온라인 패션 스토어 무신사 | 올리브영 | 폴센트 - 최저가 알림ㆍ가격비교ㆍ | KREAM(크림)
+appstore_itunes all NetShort - 인기 드라마  | 하나은행, 새로워진 하나원큐를 경 | TeraBox: 1TB 클라우드  | 네이버플러스 스토어 | 101cam - 필름 & 디지털  | 내가 당신을 사랑할 때 보이는 순 | Claude by Anthropi | bubble for STARSHI | 오렌즈 | NOL : 야놀자와 인터파크의 새
+gplay APPLICATION PDF ProX: PDF 리더 & | ChatGPT | 네이버플러스 스토어 | 하나은행, 새로워진 하나원큐를 경 | FreeReels -인기 단편/한 | NetShort - 인기 드라마  | Claude by Anthropi | 하나증권V-대표MTS(NEW) | DramaBox - 미니시리즈 스 | TikTok Lite 포인트 & 
+gplay BUSINESS 고용24 | Zoom Workplace | 알바몬 - 아르바이트 구인 구직, | 잡코리아 - ai 커리어 플랫폼  | 모바일팩스 | 사람인 - 취업 이직 커뮤니티 커 | 알바천국 - 모든 생애 모든 알바 | Microsoft Authenti | Microsoft Teams | 리멤버 - 경력채용, 명함관리, 
+gplay EDUCATION 듀오링고(Duolingo): 언어 | 오르조: 기출문제, 수능·내신·공 | SpeakUp AI - 언어 학습 | 싸다보카: 영어 공부, 영단어,  | 스픽 Speak: AI 영어회화, | 클래스카드 | 영어쌤 1/3이 선 | 네이버 사전 | 모두의 한자 - 한자 공부, 획순 | 고용24 직업훈련 출결관리 | 말해보카: 단어, 문법, 스피킹,
+gplay FINANCE 하나은행, 새로워진 하나원큐를 경 | 하나증권V-대표MTS(NEW) | 부산 동백전 | 모니모(삼성금융통합앱) 생명 화재 | 신한 슈퍼SOL - 신한 유니버셜 | 카카오페이 | NH올원뱅크(농협은행 대표 플랫폼 | 카카오뱅크 | 내 곁에 국민연금 | 토스
+gplay HEALTH_AND_FITNESS 모바일 건강보험증 | 건강보험25시 | 맥스워크-리워드에 미친 만보기,  | 건강e음 | 혈압·혈당 건강관리 | 에이헬스 - 구 머니워크, 돈이  | 캐시워크 - 만보기 앱테크, 건강 | Nike Run Club - 러닝 | InBody | 워크온(WalkON) - 걸음이 
+gplay LIFESTYLE 대한민국 모바일 신분증 | 다이소몰 – 온라인 국민가게 | 익시오(ixi-O) | 우리동네GS (GS25, GS더프 | 유니클로 UNIQLO - 쇼핑 | 아파트아이 - 아파트 생활 필수  | 숨고 - 이사, 청소, 취미, 인 | 캐시모어-영수증 현금 리워드, 돈 | 이멤버(EMEMBER) | Pinterest(핀터레스트)
+gplay PHOTOGRAPHY PHOTOISM - 포토이즘 | Gallery - Photo, V | BeautyPlus-완벽한 사진  | 메이투 Meitu - 얼굴 보정· | AI Video Generator | SNOW 스노우 - AI 프로필  | Shots - AI Photo & | 하이루오 AI: AI 동영상 생성 | 뮤트 카메라 - 무음·소리없는·비 | AI 사진 생성기 & 동영상 생성
+gplay PRODUCTIVITY PDF ProX: PDF 리더 & | ChatGPT | Claude by Anthropi | 정부24(구 민원24) | PDF 뷰어 - PDF Reade | 문서 뷰어: HWP, Docx,  | Chatbot App - AI 어 | 모두 번역: 사진, 목소리, 화면 | Google Gemini | PDF 리더 및 편집기
+gplay SHOPPING 네이버플러스 스토어 | Temu: 억만장자처럼 쇼핑하기 | 쿠팡(Coupang)-모바일 쇼핑 | 지그재그 | KREAM(크림) | 4910 | 패션이 쉬워지는 순간 | 온라인 패션 스토어 무신사 | SSF SHOP | 폴센트 - 최저가 알림ㆍ가격비교ㆍ | 칩스 - 최저가 알림 · 경유 쇼
+gplay TOOLS QR Create&Scan | QR 스캐너 | 한글 뷰어 편집기 - 무료·광고  | FileRecover Pro | QR 코드 스캔 | PDF 리더: 모든 파일 | V3 Mobile Plus | Turbo Tidy | 네이버 파파고 - AI 통번역 | Good Lock
+=== AI 키워드 앱 ===
+country           store                                                                       app_id                           name  best_rank  n_charts
+     kr appstore_itunes                                                                   1509453185  TeraBox: 1TB 클라우드 저장소 & AI 공간          1         2
+     kr appstore_itunes                                                                   6448311069                        ChatGPT          1         3
+     kr           gplay                                                           com.openai.chatgpt                        ChatGPT          1         3
+     kr appstore_itunes                                                                   6473753684            Claude by Anthropic          2         3
+     kr        appstore                                                                   1509453185  TeraBox: 1TB 클라우드 저장소 & AI 공간          3         1
+     kr appstore_itunes                                                                   6477489729                  Google Gemini          3         3
+     kr appstore_itunes                                                                   6751030141            아스트라 AI: 학습 및 시험 준비          3         1
+     kr appstore_itunes                                                                   6783877557      널스메이트 - 간호사를 위한 AI 업무 파트너          3         2
+     kr           gplay                                                         com.anthropic.claude            Claude by Anthropic          3         3
+     kr           gplay                                                        com.growly.speakup.ai             SpeakUp AI - 언어 학습          3         1
+     kr appstore_itunes                                                                   6739276631     AI Catch(AI 캐치): AI 영상 생성기          4         2
+     kr           gplay                                                             com.mt.mtxx.mtxx  메이투 Meitu - 얼굴 보정·인물 리터치·AI기능          4         2
+     kr appstore_itunes                                                                   6758041184          Dance AI - AI 비디오 생성기          5         2
+     kr           gplay                                             com.aivideo.generator.photomaker AI Video Generator Photo Maker          5         1
+     kr           gplay                                                             com.selabs.speak 스픽 Speak: AI 영어회화, 스피킹, 발음, 단어          5         2
+     kr           gplay                                                          com.campmobile.snow    SNOW 스노우 - AI 프로필 & 고화질 카메라          6         2
+     kr        appstore                                                                   6473753684            Claude by Anthropic          7         1
+     kr           gplay                                                                    ai.app.ai         Chatbot App - AI 어시스턴트          7         3
+     kr           gplay                                                        com.deepix.animefypic Shots - AI Photo & Video Maker          7         1
+     kr appstore_itunes                                                                    416048305   메이투 Meitu - 얼굴보정·인물 리터치·AI기능          8         2
+     kr           gplay                                                              ai.hailuo.video           하이루오 AI: AI 동영상 생성 툴          8         1
+     kr           gplay                                                 com.google.android.apps.bard                  Google Gemini          9         2
+     kr           gplay                                                    com.naver.labs.translator               네이버 파파고 - AI 통번역          9         2
+     kr           gplay                            ai.photo.generator.editor.fotos.ai.image.app.free   AI 사진 생성기 & 동영상 생성기: Muselab         10         1
+     kr        appstore                                                                   6477489729                  Google Gemini         11         1
+     kr appstore_itunes                                                                   1232780281             Notion: 메모, 작업, AI         11         1
+     kr appstore_itunes                                                                    757934825    바비톡 - AI 피부과/성형 시술 정보 후기 예약         11         1
+     kr appstore_itunes                                                                   6670324846                           Grok         12         2
+     kr           gplay                                                         com.growly.lunaspeak           LunaSpeak: AI 스피킹 코치         12         1
+     kr appstore_itunes                                                                   6793780560             Highfield Video AI         13         1
+     kr           gplay                                                          com.banhala.android              에이블리 - 초개인화 AI 쇼핑         13         2
+     kr           gplay                                           free.ai.photo.generator.collart.ai   AI 영상 제작, 이미지 생성: Collart AI         13         1
+     kr appstore_itunes                                                                   1150947951                         에이닷 전화         14         1
+     kr           gplay                                                          co.astra_ai.app.twa            아스트라 AI: 학습 및 시험 준비         14         1
+     kr           gplay                                                           com.wrtn.character        크랙 - 내가 주인공인 웹소설, AI 채팅         14         1
+     kr        appstore                                                                   6448311069                        ChatGPT         15         1
+     kr appstore_itunes                                                                   6754797367       유니브 AI - 강의 녹음·PDF 요약·퀴즈         15         1
+     kr           gplay                                                                com.loora.app    Speak English with Loora AI         15         1
+     kr appstore_itunes                                                                   1558240027                        Meta AI         16         1
+     kr           gplay                                                            com.snowcorp.epik        EPIK 에픽 - AI 사진 & 영상 편집         16         1
+     kr appstore_itunes                                                                   1615345993              에이닷 - 나만의 AI 개인비서         17         1
+     kr           gplay                                                          com.codeway.aitutor       AI 튜터 (Learna AI): 언어 학습         17         1
+     kr           gplay                                                              com.dubox.drive  TeraBox: 1TB 클라우드 저장소 & AI 공간         17         1
+     kr           gplay                                                      com.pixverseai.pixverse           PixVerse: AI 비디오 생성기         17         1
+     kr appstore_itunes                                                                    622434129   BeautyPlus 뷰티플러스 - AI 포토 에디터         18         1
+     kr appstore_itunes                                                                   6757226599                  쇼포트 - AI 쇼핑비서         18         1
+     kr appstore_itunes                                                                    592331499    BeautyCam - 고화질 카메라 & AI 사진         19         1
+     kr appstore_itunes                                                                   6444737095  StressWatch: AI 스트레스 & 습관 추적기         19         1
+     kr           gplay                                                     com.scatterlab.messenger    제타(zeta) - 상상이 현실이 되는 AI 채팅         19         1
+     kr appstore_itunes                                                                   1577705074        EPIK 에픽 - AI 사진 & 영상 편집         20         2
+     kr           gplay                                                       com.meitu.meiyancamera    BeautyCam 뷰티캠 - 필름카메라&AI 사진         21         1
+     kr           gplay                                                           com.adobe.lrmobile AI 사진 비디오 편집 & 필터 어플 Lightroom         22         1
+     kr appstore_itunes                                                                   1022267439    SNOW 스노우 - AI 프로필 & 고화질 카메라         24         2
+     kr           gplay                                                                    ai.x.grok                        Grok AI         24         2
+     kr           gplay                                       com.translate.ai.voice.screen.language                    AI번역: 번역기어플         24         1
+     kr           gplay                                               com.trusted.cleaner.storage.ai               휴대폰 정리기 - AI 클리너         24         1
+     kr appstore_itunes                                                                   6753713932 위프 - 원하는 전개 그대로, AI채팅 (로맨스&BL)         26         2
+     kr           gplay                                                           chat.melting.apppp        멜팅 - AI 캐릭터 채팅, 호감도 시스템         26         1
+     kr appstore_itunes                                                                   1595472563  필라이즈 - 다이어트 AI 코치, 식단, 혈당, 운동         27         1
+     kr appstore_itunes                                                                   1619030760    제타(zeta) - 상상이 현실이 되는 AI 채팅         27         2
+     kr appstore_itunes                                                                   6748000265          Highfield Genjutsu AI         27         1
+     kr appstore_itunes                                                                   1594288016          Wink：AI 영상 화질 개선 및 편집         28         1
+     kr appstore_itunes                                                                    541164041              Microsoft Copilot         28         1
+     kr appstore_itunes                                                                   6740223370        크랙 - 내가 주인공인 웹소설, AI 채팅         28         2
+     kr           gplay                                                    com.linecorp.b612.android     B612 AI Photo&Video Editor         28         1
+     kr           gplay                                                        com.visang.and.tabtap 기출탭탭-AI 맞춤 문제, 내신, 수능, 고등 전 과목         28         1
+     kr           gplay                                               com.lingquiz.language.learning LingQuiz: AI Language Learning         29         1
+     kr           gplay                                          com.luminousbyte.cleaner.storage.ai                AI 정리기 - 똑똑한 정리         30         1
+     kr appstore_itunes                                                                   1148006701                  산타 - AI 토익/토플         31         1
+     kr appstore_itunes                                                                    698070860  폴라리스 오피스 - 한글, PDF, MS문서, GPT         31         1
+     kr           gplay                                                      com.beafter.beautyrella 뷰티렐라- Beautyrella AI 얼굴 분석 리포트         31         1
+     kr           gplay                                                           com.deepix.danceai Dance AI: AI Dance Video Maker         31         1
+     kr           gplay                                                          com.facebook.stella                        Meta AI         32         1
+     kr           gplay                                            com.lumanlab.growthplate.research                위닛 - AI이미지&영상생성         32         1
+     kr           gplay                                                                      io.whif  위프 - 웹소설 같은 캐릭터 AI 채팅, 로맨스 BL         32         1
+     kr appstore_itunes                                                                   1455009060      Photoroom: AI 사진 편집 및 디자인         33         1
+     kr appstore_itunes                                                                   6740909540    Manus AI (마누스) - 범용 AI 에이전트         33         1
+     kr           gplay                                                  tap.photo.boost.restoration           PhotoBoost: AI 사진 향상         33         1
+     kr appstore_itunes                                                                   6478287397       AI 튜터 (Learna AI): 언어 학습         34         1
+     kr           gplay                                               co.appnation.aivoicetranslator       번역기 AI - 음성, 텍스트 및 사진 번역         34         1
+     kr           gplay                                                                com.ai.univai       유니브 AI - 강의 녹음·PDF 요약·퀴즈         34         1
+     kr           gplay                                                                    notion.id             Notion: 노트, 작업, AI         34         1
+     kr           gplay                        passportphoto.idphoto.maker.ai.passportsizephoto.visa             AI 여권 및 신분증 사진 제작기         34         1
+     kr appstore_itunes                                                                   1668000334        Perplexity - 무엇이든 물어보세요         35         1
+     kr appstore_itunes                                                                   6511246156   헤이링: AI 전화영어, 스픽•영어회화•스피킹•발음         35         1
+     kr appstore_itunes                                                                    878783582 AI 사진 비디오 편집 & 필터 어플 Lightroom         36         1
+     kr           gplay                                                           com.scaleup.chatai                   AI 챗봇 - Nova         36         1
+     kr           gplay                                                                  app.getglam  Glam AI: Video & Photo Editor         37         1
+     kr           gplay                                                          com.lingua.ai.tutor              Fluzy: AI로 배우는 언어         38         1
+     kr        appstore                                                                   6447090616  Whisper Notes - 오프라인 AI 음성 인식         40         1
+     kr        appstore                                                                   6739276631     AI Catch(AI 캐치): AI 영상 생성기         40         1
+     kr appstore_itunes                                                                   6744060956       ThetaWave-AI Study Notes         41         1
+     kr appstore_itunes                                                                   6755748205 칼로그 - 다이어트 식단 체중 기록, AI 칼로리 계산         41         1
+     kr appstore_itunes                                                                   1093671594                인투펫 - 펫 AI 에이전트         42         1
+     kr           gplay                                                             com.suno.android           Suno 수노 - AI 음악 & 노래         43         2
+     kr           gplay                                                           com.pillyze.health  필라이즈 - 다이어트 AI 코치, 식단, 혈당, 운동         44         1
+     kr appstore_itunes                                                                    587366035    Picsart 픽스아트 AI 사진 & 동영상 편집         45         1
+     kr           gplay                                                           tech.butterfly.app                       Manus AI         45         1
+     kr appstore_itunes                                                                   6737527615                Gemini Notebook         46         1
+     kr appstore_itunes                                                                   1665024375       Runway: AI Image & Video         47         1
+     kr appstore_itunes                                                                   6741790631   Crushie AI - 당신만을 위한 AI 파트너!         47         1
+     kr appstore_itunes                                                                   1644042837  Hypic - Photo Editor & AI Art         48         1
+     kr           gplay                                                             ai.thetawave.app             Thetawave AI 학습 노트         48         1
+     kr           gplay                                                               com.larus.wolf               Dola: 스마트 AI 도우미         48         1
+     kr appstore_itunes                                                                   6794501026                       Grok Bot         49         1
+     kr           gplay                                        ai.faceswap.avatar.age.gender.changer            AI 얼굴 바꾸기: 사진 편집기 앱         49         1
+     kr           gplay                               com.google.android.apps.labs.language.tailwind                Gemini Notebook         49         1
+     kr appstore_itunes                                                                   6755954009  AI Video Generator - Pixaflow         50         1
+     kr appstore_itunes                                                                   6514312894      FlickReels - AI 스토리 & 드라마         52         1
+     kr           gplay                                                              com.iammathking                수학대왕 - AI디지털문제집         52         1
+     kr appstore_itunes                                                                   6761462965          아임미리 - AI 사주·타로·멘탈 코칭         53         1
+     kr appstore_itunes                                                                   6738115267          AI 칼로리 계산기: FoodPilot         54         1
+     kr appstore_itunes                                                                   6745810835       멜팅 - 캐릭터 채팅, AI 연애 시뮬레이션         54         2
+     kr appstore_itunes                                                                   6756606000  MIU AI: Photo Video Generator         54         1
+     kr           gplay                                      com.aiart.disney.style.pixar.effect.pro    AI Photo Creator: Art Magic         54         1
+     kr appstore_itunes                                                                   1632867925 daglo: All-in-one AI Notetaker         55         1
+     kr           gplay                                               com.aichatbot.chatassistantapp                AI 채팅 앱 - AI 챗봇         55         1
+     kr           gplay                                                          com.fzones.removeit      AI 사진 보정기 - 개체지우기 - 배경 제거         55         1
+     kr           gplay                                                com.image.camera.translate.ai                AI 번역기: 사진 및 음성         55         1
+     kr appstore_itunes                                                                   6740798708                위닛 - AI이미지&영상생성         56         1
+     kr appstore_itunes                                                                   6743377956  블루미 - 나만의 AI 친구와 채팅·통화·셀카·비디오         56         1
+     kr appstore_itunes                                                                   6748804238 프론티아 - AI 시네마틱 플레이, AI 채팅 프론티어         56         1
+     kr appstore_itunes                                                                   6761977473 메타힌트(METAHINT) AI 건강·피부분석리포트보상         56         1
+     kr           gplay                                                      com.omgbross.dailyspeak           DailySpeak: AI 언어 튜터         56         1
+     kr           gplay                                                        com.xt.retouchoversea  Hypic - Photo Editor & AI Art         56         1
+     kr           gplay                                                   com.zyhwplatform.shortplay      FlickReels - AI 스토리 & 드라마         56         1
+     kr           gplay                                                         com.mathpresso.qanda      콴다 - 전과목 AI 수학문제풀이 & 공부 앱         57         1
+     kr           gplay                                     com.lingiq.aichat.tutor.languagelearning      LingIQ: Language AI Tutor         59         1
+     kr           gplay                                                          com.skt.nugu.apollo              에이닷 - 나만의 AI 개인비서         59         1
+     kr appstore_itunes                                                                   1270676408     콴다(QANDA) - 수학 문제풀이 AI 공부앱         60         1
+     kr appstore_itunes                                                                   1638320348           Muse: 릴스 동영상 편집 & AI         60         1
+     kr appstore_itunes                                                                   1551528149    픽미 - 여권사진 운전면허증사진 AI 증명사진어플         61         1
+     kr           gplay                                                 com.aiconnects.havitWellness  하비트 - AI 다이어트 코치 & 식단, 운동, 체중         61         1
+     kr appstore_itunes                                                                   1600191019             캐럿 - AI와 무엇이든 만드세요         62         1
+     kr           gplay                                                         ai.mainfunc.genspark                 젠스파크 AI 워크스페이스         62         1
+     kr        appstore                                                                   6758041184          Dance AI - AI 비디오 생성기         64         1
+     kr appstore_itunes                                                                   1483410865      VDIT 브이딧, AI 릴스, 쇼츠 영상 편집         65         1
+     kr appstore_itunes                                                                   6758667154       VibeShort: AI 숏드라마 & 시리즈         65         1
+     kr           gplay                                                              kr.picme.client    픽미 - 여권사진 운전면허증사진 AI 증명사진어플         65         1
+     kr        appstore                                                                   6783877557      널스메이트 - 간호사를 위한 AI 업무 파트너         66         1
+     kr appstore_itunes                                                                   6793421890              Tapit - AI 게임 만들기         66         1
+     kr           gplay                                                    ai.perplexity.app.android  Perplexity (퍼플렉시티) 무엇이든 물어보세요         66         2
+     kr appstore_itunes                                                                   6478431075         PeakWatch - AI 피트니스 코치         69         1
+     kr           gplay                                          com.protechtools.cleaner.storage.ai              인공지능 클리너: 저장공간 정리         69         1
+     kr           gplay                           com.translator.all.language.translate.camera.voice              AI 가 모든 언어를 번역합니다         69         1
+     kr           gplay                                                          com.truesight.evoto         Evoto – AI 사진 편집 및 리터칭         69         1
+     kr           gplay                                                          kling.ai.video.chat     KLING AI: AI 이미지 및 동영상 메이커         69         1
+     kr appstore_itunes                                                                   6502742786           Aspect: AI 전용 소셜 미디어         70         1
+     kr           gplay                                                   com.quizlet.quizletandroid            Quizlet: AI 기반 낱말카드         70         1
+     kr           gplay                                                         com.konrev.bagelchat         베이글챗 : AI 캐릭터 채팅 & 스토리         71         1
+     kr appstore_itunes                                                                   6748109514                 GPAI: 학점 상승 AI         72         1
+     kr           gplay                                                            com.photoroom.app  Photoroom 포토룸: 편리한 AI 사진 편집 앱         74         1
+     kr           gplay                                             com.thetaone.languagepilotmobile   랭플릭스: AI 이중자막, 영단어, 리스닝, 섀도잉         74         1
+     kr           gplay                                                                co.riiid.vida                  산타 - AI 토익&토플         75         1
+     kr appstore_itunes                                                                   6451431247               Dola: 스마트 AI 도우미         76         1
+     kr           gplay                                           aitutor.ailanguagelearn.ailearning                   랑라: AI 언어 튜터         77         1
+     kr           gplay                                                              com.aia.plus.kr                          AIA생명         77         1
+     kr           gplay                                                          com.ebsenglish.talk              인공지능 학습 메이트 AI 펭톡         80         1
+     kr appstore_itunes                                                                   6743162587 ElevenLabs: AI Voice Generator         81         1
+     kr           gplay                                   com.aiartgenerator.photoeditor.photography              AI 사진 생성기 - 사진 개선         81         1
+     kr           gplay                                                           com.filledu.pulda2       풀다 - 중고등 AI 내신·수능 기출 학습앱         81         1
+     kr appstore_itunes                                                                   1019382747     Filmora: AI 영상 제작 & 동영상 편집         83         1
+     kr appstore_itunes                                                                   1444383602      Goodnotes: AI 노트, 문서, PDF         83         1
+     kr appstore_itunes                                                                   6739554054                 젠스파크 AI 워크스페이스         84         1
+     kr appstore_itunes                                                                   6763938692              Tooter: AI 외국어 튜터         84         1
+     kr           gplay                                                             ai.metahint.appw 메타힌트(METAHINT) AI 건강·피부 분석 리포트         84         1
+     kr           gplay                                                                ai.x.grok.bot                       Grok Bot         84         1
+     kr           gplay                                    pdfreader.pdfviewer.officetool.pdfscanner            AI PDF 리더: 채팅, 요약하기         85         1
+     kr appstore_itunes                                                                   6621190089               타입캐스트 - AI 음성 제작         86         1
+     kr           gplay                                       com.aiphoto.generator.art.avatar.maker   AI Art Magic - Photo Creator         87         1
+     kr appstore_itunes                                                                   6778837255            SorAI - 인공지능 영상 생성기         88         1
+     kr           gplay                                              com.ai.avatar.face.portrait.app          AI 사진 및 비디오 제작, 향상 도구         88         1
+     kr           gplay                               ai.photoeditor.retouch.enhance.photo.generator    AI Photo Studio: Editor Pro         89         1
+     kr appstore_itunes                                                                   6737597349            DeepSeek - AI 어시스턴트         91         1
+     kr           gplay                                                   com.adobe.photoshop.retail        AI 어시스턴트가 추가된 Photoshop         92         1
+     kr           gplay                                            com.hypernovacorp.navatar_android    헤이링: AI 전화영어, 영어회화, 스피킹, 발음         92         1
+     kr           gplay                                                         ai.typecast.typecast               타입캐스트 - AI 음성 제작         94         1
+     kr           gplay                                                      com.ai.polyverse.mirror     AI Mirror: AI 사진 & 동영상 편집기         94         1
+     kr           gplay                                                 ai.photo.enhancer.photoclear         AI 사진 향상 - AI Enhancer         95         1
+     kr appstore_itunes                                                                   6781959351  bake: AI 숏폼 만들기, 릴스·쇼츠·동영상·편집         96         1
+     kr appstore_itunes                                                                   6498868262             레플리 - 캐릭터와 AI 채팅하기         97         1
+     kr           gplay                                                            com.jetkite.gemmy                  AI 채팅 & 어시스턴트         97         1
+     kr appstore_itunes                                                                   1609369954      KineMaster - AI 동영상 편집 어플         98         1
+     kr           gplay                                                  com.gooddaytoday.mynobleman 만세력 천을귀인 - 정통 만세력 & AI 사주 프롬프트         98         1
+     kr           gplay                                                    com.warpspace.caveduckaos      케이브덕 - 취향대로 즐기는 AI 캐릭터 채팅         99         1
+     kr appstore_itunes                                                                   1470373330     Remini - AI Photo Enhancer        100         1
+     kr appstore_itunes                                                                   6443480770   랭디 - 회화&AI강의·1:1전화영어·중국어·일본어        100         1
+     kr appstore_itunes                                                                   6481705400  Alta Daily: Digital AI Closet        100         1
+     kr           gplay                                                       ai.plaud.android.plaud           Plaud: AI Note Taker        100         1
+     kr           gplay                                                                 com.amiko.ai       Amiko아미코: AI영어·일본어회화학습채팅        100         1
+     us appstore_itunes                                                                   6448311069                        ChatGPT          1         3
+     us appstore_itunes                                                                   1542571008      Gauth: AI Study Companion          2         1
+     us           gplay                                                           com.openai.chatgpt                        ChatGPT          2         3
+     us appstore_itunes                                                                   6477489729                  Google Gemini          3         2
+     us           gplay                                                         com.anthropic.claude            Claude by Anthropic          3         3
+     us           gplay                                                        com.deepix.animefypic Shots - AI Photo & Video Maker          3         1
+     us        appstore                                                                   6448311069                        ChatGPT          4         1
+     us appstore_itunes                                                                   6473753684            Claude by Anthropic          4         3
+     us           gplay                                         com.education.android.h.intelligence      Gauth: AI Study Companion          4         1
+     us           gplay                                                      com.pixverseai.pixverse   PixVerse: AI Video Generator          4         1
+     us           gplay                                                              ai.hailuo.video   Hailuo AI: Image&Video Maker          5         1
+     us           gplay                                                  com.aihealthtracker.bpblood  AI Health Tracker: BP & Blood          5         1
+     us appstore_itunes                                                                    897446215  Canva AI Photo & Video Editor          6         3
+     us           gplay                             com.filtersai.photoeditorintelligent.smartstudio          AI Photo Magic Editor          6         1
+     us           gplay                             com.nxl.aienglishtutor.ailearnlanguage.aichatbot      Linguza: AI English Tutor          6         1
+     us appstore_itunes                                                                    541164041              Microsoft Copilot          7         2
+     us           gplay                                                 com.google.android.apps.bard                  Google Gemini          7         2
+     us           gplay                                                com.photo.art.designer.studio  AI Photo Lab: Generate & Edit          7         1
+     us appstore_itunes                                                                   6480417616       Cal AI - Calorie Tracker          8         1
+     us appstore_itunes                                                                   6670324846                        Grok AI          8         3
+     us           gplay                                                                    ai.x.grok                           Grok          8         3
+     us        appstore                                                                   6477489729                  Google Gemini          9         1
+     us appstore_itunes                                                                   1018368216 Cantina: AI Video & Characters          9         1
+     us           gplay                                           aitutor.ailanguagelearn.ailearning      Langla: AI Language Tutor          9         1
+     us        appstore                                                                   6473753684            Claude by Anthropic         10         1
+     us appstore_itunes                                                                   6756965785     AI Video Generator - Vixel         10         1
+     us           gplay                                        com.aidance.videomaker.videogenerator  Artvilize: AI Video Generator         10         1
+     us appstore_itunes                                                                   6758041184     Dance AI - Video Generator         11         1
+     us           gplay                                   com.aiartgenerator.photoeditor.photography AI Photo Generator－Enhance Pic         11         1
+     us           gplay                               com.learnlanguage.speaklanguage.ailanguagechat       Fluza: AI Language Tutor         11         1
+     us appstore_itunes                                                                   6794501026                       Grok Bot         12         2
+     us           gplay                              com.aiphoto.photoenhance.photomusic.photoeditor    AI Photo Restore With Music         12         1
+     us appstore_itunes                                                                   1610516671                Gizmo: AI Tutor         13         1
+     us           gplay ai.photo.video.generator.foto.imagen.filter.animation.maker.picture.ia.trend Pose: AI Video Maker, AI Photo         13         1
+     us           gplay                             ai.photogenerator.aivideo.aivideogenerator.aiart     Nexus - AI Video Generator         14         1
+     us           gplay                                        com.faceaging.camera.oldify.ageeditor   AI Face Aging - Photo Editor         14         1
+     us appstore_itunes                                                                   1658822260   Momo: AI Photo & Video Maker         15         2
+     us           gplay                                                           com.picsart.studio Picsart AI Photo Editor, Video         15         1
+     us appstore_itunes                                                                   1558240027                        Meta AI         16         1
+     us appstore_itunes                                                                    587366035 Picsart AI Photo Editor, Video         16         1
+     us           gplay                                            com.tomo.photo.editor.video.maker  AI Photo - AI Video Generator         16         1
+     us           gplay                         com.ailanguageassistant.languagetutor.learnlanguages      Lurnia: AI Language Tutor         17         1
+     us           gplay                                                                  app.getglam  Glam AI: Video & Photo Editor         18         1
+     us appstore_itunes                                                                   6744358897    LangLearn: AI English Tutor         19         1
+     us           gplay                                                      com.ai.polyverse.mirror    AI Mirror: AI Photo & Video         19         1
+     us           gplay                                       com.translate.ai.voice.screen.language  AI Translator: Voice & Screen         19         1
+     us           gplay                            ai.photo.generator.editor.fotos.ai.image.app.free AI Photo Generator: Muselab AI         20         1
+     us appstore_itunes                                                                   1220620171      Handshake: Jobs & AI work         21         1
+     us           gplay                                                           ai.video.generator  AI Video - AI Video Generator         21         1
+     us           gplay                                                                ai.x.grok.bot                       Grok Bot         21         1
+     us appstore_itunes                                                                   1665024375       Runway: AI Image & Video         22         1
+     us appstore_itunes                                                                    878783582     Lightroom: AI Photo Editor         23         1
+     us           gplay                                    com.aivideogenrator.phototovideo.videogen   MistyPix: AI Image Generator         23         1
+     us           gplay                                                          com.facebook.stella                        Meta AI         24         1
+     us           gplay                                                        com.xt.retouchoversea  Hypic - Photo Editor & AI Art         25         1
+     us           gplay                                                               hubx.speak.now BetterSpeak: AI Language Tutor         25         1
+     us           gplay                                                            com.meetcleo.cleo  Cleo AI: Cash Advance & Money         26         1
+     us appstore_itunes                                                                   1484296272 Knowunity: AI Study & Homework         27         1
+     us appstore_itunes                                                                   6758667154     VibeShort: AI Short Dramas         27         1
+     us           gplay                                                 com.lingtutor.language.learn          Lingtutor: AI English         27         1
+     us appstore_itunes                                                                   1544750895 CHAI: Social AI Platform- Chat         29         1
+     us           gplay                                            com.microsoft.office.officehubrow              Microsoft Copilot         29         2
+     us           gplay                                     com.snaptune.ai.photoeditor.collagemaker     Pix Editor: AI Photo Maker         29         1
+     us appstore_itunes                                                                   1644042837  Hypic - Photo Editor & AI Art         30         1
+     us appstore_itunes                                                                   1668000334  Perplexity - AI Search & Chat         30         2
+     us           gplay                                                          com.lingua.ai.tutor  Fluzy: Learn Language with AI         30         1
+     us           gplay                                                      com.scaleup.dancehit.ai   DanceHit: AI Dance Generator         30         1
+     us appstore_itunes                                                                   1619030760     zeta: AI Chat, Story, Play         31         1
+     us           gplay                                                       com.adobe.scan.android Adobe Scan AI PDF Scanner, OCR         32         1
+     us           gplay                                                  tap.photo.boost.restoration PhotoBoost - AI Photo Enhancer         32         1
+     us appstore_itunes                                                                   6446930976       Solvely - AI Study Tools         33         1
+     us appstore_itunes                                                                   6514312894  FlickReels - AI Story & Drama         33         1
+     us           gplay                                                             com.deepfind.app       DeepFind AI Search Agent         33         1
+     us appstore_itunes                                                                   6737527615                Gemini Notebook         35         1
+     us           gplay                               com.google.android.apps.labs.language.tailwind                Gemini Notebook         35         1
+     us appstore_itunes                                                                   1447274646 Cleo AI: Cash Advance & Budget         36         1
+     us appstore_itunes                                                                   6670175056        Summary - AI Note Taker         36         1
+     us appstore_itunes                                                                   1103138272     Facemoji AI Emoji Keyboard         37         1
+     us           gplay                                                                  com.ai.hype     Hype AI - AI Photo & Video         37         1
+     us appstore_itunes                                                                   6737597349        DeepSeek - AI Assistant         38         1
+     us           gplay                                                             com.canva.editor Canva: AI Photo & Video Editor         38         1
+     us           gplay                                                    com.joinhandshake.student      Handshake: Jobs & AI work         38         1
+     us appstore_itunes                                                                   1158877342 Grammarly: AI Keyboard & Voice         39         1
+     us appstore_itunes                                                                   1541407007  Captions: AI Edits Your Video         39         1
+     us           gplay                                      com.aiphoto.editorai.imagevideo.creator    Image Editor - Art AI Photo         40         1
+     us        appstore                                                                    541164041              Microsoft Copilot         41         1
+     us           gplay                                                          life.growly.beautix      Beautix - AI Hair Changer         41         1
+     us           gplay                                                                    ai.app.ai     Chatbot App - AI Assistant         42         1
+     us appstore_itunes                                                                   6778837255     SorAI - AI Video Generator         43         1
+     us           gplay                                                    ai.socialapps.speakmaster PolyBuzz: Chat with AI Friends         43         1
+     us           gplay                                      com.aicouple.photogenerator.couplephoto    Emberly: AI Photo Generator         43         1
+     us appstore_itunes                                                                   1658377526   Chatbot AI Assistant - Genie         44         1
+     us appstore_itunes                                                                   6745781406       ReelMe: AI Photo & Video         44         1
+     us           gplay                                                     com.aipdf.readerdoc.tgcb        AI PDF Reader & Scanner         44         1
+     us           gplay                                                            com.photoroom.app     Photoroom: AI Photo Editor         44         1
+     us           gplay                                       lingospeak.english.learnlanguage.speak       EngLearn Speak: AI Tutor         44         1
+     us appstore_itunes                                                                   6743162587 ElevenLabs: AI Voice Generator         45         1
+     us        appstore                                                                   6670324846                        Grok AI         46         1
+     us appstore_itunes                                                                   1455009060     Photoroom: AI Photo Editor         46         1
+     us           gplay                                                          com.englishcoach.ai        Elyra: AI English Coach         46         1
+     us appstore_itunes                                                                   1232780281       Notion: Notes, Tasks, AI         47         1
+     us appstore_itunes                                                                   6466298983 Retake AI Face & Selfie Editor         47         1
+     us           gplay                               ai.photoeditor.retouch.enhance.photo.generator    AI Photo Studio: Editor Pro         47         1
+     us           gplay                                                            com.deepseek.chat        DeepSeek - AI Assistant         47         1
+     us           gplay                                                       co.appnation.geniechat   Chatbot AI Assistant - Genie         48         1
+     us           gplay                                                      interior.home.design.ai   Home AI - AI Interior Design         48         1
+     us           gplay                                                        mosa.studio.ai.editor    Mosa AI: Collage & AI Video         48         1
+     us appstore_itunes                                                                   1509453185  TeraBox: 1TB Cloud & AI Space         49         1
+     us appstore_itunes                                                                    416048305  Meitu AI Photo & Video Editor         49         1
+     us           gplay                                                       ai.migoo.app.marvelous Migoo - AI Team for Every Task         49         1
+     us           gplay                                              com.ai.avatar.face.portrait.app AI Photo Video Maker, Enhancer         49         1
+     us appstore_itunes                                                                   6451396274  VideoGPT - AI Video Generator         50         1
+     us           gplay                                               com.picoai.languageapp.android    Language Learning: Pingo AI         50         1
+     us           gplay                                                             video.reface.app Reface: Face Swap AI Generator         51         1
+     us           gplay                                     com.photoeditor.face.style.swap.enhancer  AI Photo Editor: Face & Style         52         1
+     us appstore_itunes                                                                   1608870673      Nicegram: AI for Telegram         53         1
+     us appstore_itunes                                                                   6447604690 AI Photo Video Editor, Enhance         54         1
+     us           gplay                                             com.aivideo.generator.photomaker AI Video Generator Photo Maker         54         1
+     us           gplay                                                       io.foodvisor.foodvisor Foodvisor - AI Calorie Counter         55         1
+     us appstore_itunes                                                                   1634361180   Vids AI - Reels Video Editor         57         1
+     us           gplay                                    com.aiphoto.aivideo.generator.photofilter Miuci AI: AI Photo & Video Gen         58         1
+     us appstore_itunes                                                                   6497229487  Wispr Flow: AI Voice Keyboard         59         1
+     us appstore_itunes                                                                   6755859360     Loopit - AI Playable Maker         59         1
+     us appstore_itunes                                                                   6739276631   AI Catch: AI Video Generator         60         1
+     us           gplay                                                           com.scaleup.dreame   Momo: AI Photo & Video Maker         60         1
+     us           gplay                                                             com.suno.android  Suno - AI Music & Songs Maker         60         1
+     us           gplay                                                              com.dubox.drive  TeraBox: 1TB Cloud & AI Space         61         1
+     us           gplay                                                           com.scaleup.chatai              AI Chatbot - Nova         61         1
+     us appstore_itunes                                                                   6711347033      Chatbot App: AI Assistant         62         1
+     us           gplay                                                            com.matyteam.aier    PDF AI - Reader & Assistant         62         1
+     us           gplay                                                                com.loora.app    Speak English with Loora AI         63         1
+     us        appstore                                                                    897446215  Canva AI Photo & Video Editor         64         1
+     us appstore_itunes                                                                   1667518571    AI Chat Assistant – ChatNow         65         1
+     us           gplay                                                  com.faceeditor.aimakeup.app    Face Editor: AI Makeup Look         65         1
+     us           gplay                                  com.vidix.aivideogenerator.aiphotogenerator Vidix-AI Photo Video Generator         65         1
+     us appstore_itunes                                                                   6502794561        Turbo AI - Learn Faster         66         1
+     us appstore_itunes                                                                   6711356409   AI Avatar Generator - HeyGen         66         1
+     us           gplay                                      com.aiphotovideo.generator.imagetovideo Mervious: AI Photo & Video Art         66         1
+     us           gplay                                             com.Beauchamp.Messenger.external         Chai: Chat AI Platform         67         1
+     us           gplay                                            com.bigwinepot.nwdn.international     Remini - AI Photo Enhancer         67         1
+     us           gplay                                                 com.english.learninglanguage  Engla: Learn Language with AI         67         1
+     us           gplay                                            open.chat.gpt.aichat.bot.free.app         Open Chat - AI bot app         67         1
+     us appstore_itunes                                                                   6739429409     Granola - AI Meeting Notes         68         1
+     us           gplay                                           free.ai.photo.generator.collart.ai AI Video Generator: Collart AI         68         1
+     us appstore_itunes                                                                   6751491972  Glowify - AI Hairstyle Try On         69         1
+     us           gplay                                                    ai.perplexity.app.android      Perplexity - Ask Anything         69         1
+     us           gplay                                 com.aiphotoedior.photogenerator.photoretouch  AI Photo Beauty Editor Studio         69         1
+     us           gplay                                                   com.zyhwplatform.shortplay  FlickReels - AI Story & Drama         69         1
+     us           gplay                                                  tutorme.learning.english.ai   TutorMe: AI English Learning         69         1
+     us appstore_itunes                                                                   1624701477   Praktika – AI Language Tutor         70         1
+     us           gplay                                  photo.editor.photoeditor.filtersforpictures        AI Photo Editor - Lumii         70         1
+     us           gplay                                                     com.scatterlab.messenger     zeta: AI Chat, Story, Play         71         2
+     us           gplay                                                           life.growly.artify  Artify: AI Photo Magic Editor         71         1
+     us appstore_itunes                                                                   1540719743 Toonapp: AI Video & Toon Photo         72         1
+     us           gplay                                                            com.nikaat.pictok    PicTok : AI Photo Generator         72         1
+     us appstore_itunes                                                                   1642969698       AI Photo Generator: ARTA         73         1
+     us appstore_itunes                                                                   6738098034 My Muse: AI Series, Drama Live         73         1
+     us appstore_itunes                                                                   1470373330     Remini - AI Photo Enhancer         75         1
+     us appstore_itunes                                                                   6481705400  Alta Daily: Digital AI Closet         75         1
+     us           gplay                                                          ai.praktika.android   Praktika – AI Language Tutor         75         1
+     us appstore_itunes                                                                   6742757464 Adobe Premiere AI Video Editor         76         1
+     us appstore_itunes                                                                   6743264294                AI Easy Cleaner         76         1
+     us           gplay                                                            ai.seaart.app.hot    SeaHaze - AI Chat & Friends         77         1
+     us           gplay                                         com.ai.video.photo.generator.danceai  ClawDance: AI Video Generator         77         1
+     us           gplay                                                 learn.english.grammer.skills  LinguaPal - AI Language Tutor         77         1
+     us appstore_itunes                                                                   6738882620    Language Learning: Pingo AI         78         1
+     us           gplay                                                           com.sophia.aitutor      Sophia: AI Language Tutor         78         1
+     us appstore_itunes                                                                   6770413766           Whispy AI: Cozy Chat         79         1
+     us           gplay                                                           com.deepix.danceai Dance AI: AI Dance Video Maker         79         1
+     us           gplay                                                            com.wispr.flowapp   Wispr Flow: AI Voice-to-Text         79         1
+     us           gplay                                     myfiles.filemanager.fileexplorer.cleaner     Phone Cleaner - AI Cleaner         79         1
+     us appstore_itunes                                                                   1589210147 Citrus 1 Tap Photo Enhancer AI         80         1
+     us           gplay     calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting  Calo: AI Food Calorie Counter         80         1
+     us        appstore                                                                    361784690                 FAR/AIM by ASA         81         1
+     us appstore_itunes                                                                   6444888896     AI Mirror: AI Photo Editor         81         1
+     us           gplay                                                          com.codeway.chatapp    Chat AI: Ask Agent Anything         81         1
+     us        appstore                                                                   6794501026                       Grok Bot         82         1
+     us appstore_itunes                                                                   6762030901   Talko: Learn English with AI         82         1
+     us appstore_itunes                                                                   6796370885 Dola AI: Smart Personal Helper         83         1
+     us           gplay                                     com.ai.photo.editor.filter.art.generator AI Photo Generator: Art & Face         83         1
+     us           gplay                                                      com.omgbross.dailyspeak  DailySpeak: AI Language Tutor         83         1
+     us appstore_itunes                                                                   1661308505 ChatOn AI - Chat Bot Assistant         84         1
+     us appstore_itunes                                                                   6480172308    Translate AI: Voice & Photo         84         1
+     us           gplay                                                   com.viraldevelopment.calai  Cal AI - Food Calorie Tracker         85         1
+     us appstore_itunes                                                                   1577705074 EPIK - AI Photo & Video Editor         86         1
+     us appstore_itunes                                                                   6447434453  Calo: AI Food Calorie Counter         86         1
+     us           gplay                                                     com.reelcraft.videomaker                   ReelCraft AI         88         1
+     us appstore_itunes                                                                   6463744184   Knowt: AI Flashcards & Notes         89         1
+     us           gplay                                                           com.nexbase.whispy           Whispy AI: Cozy Chat         89         1
+     us appstore_itunes                                                                   1390423469 Peachy - AI Face & Body Editor         90         1
+     us           gplay                                                  com.aifix.repairai.diyguide Repair Coach AI:Easy Fix Guide         90         1
+     us appstore_itunes                                                                   1454762989    Instories: AI Photo & Video         92         1
+     us           gplay                                                           com.intsig.camexam    Quiz AI: AI Homework Helper         92         1
+     us           gplay                                                         io.labhouse.audioapp        Summary - AI Note Taker         92         1
+     us appstore_itunes                                                                   6663574866           StudyFetch: AI Tutor         93         1
+     us appstore_itunes                                                                   6749879609            Fotura: AI PhotoKit         93         1
+     us appstore_itunes                                                                   6754301136      Swerve: AI Chat & Stories         93         1
+     us        appstore                                                                   6448106860    Private LLM - Local AI Chat         94         1
+     us appstore_itunes                                                                   6450364080           Plaud: AI Note Taker         94         1
+     us appstore_itunes                                                                   6503272013          Viggle AI: Meme Maker         94         1
+     us           gplay                                                      com.prequelapp.aistudio     GIO: AI Headshot Generator         94         1
+     us appstore_itunes                                                                   1671705818 Character AI: Chat, Talk, Text         95         1
+     us appstore_itunes                                                                   6480136315 Suno - AI Songs, Music, Lyrics         95         1
+     us           gplay                                                        com.codespaceapps.you Retake AI: Face & Photo Editor         95         1
+     us           gplay                                                                    notion.id           Notion: AI Workspace         95         1
+     us appstore_itunes                                                                   1559479889 Chat Smith: AI Chatbot & Agent         99         1
+     us appstore_itunes                                                                   6475064170                        Reel.AI        100         1
+     us appstore_itunes                                                                   6761524609   Face Magic - AI Photo Editor        100         1

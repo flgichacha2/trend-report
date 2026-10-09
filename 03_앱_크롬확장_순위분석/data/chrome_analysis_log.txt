@@ -1,0 +1,134 @@
+=== 카테고리 통계 ===
+                                    n  users_median  rating_mean  ai_share  new_1y
+category                                                                         
+productivity/tools               121       55000.0        4.397     0.537      17
+productivity/workflow            103      100000.0        4.344     0.243       8
+productivity/education            44      300000.0        4.391     0.227       1
+make_chrome_yours/accessibility   44      400000.0        4.250     0.068       0
+lifestyle/shopping                42      100000.0        4.617     0.095       4
+make_chrome_yours/functionality   42      100000.0        4.324     0.119       0
+productivity/communication        37      100000.0        4.488     0.351       3
+make_chrome_yours/privacy         35     1000000.0        4.396     0.057       2
+lifestyle/fun                     34      200000.0        4.263     0.000       0
+lifestyle/social                  33      100000.0        4.122     0.030       0
+lifestyle/entertainment           33       90000.0        4.229     0.000       2
+productivity/developer            32      600000.0        4.376     0.094       0
+lifestyle/art                     32       35000.0        4.252     0.125       2
+lifestyle/travel                  32        2000.0        4.731     0.062       8
+lifestyle/news                    32        8500.0        4.334     0.031       2
+lifestyle/household               32        1000.0        4.349     0.094       9
+lifestyle/games                   32      100000.0        3.926     0.000       1
+lifestyle/well_being              32        5000.0        4.531     0.031       3
+=== 등록연도별 (전체/AI) ===
+       all  ai
+2009    9   0
+2010   21   1
+2011   14   3
+2012   30   1
+2013   35   0
+2014   37   1
+2015   30   2
+2016   30   1
+2017   44   2
+2018   45   4
+2019   48   5
+2020   64   9
+2021   42   6
+2022   76  14
+2023   88  34
+2024   78  24
+2025   56  22
+2026   44  13
+=== 최근 1년 등록 확장 수: 62 / AI: 21
+=== 사용자 100만+ & 평점 4.0 미만: 34
+                                            name      users   rating  rating_count
+                           Chrome Remote Desktop 41000000.0 3.144737        2964.0
+                   Read&Write for Google Chrome™ 19000000.0 3.425972        1594.0
+                                          Claude 18000000.0 2.873096        1773.0
+                      Malwarebytes Browser Guard 12000000.0 3.846005        1552.0
+                                 Online Security 11000000.0 3.605705         596.0
+           Screencastify - Screen Video Recorder  9000000.0 3.944108       11737.0
+                           Zoom Chrome Extension  8000000.0 3.881897        1033.0
+                      Google Keep Chrome 확장 프로그램  8000000.0 3.994128        8004.0
+                                       OrbitNote  7000000.0 2.978102         137.0
+                        1Password – 비밀번호 관리 프로그램  7000000.0 3.114675        3523.0
+                                         ChatGPT  6000000.0 2.781649         861.0
+                                   Pinterest에 저장  6000000.0 3.512938       10048.0
+                     Equatio - Math made digital  5000000.0 3.875583         643.0
+                                      Google 입력기  4000000.0 3.992652        5580.0
+        Picture-in-Picture Extension (by Google)  4000000.0 3.891376        2725.0
+                               Meta 광고 데이터 어드바이저  3000000.0 3.883465        1270.0
+몰입형 번역 - AI 이중 언어 웹 번역 | PDF 번역 | 동영상 번역 | 만화 번역  3000000.0 3.960645        3100.0
+                                   Tag Assistant  3000000.0 3.907915        1314.0
+                                Image Downloader  2000000.0 3.680803        2641.0
+                                         Bitmoji  2000000.0 3.610981        2131.0
+                                       Dark Mode  2000000.0 3.583446        2211.0
+                       스크린 레코더 - Screen Recorder  2000000.0 3.759585        1930.0
+                              Notion Web Clipper  1000000.0 3.315534         618.0
+                               Easy Auto Refresh  1000000.0 3.887695        2048.0
+                                      PDF Viewer  1000000.0 3.321468        2725.0
+                       Shimeji Browser Extension  1000000.0 3.988004        2751.0
+                 Google Meet Enhanced Experience  1000000.0 3.361422        2053.0
+                                          Scener  1000000.0 3.089918         367.0
+                                      Ace Script  1000000.0 3.401361         735.0
+                                        Dualless  1000000.0 3.996337         273.0
+                               AIPRM for ChatGPT  1000000.0 3.943920        3388.0
+                          CSFloat Market Checker  1000000.0 3.854701         585.0
+                      Scribbr Citation Generator  1000000.0 3.856115         139.0
+                  User-Agent Switcher for Chrome  1000000.0 3.857090        2680.0
+=== 크롬 저평점 리뷰 불만유형 (n=4200) ===
+ 기타·불명확        1754
+오류·버그·튕김       876
+업데이트·UI 개악     586
+기능 부족·요청       571
+결제·구독·환불       336
+로그인·인증         321
+느림·성능·배터리      213
+광고과다           201
+고객센터·대응        179
+개인정보·권한        158
+콘텐츠·데이터 문제     141
+AI 품질·제한       129
+배송·주문·판매자       43
+type                                                                       n_low  AI 품질·제한  개인정보·권한  결제·구독·환불  고객센터·대응  광고과다  기능 부족·요청  기타·불명확  느림·성능·배터리  로그인·인증  배송·주문·판매자  업데이트·UI 개악  오류·버그·튕김  콘텐츠·데이터 문제
+name                                                                                                                                                                                                          
+Chrome Remote Desktop                                                        148         3        0         1        6     2        47      54         15       7          0          28        40           7
+Google 번역                                                                    130         2        1         0        5    19        20      54          3       1          0          20        33           5
+Pinterest에 저장                                                                128         1        2         0        4     7        18      43          9      16          1          13        59          11
+Google Keep Chrome 확장 프로그램                                                   116         1        3         0        4     6        17      30          2      34          0          16        48           5
+VPN for Chrome: NordVPN proxy protection                                     113         2        3        16        8     2        25      37          5      22          0          12        26           4
+BTRoblox - Making Roblox Better                                              110         2        0         1        0     3        11      56          0       3          0          26        27           0
+AIPRM for ChatGPT                                                            106         5        1        23        2     4        11      40          2       6          0           8        26           3
+Sider: 모든 AI와 채팅: GPT-5, Claude, DeepSeek, Gemini, Grok                      106        14        0        11        1     4         7      67          1       5          0           7         7           2
+Claude                                                                       105         1       10         5        0     2        21      37          5      10          2          14        27           8
+Netflix Party is now Teleparty                                               105         0        2        12        0     3         9      50          3       3          0           4        32          14
+MaxAI: 브라우징 중 AI에게 무엇이든 물어보세요 (GPT, Gemini, Claude, Grok 등)                  104         4        6        27        9     4        17      39          4      12          4          11         6           4
+Grammarly: AI Writing Assistant and Grammar Checker App                      104         2        4        10        5    17        15      44          9       2          1          12        17           7
+Bitwarden 비밀번호 관리자                                                           103         0        0         0        2     6        22      23         20      18          1          26        33           1
+1Password – 비밀번호 관리 프로그램                                                     103         0        1         9        3    10        27      25         22      25          0          38        13           3
+Read Aloud: 텍스트 음성 변환 리더                                                     101         1        2         3        1    10         8      58          4       1          0          11        17           4
+Picture-in-Picture Extension (by Google)                                     101         3        1         0        3     3        10      52          0       0          1          10        30           3
+Google 입력기                                                                   101         0        0         1        6     1         5      58          3       0          1           9        27           0
+Malwarebytes Browser Guard                                                   101         3        9         4        1    17        24      39         18       1          0          19        11           3
+Volume Booster                                                               100         0        4         0        1    11         7      66          2       0          0           4         7           4
+Magical: Text Expander & Autofill                                            100         4        7        11        9     7        14      33          7       6          0          19        22           3
+DuckDuckGo Search & Tracker Protection                                       100         5       24         2        3     6        18      48          3       2          1          11         7           0
+NaturalReader - AI Text to Speech                                            100         6        0        14        4     3         3      51          4       1          1          11        18           0
+Screencastify - Screen Video Recorder                                        100         3        1         6        4     0        11      47          7      12          1          17        12           6
+Read&Write for Google Chrome™                                                100         0        3         0        2     2         5      64          1       1          0           4        20           0
+Quillbot: AI Writing Assistant with Humanizer, Paraphraser & AI Detector     100         2        2         8       10     6        10      44          5       8          1          17        18           5
+ChatGPT                                                                       99         3        6         1        1     2        44      32          0       0          2          20        31           1
+Wordtune: AI Paraphrasing and Grammar Tool                                    98         6        0        10       14     2         9      37          1      16          2          11        23           1
+AI Grammar Checker & Paraphraser – LanguageTool                               94         3        0        22        4     0        15      42          4       4          4          12        11           2
+Merlin AI                                                                     93         7        4         6        6     8         7      33          6      11          0          16        18           3
+Tag Assistant                                                                 90         1        8         0        7     4         8      26          4       3          3          35        33           3
+Chat with all AI models (Gemini, Claude, DeepSeek…) & AI Agents | AITOPIA     90         5        2        15        4     1         5      48          3       4          3          10         8           0
+Monica: 올인원 AI 어시스턴트 & 가장 똑똑한 AI 에이전트                                         85         8        1        10        6     1         3      48          0       4          0          13         7           2
+Zoom Chrome Extension                                                         80         1        1         0        6     2         8      31          4      13          0          16        14           3
+HARPA AI | ChatGPT, Claude, Gemini, DeepSeek & Perplexity 자동화 에이전트            71         8        1        21        3     2         6      18          0       3          3          11        14           6
+Equatio - Math made digital                                                   70         0        2         8        3     1         3      38          1       8          0           5        10           2
+Eightify: 인공지능으로 유튜브 영상 요약                                                    65         3        3        25        3     1         2      22          2      10          0           6         4           1
+Voice Control for ChatGPT                                                     63         3        6         1        4     2        14      23          0       1          1           9        16           0
+Jetwriter AI: Reply Emails, Ask Page, Summarize, Fix Grammar, and More        61         1        3         5        2     2         3      21          1       3          3           6        24           2
+OrbitNote                                                                     55         0        2         0        2     1         4      30          5       6          0           5         8           1
+EndNote Click                                                                 52         3        0         2        0     3        11      11         13       9          0           8        10           2

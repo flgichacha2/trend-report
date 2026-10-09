@@ -1,0 +1,10 @@
+.env
+logs/
+__pycache__/
+*.pyc
+**/_work/
+**/data/raw/**
+!06_아파트실거래가/data/raw/villa/
+!06_아파트실거래가/data/raw/villa/**
+!07_인허가_개폐업_상권/data/raw/localdata_file/
+!07_인허가_개폐업_상권/data/raw/localdata_file/_orgcodes.csv

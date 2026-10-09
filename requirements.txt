@@ -1,0 +1,6 @@
+pandas==1.5.3
+numpy<2
+requests
+python-dotenv
+matplotlib
+truststore
