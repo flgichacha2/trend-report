@@ -1,5 +1,6 @@
 .env
-logs/
+logs/*
+!logs/sent_*_GitHub.flag
 __pycache__/
 *.pyc
 **/_work/
@@ -8,3 +9,6 @@ __pycache__/
 !06_아파트실거래가/data/raw/villa/**
 !07_인허가_개폐업_상권/data/raw/localdata_file/
 !07_인허가_개폐업_상권/data/raw/localdata_file/_orgcodes.csv
+04_DART_사업목적변경/data/kind/
+04_DART_사업목적변경/data/html/
+04_DART_사업목적변경/data/api_xml/

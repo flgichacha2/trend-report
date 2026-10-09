@@ -90,6 +90,23 @@ def run_py(folder, script, timeout):
                           capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout)
 
 
+def prune_dart_cache(keep_days=2):
+    """DART 공시 원문 캐시: 파일명 앞 8자리(접수일) 기준 최근 keep_days일치만 남긴다."""
+    import re
+    keep_from = (TODAY - dt.timedelta(days=keep_days - 1)).strftime("%Y%m%d")
+    n = 0
+    for d in ("kind", "html", "api_xml"):
+        folder = ROOT / "04_DART_사업목적변경" / "data" / d
+        if not folder.is_dir():
+            continue
+        for f in folder.iterdir():
+            m = re.match(r"(\d{8})", f.name)
+            if f.is_file() and m and m.group(1) < keep_from:
+                f.unlink(); n += 1
+    if n:
+        log(f"DART 원문 캐시 {n}개 삭제 (접수일 {keep_from} 이전)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
@@ -157,6 +174,10 @@ def main():
         ok = send(text, token, chat, a.dry_run) and ok
     if failed:
         ok = send("⚠️ 확인 필요\n" + "\n".join(failed), token, chat, a.dry_run) and ok
+    try:
+        prune_dart_cache()
+    except Exception as e:
+        log(f"DART 캐시 정리 실패: {type(e).__name__}")
     log(f"발송 {'완료' if ok else '일부 실패'}: 요약 {len(results)}건, 문제 {len(failed)}건")
     if ok and not a.dry_run:
         sent_flag.write_text(dt.datetime.now().isoformat(), encoding="utf-8")

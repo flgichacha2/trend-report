@@ -2,7 +2,7 @@ name: trend-report
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # 매일 19:00 UTC = 한국 04:00 (발송일 판단은 run_and_notify.py가 함)
+    - cron: "30 11 * * *"   # 매일 11:30 UTC = 한국 20:30 (발송일 판단은 run_and_notify.py가 함)
   workflow_dispatch:
     inputs:
       dry_run:
