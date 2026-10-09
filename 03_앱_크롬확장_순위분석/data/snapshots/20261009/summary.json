@@ -1,9 +1,9 @@
 {
  "date": "2026-10-09",
- "collected_at": "2026-10-09T18:22:35",
- "elapsed_sec": 273.9,
+ "collected_at": "2026-10-09T18:50:24",
+ "elapsed_sec": 250.5,
  "rows_by_store": {
-  "appstore": 400,
+  "appstore": 300,
   "appstore_itunes": 2598,
   "gplay": 2692
  },
