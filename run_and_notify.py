@@ -110,7 +110,18 @@ def prune_dart_cache(keep_runs=3):
     log(f"DART 원문 캐시 {n}개 삭제 ({cutoff} 이전에 받은 파일)")
 
 
+def keep_awake():
+    """Windows: 실행하는 동안 절전 진입 막기(작업 스케줄러가 절전에서 깨운 경우 다시 잠드는 것 방지)."""
+    if os.name == "nt":
+        try:
+            import ctypes
+            ctypes.windll.kernel32.SetThreadExecutionState(0x80000000 | 0x00000001)  # ES_CONTINUOUS | ES_SYSTEM_REQUIRED
+        except Exception:
+            pass
+
+
 def main():
+    keep_awake()
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
