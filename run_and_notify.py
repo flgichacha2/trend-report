@@ -84,6 +84,81 @@ def send(text, token, chat, dry):
     return True
 
 
+HTML_CSS = """
+:root{--bg:#f5f7f8;--surface:#fff;--fg:#16222b;--muted:#5b6b76;--line:#d9e1e6;--accent:#0e6e6b;--accent-soft:#e2f1ef}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1619;--surface:#162126;--fg:#e4ecef;--muted:#93a5ae;--line:#26363d;--accent:#5cc4bc;--accent-soft:#17312f;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 "IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:32px 18px 56px;display:grid;gap:28px}
+h1{font-size:26px;margin:0;line-height:1.3}.sub{color:var(--muted);font-size:13px;margin:6px 0 0}
+nav{display:flex;flex-wrap:wrap;gap:6px}nav a{font-size:13px;text-decoration:none;color:var(--fg);border:1px solid var(--line);background:var(--surface);padding:3px 10px;border-radius:999px}
+section{display:grid;gap:12px}h2{font-size:19px;margin:0;padding-bottom:6px;border-bottom:2px solid var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.blk{padding:14px 16px;border-top:1px solid var(--line);margin-top:-1px;min-width:0}.blk+.blk{border-left:1px solid var(--line)}
+.blk.todo{background:var(--accent-soft)}.k{font-size:12px;letter-spacing:.06em;color:var(--muted);font-weight:600;margin:0 0 6px}.todo .k{color:var(--accent)}
+ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:14px}p.plain{margin:0;font-size:14px}.note{font-size:12px;color:var(--muted)}
+.warn{border:1px solid var(--line);border-radius:10px;padding:12px 16px;background:var(--surface);font-size:14px}
+"""
+SECTION_KEYS = (("🔄", "무엇이 바뀌었나"), ("💡", "무슨 의미"), ("✅", "내가 할 일"), ("📊", "근거"))
+
+
+def build_html(results, failed, header, label):
+    import html as H
+    esc = H.escape
+    parts, nav = [], []
+    for i, text in enumerate(results):
+        lines = [l.rstrip() for l in text.splitlines() if l.strip()]
+        title = lines[0].lstrip("📌 ").strip() if lines else f"항목 {i + 1}"
+        blocks, cur, notes = [], None, []
+        for l in lines[1:]:
+            head = next((k for k in SECTION_KEYS if l.startswith(k[0])), None)
+            if head:
+                rest = l[len(head[0]):].strip()
+                cur = {"name": rest or head[1], "todo": head[0] == "✅", "items": []}
+                blocks.append(cur)
+                continue
+            if l.startswith("※"):
+                notes.append(l); continue
+            item = l.lstrip("•·-– ").strip()
+            if cur is None:
+                cur = {"name": "요약", "todo": False, "items": []}; blocks.append(cur)
+            cur["items"].append(item)
+        sid = f"s{i}"
+        nav.append(f'<a href="#{sid}">{esc(title.split(" (")[0])}</a>')
+        body = "".join(
+            f'<div class="blk{" todo" if b["todo"] else ""}"><p class="k">{esc(b["name"])}</p>'
+            + ("<ul>" + "".join(f"<li>{esc(x)}</li>" for x in b["items"]) + "</ul>" if b["items"] else "")
+            + "</div>" for b in blocks)
+        parts.append(f'<section id="{sid}"><h2>{esc(title)}</h2><div class="grid">{body}</div>'
+                     + "".join(f'<p class="note">{esc(n)}</p>' for n in notes) + "</section>")
+    if failed:
+        parts.append('<div class="warn"><b>확인 필요</b><ul>' + "".join(f"<li>{esc(f)}</li>" for f in failed) + "</ul></div>")
+    h1, *sub = header.splitlines()
+    return (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>트렌드 리포트 {TODAY:%Y-%m-%d}</title>'
+            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap">'
+            f'<style>{HTML_CSS}</style></head><body><div class="wrap"><header><h1>{esc(h1.lstrip("📊 "))}</h1>'
+            f'<p class="sub">{esc(" ".join(sub))} · 투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님</p></header>'
+            f'<nav>{"".join(nav)}</nav>{"".join(parts)}</div></body></html>')
+
+
+def send_document(path, caption, token, chat, dry):
+    if dry:
+        print(f"[HTML 미리보기] {path}")
+        return True
+    for attempt in range(3):
+        try:
+            with open(path, "rb") as f:
+                r = requests.post(f"https://api.telegram.org/bot{token}/sendDocument",
+                                  data={"chat_id": chat, "caption": caption}, files={"document": f}, timeout=60).json()
+            if r.get("ok"):
+                return True
+            log(f"텔레그램 파일 오류: {r.get('description')}")
+        except Exception as e:
+            log(f"텔레그램 파일 예외: {type(e).__name__}")
+        time.sleep(5)
+    return False
+
+
 def run_py(folder, script, timeout):
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUTF8="1")
     return subprocess.run([sys.executable, "-I", "-X", "utf8", f"scripts/{script}"], cwd=folder, env=env,
@@ -188,6 +263,11 @@ def main():
         ok = send(text, token, chat, a.dry_run) and ok
     if failed:
         ok = send("⚠️ 확인 필요\n" + "\n".join(failed), token, chat, a.dry_run) and ok
+    if results:
+        html_path = LOG_DIR / f"트렌드리포트_{TODAY:%Y%m%d}{'_' + a.label if a.label else ''}.html"
+        html_path.write_text(build_html(results, failed, header, a.label), encoding="utf-8")
+        ok = send_document(html_path, f"📎 {TODAY:%m/%d} 리포트 웹페이지 버전 (파일을 열면 브라우저에서 보여요)",
+                           token, chat, a.dry_run) and ok
     try:
         prune_dart_cache()
     except Exception as e:
