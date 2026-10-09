@@ -44,8 +44,21 @@ jobs:
       - name: 스냅샷 저장 (다음 회차 비교용)
         if: always()
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "data: $(date +%F) 스냅샷"
-          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
+          # 이번 실행이 만든 결과(스냅샷·빌라 데이터·발송기록)만 따로 보관
+          tmp=$(mktemp -d)
+          git ls-files -mo --exclude-standard -z             | grep -zE '/data/snapshots/|^06_[^/]+/data/(villa_|raw/villa/)|^logs/sent_'             | xargs -0 -r cp --parents -t "$tmp"
+          # 최신 저장소 위에 결과만 덮어써서 저장 (코드 변경과 충돌하지 않음)
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp -a "$tmp"/. .
+            git add -A
+            if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+            git commit -qm "data: $(date +%F) 스냅샷"
+            if git push -q origin HEAD:main; then echo "저장 완료"; exit 0; fi
+            sleep 5
+          done
+          echo "저장 실패"; exit 1
