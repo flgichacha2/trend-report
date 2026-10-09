@@ -5,8 +5,12 @@ on:
     - cron: "0 19 * * *"   # 매일 19:00 UTC = 한국 04:00 (발송일 판단은 run_and_notify.py가 함)
   workflow_dispatch:
     inputs:
+      dry_run:
+        description: "미리보기만 (가족방에 보내지 않음)"
+        type: boolean
+        default: true
       force:
-        description: "일정 무시하고 지금 발송"
+        description: "일정 무시하고 지금 발송 (dry_run 해제 시)"
         type: boolean
         default: false
 
@@ -36,7 +40,7 @@ jobs:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
           LOCALDATA_API_KEY: ${{ secrets.LOCALDATA_API_KEY }}
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
-        run: python -I -X utf8 run_and_notify.py --only 3,4,6,6+,7 --label GitHub ${{ inputs.force && '--force' || '' }}
+        run: python -I -X utf8 run_and_notify.py --only 3,4,6,6+,7 --label GitHub ${{ inputs.force && '--force' || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
       - name: 스냅샷 저장 (다음 회차 비교용)
         if: always()
         run: |
