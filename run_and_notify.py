@@ -29,6 +29,9 @@ START_DATE = dt.date(2026, 10, 9)
 DAILY_DAYS = 7
 UPDATE_TIMEOUT = 45 * 60
 
+# 텔레그램 메시지로는 보내지 않고 HTML 파일에만 넣는 항목
+HTML_ONLY = {"8", "9", "10", "11", "12", "13"}
+
 TASKS = [
     ("1", "01_구인동향_잡코리아_사람인", "구인시장"),
     ("2", "02_크몽_숨고_의뢰분석", "크몽·숨고 의뢰"),
@@ -228,7 +231,7 @@ def main():
 
     only = set(a.only.split(",")) if a.only else None
     mode = "매일" if (TODAY - START_DATE).days < DAILY_DAYS else "주간"
-    results, failed = [], []
+    results, failed, html_only_nos = [], [], set()
     for no, name, title, *scr in TASKS:
         upd_py, sum_py = scr if scr else ("daily_update.py", "telegram_summary.py")
         if only and no not in only:
@@ -254,6 +257,8 @@ def main():
             text = p.stdout.strip()
             if p.returncode == 0 and text:
                 results.append(text)
+                if no in HTML_ONLY:
+                    html_only_nos.add(len(results) - 1)
             else:
                 log(f"[{no}] 요약 실패: {p.stderr[-800:]}")
                 failed.append(f"[{no}] {title}: 요약 실패")
@@ -264,9 +269,12 @@ def main():
     if mode == "매일":
         left = DAILY_DAYS - (TODAY - START_DATE).days - 1
         header += f" · 매일 발송 {left}일 남음, 이후 매주 {'월화수목금토일'[START_DATE.weekday()]}요일"
+    if html_only_nos:
+        header += "\n(" + "·".join(r.splitlines()[0].split("]")[0].split("[")[-1] for i, r in enumerate(results) if i in html_only_nos) + "번은 첨부 HTML 파일에서 확인)"
     ok = send(header, token, chat, a.dry_run)
-    for text in results:
-        ok = send(text, token, chat, a.dry_run) and ok
+    for i, text in enumerate(results):
+        if i not in html_only_nos:
+            ok = send(text, token, chat, a.dry_run) and ok
     if failed:
         ok = send("⚠️ 확인 필요\n" + "\n".join(failed), token, chat, a.dry_run) and ok
     if results:
