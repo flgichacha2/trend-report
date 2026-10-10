@@ -169,6 +169,42 @@ def send_document(path, caption, token, chat, dry):
     return False
 
 
+def send_email(subject, body, attach_path, env, dry):
+    """Gmail·네이버 SMTP로 같은 내용을 메일 발송(보내는 주소 도메인으로 서버 자동 선택, EMAIL_SMTP_HOST로 지정 가능). EMAIL_TO·EMAIL_SMTP_USER·EMAIL_APP_PASSWORD가 모두 있을 때만.
+    실패해도 텔레그램 발송 결과에는 영향 없음(로그만)."""
+    to, user, pw = (env.get(k, "").strip() for k in ("EMAIL_TO", "EMAIL_SMTP_USER", "EMAIL_APP_PASSWORD"))
+    if not (to and user and pw):
+        return
+    if dry:
+        print(f"[메일 미리보기] 받는 사람 {to} · 제목 {subject}")
+        return
+    import smtplib, ssl
+    from email.message import EmailMessage
+    msg = EmailMessage()
+    msg["Subject"], msg["From"], msg["To"] = subject, user, to
+    msg.set_content(body)
+    if attach_path:
+        msg.add_attachment(pathlib.Path(attach_path).read_bytes(), maintype="text", subtype="html",
+                           filename=pathlib.Path(attach_path).name)
+    host = env.get("EMAIL_SMTP_HOST", "").strip() or (
+        "smtp.naver.com" if user.lower().endswith("@naver.com") else "smtp.gmail.com")
+    for attempt in range(3):
+        try:
+            # 587(STARTTLS): 사내 백신(Avast)이 465 포트에는 '신뢰 불가' 인증서를 끼워 넣어 검증이 실패함
+            with smtplib.SMTP(host, 587, timeout=60) as s:
+                s.starttls(context=ssl.create_default_context())
+                s.login(user, pw.replace(" ", ""))
+                s.send_message(msg)
+            log(f"메일 발송 완료 → {to}")
+            return
+        except smtplib.SMTPAuthenticationError as e:  # 반복 시도 시 계정 잠김 위험 → 바로 중단
+            log(f"메일 로그인 거절({e.smtp_code}): 아이디·앱 비밀번호·SMTP 사용 설정 확인")
+            return
+        except Exception as e:
+            log(f"메일 발송 예외: {type(e).__name__}")
+            time.sleep(5)
+
+
 def run_py(folder, script, timeout):
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUTF8="1")
     return subprocess.run([sys.executable, "-I", "-X", "utf8", f"scripts/{script}"], cwd=folder, env=env,
@@ -224,7 +260,7 @@ def main():
         return
 
     env = {**dotenv_values(ROOT / ".env"),
-           **{k: v for k, v in os.environ.items() if k.startswith("TELEGRAM_") and v}}  # GitHub Secrets 지원
+           **{k: v for k, v in os.environ.items() if k.startswith(("TELEGRAM_", "EMAIL_")) and v}}  # GitHub Secrets 지원
     token = (env.get("TELEGRAM_BOT_TOKEN") or "").strip()
     chat = (env.get("TELEGRAM_CHAT_ID") or "").strip()
     if not a.dry_run and not (token and chat):
@@ -278,11 +314,16 @@ def main():
             ok = send(text, token, chat, a.dry_run) and ok
     if failed:
         ok = send("⚠️ 확인 필요\n" + "\n".join(failed), token, chat, a.dry_run) and ok
+    html_path = None
     if results:
         html_path = LOG_DIR / f"트렌드리포트_{TODAY:%Y%m%d}{'_' + a.label if a.label else ''}.html"
         html_path.write_text(build_html(results, failed, header, a.label), encoding="utf-8")
         ok = send_document(html_path, f"📎 {TODAY:%m/%d} 리포트 웹페이지 버전 (파일을 열면 브라우저에서 보여요)",
                            token, chat, a.dry_run) and ok
+    if results or failed:
+        body = "\n\n".join([header] + results + (["⚠️ 확인 필요\n" + "\n".join(failed)] if failed else []))
+        send_email(f"[트렌드 리포트] {TODAY:%Y-%m-%d} ({mode}{' · ' + a.label if a.label else ''})",
+                   body + "\n\n※ 투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님", html_path, env, a.dry_run)
     try:
         prune_dart_cache()
     except Exception as e:

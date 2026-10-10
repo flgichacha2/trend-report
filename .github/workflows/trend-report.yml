@@ -44,6 +44,9 @@ jobs:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
           LOCALDATA_API_KEY: ${{ secrets.LOCALDATA_API_KEY }}
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_SMTP_USER: ${{ secrets.EMAIL_SMTP_USER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
         run: python -I -X utf8 run_and_notify.py --only ${{ inputs.only || '3,4,6,6+,7,8,10,13' }} --label GitHub ${{ inputs.force && '--force' || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
       - name: 스냅샷 저장 (다음 회차 비교용)
         if: always()
