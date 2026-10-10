@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-10",
+ "route": "KIND",
+ "route_note": "",
+ "window": {
+  "from": "2026-10-09",
+  "to": "2026-10-10"
+ },
+ "notices_listed": 0,
+ "notices_new": 0,
+ "notices_parsed_new": 0,
+ "pending": 0,
+ "aoi_change_corps": 0,
+ "purpose_change_corps": 0,
+ "purpose_added_corps": 0,
+ "by_market": {},
+ "theme_counts": {},
+ "hot3_corps": [],
+ "bulk10_corps": []
+}
