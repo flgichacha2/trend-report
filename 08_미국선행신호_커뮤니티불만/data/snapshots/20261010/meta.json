@@ -1,16 +1,16 @@
 {
  "date": "20261010",
- "finished_at": "2026-10-10T21:53:25",
- "elapsed_sec": 253.0,
- "rows": 993,
- "new": 865,
+ "finished_at": "2026-10-10T22:06:52",
+ "elapsed_sec": 251.0,
+ "rows": 845,
+ "new": 717,
  "status": {
-  "PH": "ok 348",
-  "HN": "ok ask 58 / show 249",
-  "Reddit": "ok 4/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429, nocode:HTTPError429)",
+  "PH": "ok 345",
+  "HN": "ok ask 58 / show 244",
+  "Reddit": "ok 4/8 (차단·실패: Entrepreneur:HTTPError429, chrome_extensions:HTTPError429, smallbusiness:HTTPError429, nocode:HTTPError429)",
   "GitHub": "ok 26",
   "YC": {
-   "skipped": false,
+   "skipped": true,
    "last": "20261010"
   }
  },

@@ -2,8 +2,8 @@
  "date": "20261010",
  "window_days": 30,
  "window_start": "20260911",
- "n_window": 8960,
- "amt_window_eok": 73735.0,
+ "n_window": 8962,
+ "amt_window_eok": 73751.8,
  "sw_share_window": 8.5,
  "share_window": {
   "생성형AI·LLM": 0.31,
@@ -36,8 +36,8 @@
   "정보시스템 구축·고도화": 504
  },
  "new_basis": "보고서 원자료",
- "n_new": 0,
- "amt_new_eok": 0.0,
+ "n_new": 2,
+ "amt_new_eok": 16.8,
  "new_by_cat": {
   "생성형AI·LLM": 0,
   "AI(전체)": 0,
@@ -68,8 +68,25 @@
   "CCTV·영상감시": 0.0,
   "정보시스템 구축·고도화": 0.0
  },
- "new_by_otype": {},
- "new_top": [],
+ "new_by_otype": {
+  "중앙부처·소속": 2
+ },
+ "new_top": [
+  {
+   "title": "밸로스 등 27항목 생산능력확인제조(궤도-생산-34)",
+   "org": "국방부 육군군수사령부",
+   "amount_eok": 15.6,
+   "cats": [],
+   "date": "20261010"
+  },
+  {
+   "title": "판 등 40항목 생산능력확인제조(궤도-생산-36)",
+   "org": "국방부 육군군수사령부",
+   "amount_eok": 1.2,
+   "cats": [],
+   "date": "20261010"
+  }
+ ],
  "new_focus_top": [],
  "new_big100": 0,
  "watch_new": {
