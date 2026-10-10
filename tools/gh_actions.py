@@ -62,9 +62,12 @@ def log(run_id=None):
             print("\n".join(l[29:] if len(l) > 29 and l[4] == "-" else l for l in txt[-120:]))
 
 
-def run(send=False):
+def run(send=False, only=""):
+    inputs = {"dry_run": not send, "force": send}
+    if only:
+        inputs["only"] = only
     r = S.post(API + "/actions/workflows/trend-report.yml/dispatches", timeout=60,
-               json={"ref": "main", "inputs": {"dry_run": not send, "force": send}})
+               json={"ref": "main", "inputs": inputs})
     print("실행 요청:", "성공" if r.status_code == 204 else f"실패 {r.status_code} {r.text[:200]}")
 
 
@@ -75,4 +78,5 @@ if __name__ == "__main__":
     elif cmd == "log":
         log(sys.argv[2] if len(sys.argv) > 2 else None)
     elif cmd == "run":
-        run("--send" in sys.argv)
+        only = next((x.split("=", 1)[1] for x in sys.argv if x.startswith("--only=")), "")
+        run("--send" in sys.argv, only)
