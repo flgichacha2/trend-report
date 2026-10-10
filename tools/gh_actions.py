@@ -54,7 +54,7 @@ def log(run_id=None):
     jobs = get(f"/actions/runs/{run_id}/jobs").json()["jobs"]
     failed = [s["name"] for j in jobs for s in j["steps"] if s["conclusion"] == "failure"]
     names = z.namelist()
-    want = failed or ["갱신 + 텔레그램 발송 (3·4·6·7)"]
+    want = failed or ["갱신 + 텔레그램 발송"]
     for n in names:
         if any(w in n for w in want) or (not any(w in x for x in names for w in want) and n.count("/") == 0):
             txt = z.read(n).decode("utf-8", "replace").splitlines()
