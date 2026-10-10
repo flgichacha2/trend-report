@@ -66,6 +66,8 @@ def run(send=False, only=""):
     inputs = {"dry_run": not send, "force": send}
     if only:
         inputs["only"] = only
+    if "--test-email" in sys.argv:
+        inputs = {"test_email": True}
     r = S.post(API + "/actions/workflows/trend-report.yml/dispatches", timeout=60,
                json={"ref": "main", "inputs": inputs})
     print("실행 요청:", "성공" if r.status_code == 204 else f"실패 {r.status_code} {r.text[:200]}")

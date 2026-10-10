@@ -13,6 +13,10 @@ on:
         description: "일정 무시하고 지금 발송 (dry_run 해제 시)"
         type: boolean
         default: false
+      test_email:
+        description: "시험 메일만 보내기 (다른 작업 안 함)"
+        type: boolean
+        default: false
       only:
         description: "실행할 항목 (쉼표 구분, 비우면 기본값)"
         type: string
@@ -47,7 +51,9 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_SMTP_USER: ${{ secrets.EMAIL_SMTP_USER }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
-        run: python -I -X utf8 run_and_notify.py --only ${{ inputs.only || '3,4,6,6+,7,8,10,13' }} --label GitHub ${{ inputs.force && '--force' || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          if [ "${{ inputs.test_email }}" = "true" ]; then python -I -X utf8 tools/test_email.py; exit $?; fi
+          python -I -X utf8 run_and_notify.py --only ${{ inputs.only || '3,4,6,6+,7,8,10,13' }} --label GitHub ${{ inputs.force && '--force' || '' }} ${{ inputs.dry_run && '--dry-run' || '' }}
       - name: 스냅샷 저장 (다음 회차 비교용)
         if: always()
         run: |
