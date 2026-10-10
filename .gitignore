@@ -12,3 +12,9 @@ __pycache__/
 04_DART_사업목적변경/data/kind/
 04_DART_사업목적변경/data/html/
 04_DART_사업목적변경/data/api_xml/
+!08_미국선행신호_커뮤니티불만/data/raw/
+!08_미국선행신호_커뮤니티불만/data/raw/**
+!10_나라장터_사전규격/data/raw/
+!10_나라장터_사전규격/data/raw/**
+!13_관세청_수출통계/data/raw/
+!13_관세청_수출통계/data/raw/**

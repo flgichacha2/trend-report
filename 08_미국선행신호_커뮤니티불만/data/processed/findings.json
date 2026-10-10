@@ -1,0 +1,2384 @@
+{
+ "yc": {
+  "n": 1957,
+  "by_year": {
+   "2024": 590,
+   "2025": 620,
+   "2026": 747
+  },
+  "batches": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "cat_share": [
+   {
+    "분야": "AI 에이전트",
+    "2024": 18.6,
+    "2025": 21.3,
+    "2026": 26.1,
+    "2025→2026(%p)": 4.8
+   },
+   {
+    "분야": "로봇·하드웨어",
+    "2024": 10.2,
+    "2025": 14.8,
+    "2026": 22.1,
+    "2025→2026(%p)": 7.3
+   },
+   {
+    "분야": "개발도구·코딩",
+    "2024": 18.8,
+    "2025": 17.3,
+    "2026": 12.2,
+    "2025→2026(%p)": -5.1
+   },
+   {
+    "분야": "콘텐츠·디자인·영상",
+    "2024": 22.5,
+    "2025": 20.6,
+    "2026": 10.8,
+    "2025→2026(%p)": -9.8
+   },
+   {
+    "분야": "헬스케어",
+    "2024": 14.4,
+    "2025": 9.8,
+    "2026": 10.3,
+    "2025→2026(%p)": 0.5
+   },
+   {
+    "분야": "데이터·분석",
+    "2024": 10.8,
+    "2025": 12.6,
+    "2026": 8.8,
+    "2025→2026(%p)": -3.8
+   },
+   {
+    "분야": "교육",
+    "2024": 7.6,
+    "2025": 9.8,
+    "2026": 8.3,
+    "2025→2026(%p)": -1.5
+   },
+   {
+    "분야": "재무·회계",
+    "2024": 9.8,
+    "2025": 8.4,
+    "2026": 7.6,
+    "2025→2026(%p)": -0.8
+   },
+   {
+    "분야": "문서·생산성",
+    "2024": 14.2,
+    "2025": 9.8,
+    "2026": 7.4,
+    "2025→2026(%p)": -2.4
+   },
+   {
+    "분야": "보안",
+    "2024": 3.7,
+    "2025": 4.4,
+    "2026": 4.4,
+    "2025→2026(%p)": 0.0
+   },
+   {
+    "분야": "법무·컴플라이언스",
+    "2024": 6.9,
+    "2025": 7.1,
+    "2026": 4.1,
+    "2025→2026(%p)": -3.0
+   },
+   {
+    "분야": "물류·공급망",
+    "2024": 4.4,
+    "2025": 3.2,
+    "2026": 3.9,
+    "2025→2026(%p)": 0.7
+   },
+   {
+    "분야": "영업·마케팅",
+    "2024": 7.8,
+    "2025": 8.1,
+    "2026": 3.9,
+    "2025→2026(%p)": -4.2
+   },
+   {
+    "분야": "MCP·LLM 인프라",
+    "2024": 3.2,
+    "2025": 1.6,
+    "2026": 3.3,
+    "2025→2026(%p)": 1.7
+   },
+   {
+    "분야": "부동산·건설",
+    "2024": 3.4,
+    "2025": 3.1,
+    "2026": 3.3,
+    "2025→2026(%p)": 0.2
+   },
+   {
+    "분야": "보험",
+    "2024": 2.7,
+    "2025": 2.9,
+    "2026": 3.3,
+    "2025→2026(%p)": 0.4
+   },
+   {
+    "분야": "채용·HR",
+    "2024": 3.7,
+    "2025": 3.2,
+    "2026": 2.9,
+    "2025→2026(%p)": -0.3
+   },
+   {
+    "분야": "음성·전화",
+    "2024": 4.7,
+    "2025": 4.5,
+    "2026": 2.3,
+    "2025→2026(%p)": -2.2
+   },
+   {
+    "분야": "커머스·리테일",
+    "2024": 3.1,
+    "2025": 2.1,
+    "2026": 1.9,
+    "2025→2026(%p)": -0.2
+   },
+   {
+    "분야": "브라우저·확장",
+    "2024": 1.0,
+    "2025": 1.6,
+    "2026": 0.4,
+    "2025→2026(%p)": -1.2
+   },
+   {
+    "분야": "고객지원",
+    "2024": 1.4,
+    "2025": 1.9,
+    "2026": 0.4,
+    "2025→2026(%p)": -1.5
+   }
+  ],
+  "tag_up": [
+   {
+    "tag": "Hard Tech",
+    "2024": 2.4,
+    "2025": 2.7,
+    "2026": 5.9,
+    "2025→2026(%p)": 3.2
+   },
+   {
+    "tag": "Robotics",
+    "2024": 2.7,
+    "2025": 4.5,
+    "2026": 7.1,
+    "2025→2026(%p)": 2.6
+   },
+   {
+    "tag": "Deep Learning",
+    "2024": 0.7,
+    "2025": 0.2,
+    "2026": 2.0,
+    "2025→2026(%p)": 1.8
+   },
+   {
+    "tag": "Hardware",
+    "2024": 1.5,
+    "2025": 4.2,
+    "2026": 5.5,
+    "2025→2026(%p)": 1.3
+   },
+   {
+    "tag": "Insurance",
+    "2024": 1.9,
+    "2025": 1.1,
+    "2026": 2.3,
+    "2025→2026(%p)": 1.2
+   },
+   {
+    "tag": "Infrastructure",
+    "2024": 4.1,
+    "2025": 5.5,
+    "2026": 6.2,
+    "2025→2026(%p)": 0.7
+   },
+   {
+    "tag": "Manufacturing",
+    "2024": 2.7,
+    "2025": 3.5,
+    "2026": 3.7,
+    "2025→2026(%p)": 0.2
+   },
+   {
+    "tag": "AIOps",
+    "2024": 1.9,
+    "2025": 1.8,
+    "2026": 2.0,
+    "2025→2026(%p)": 0.2
+   },
+   {
+    "tag": "Automation",
+    "2024": 3.7,
+    "2025": 2.6,
+    "2026": 2.8,
+    "2025→2026(%p)": 0.2
+   },
+   {
+    "tag": "Reinforcement Learning",
+    "2024": 0.8,
+    "2025": 2.6,
+    "2026": 2.8,
+    "2025→2026(%p)": 0.2
+   },
+   {
+    "tag": "Fintech",
+    "2024": 6.9,
+    "2025": 4.4,
+    "2026": 4.3,
+    "2025→2026(%p)": -0.1
+   },
+   {
+    "tag": "Enterprise Software",
+    "2024": 3.7,
+    "2025": 3.9,
+    "2026": 3.6,
+    "2025→2026(%p)": -0.3
+   }
+  ],
+  "tag_down": [
+   {
+    "tag": "Sales",
+    "2024": 3.1,
+    "2025": 3.4,
+    "2026": 0.8,
+    "2025→2026(%p)": -2.6
+   },
+   {
+    "tag": "Consumer",
+    "2024": 6.9,
+    "2025": 5.0,
+    "2026": 2.1,
+    "2025→2026(%p)": -2.9
+   },
+   {
+    "tag": "Generative AI",
+    "2024": 8.8,
+    "2025": 5.5,
+    "2026": 1.6,
+    "2025→2026(%p)": -3.9
+   },
+   {
+    "tag": "SaaS",
+    "2024": 14.7,
+    "2025": 10.8,
+    "2026": 6.2,
+    "2025→2026(%p)": -4.6
+   },
+   {
+    "tag": "Developer Tools",
+    "2024": 13.6,
+    "2025": 12.1,
+    "2026": 7.1,
+    "2025→2026(%p)": -5.0
+   },
+   {
+    "tag": "B2B",
+    "2024": 23.7,
+    "2025": 20.5,
+    "2026": 13.1,
+    "2025→2026(%p)": -7.4
+   },
+   {
+    "tag": "AI",
+    "2024": 33.2,
+    "2025": 27.1,
+    "2026": 19.0,
+    "2025→2026(%p)": -8.1
+   },
+   {
+    "tag": "Artificial Intelligence",
+    "2024": 35.3,
+    "2025": 32.4,
+    "2026": 22.1,
+    "2025→2026(%p)": -10.3
+   }
+  ],
+  "hiring_2026": null,
+  "examples": {
+   "AI 에이전트": [
+    [
+     "OpenTag",
+     "Summer 2026",
+     "Model Agnostic AI coworker in Slack"
+    ],
+    [
+     "Magma",
+     "Summer 2026",
+     "Monetize your agent's traces."
+    ],
+    [
+     "OneCLI",
+     "Summer 2026",
+     "The open source AI teammates for your company."
+    ],
+    [
+     "SubVysion",
+     "Summer 2026",
+     "Autonomous rovers to make the ‘Google Maps’ of underground utilities"
+    ],
+    [
+     "Florin",
+     "Summer 2026",
+     "Florin is an AI-native insurance company that runs autonomously"
+    ],
+    [
+     "Dock",
+     "Summer 2026",
+     "Multiplayer workspace for agents and humans"
+    ]
+   ],
+   "MCP·LLM 인프라": [
+    [
+     "Robocurve",
+     "Summer 2026",
+     "Evals for robots"
+    ],
+    [
+     "OpenRelay",
+     "Summer 2026",
+     "Distributed, hardware-agnostic AI inference"
+    ],
+    [
+     "Tokenless",
+     "Summer 2026",
+     "We find flaws in RL environments and evals and help you fix them."
+    ],
+    [
+     "Touchmark",
+     "Summer 2026",
+     "Market for future inference capacity"
+    ],
+    [
+     "Orchestra",
+     "Summer 2026",
+     "Self-optimizing neocloud that cuts LLM costs by 100x"
+    ],
+    [
+     "Olam Labs",
+     "Summer 2026",
+     "Building multi-agent simulations for model evals and training."
+    ]
+   ],
+   "개발도구·코딩": [
+    [
+     "Conifer",
+     "Summer 2026",
+     "Least cost routing system to reduce 70%+ token spend"
+    ],
+    [
+     "hardware intelligence",
+     "Summer 2026",
+     "AI tools for the chips your AI runs on"
+    ],
+    [
+     "Salem Robotics Inc",
+     "Summer 2026",
+     "Deploying robots to replace workers in hazardous spaces"
+    ],
+    [
+     "Autoresearch, Inc.",
+     "Summer 2026",
+     "Autoresearch as a service: we solve your hardest measurable problems"
+    ],
+    [
+     "Vernius Systems, Inc.",
+     "Summer 2026",
+     "Mass-deployable radars for air defense"
+    ],
+    [
+     "HyperProbe",
+     "Summer 2026",
+     "AI engineer that debugs and fixes production incidents in realtime"
+    ]
+   ],
+   "음성·전화": [
+    [
+     "Speko",
+     "Summer 2026",
+     "OpenRouter for Voice AI: one API, every call on the best speech model"
+    ],
+    [
+     "DeepMark",
+     "Fall 2026",
+     "A live watermark inside AI voice that survives phone calls"
+    ],
+    [
+     "The Agentic Data Co.",
+     "Fall 2026",
+     "Training Data For Speech Models."
+    ],
+    [
+     "Cyclon",
+     "Fall 2026",
+     "a phone where AI is the interface"
+    ],
+    [
+     "Sona8",
+     "Fall 2026",
+     "Context layer for enterprise AI surveying employees with voice agents "
+    ],
+    [
+     "antimattr",
+     "Fall 2026",
+     "voice-first hardware interface for human-agent interaction"
+    ]
+   ],
+   "영업·마케팅": [
+    [
+     "Nex",
+     "Summer 2026",
+     "AI for high volume GTM Engineering"
+    ],
+    [
+     "TryNearby",
+     "Summer 2026",
+     "Local creators for local businesses"
+    ],
+    [
+     "COACH",
+     "Summer 2026",
+     "The AI Coach for in person sales reps."
+    ],
+    [
+     "LemonLime",
+     "Summer 2026",
+     "Fully automated GTM for small business"
+    ],
+    [
+     "Palisade",
+     "Summer 2026",
+     "AI-native sales agents that run marketplaces"
+    ],
+    [
+     "Frontrunner",
+     "Fall 2026",
+     "Cursor for GTM"
+    ]
+   ],
+   "고객지원": [
+    [
+     "Dialogus",
+     "Summer 2026",
+     "The AI-native contact center"
+    ]
+   ],
+   "재무·회계": [
+    [
+     "Billow AI Labs",
+     "Summer 2026",
+     "AI-native Accounting Firm that's killing Deloitte"
+    ],
+    [
+     "Verdict Machine",
+     "Summer 2026",
+     "AI cybersecurity for financial institutions' digital assets"
+    ],
+    [
+     "TovenAI",
+     "Summer 2026",
+     "AI agents for compliance at institutional trading firms"
+    ],
+    [
+     "Levocred AI",
+     "Summer 2026",
+     "The Bloomberg of Loans"
+    ],
+    [
+     "Last Accounting Company",
+     "Summer 2026",
+     "AI-native accounting firm."
+    ],
+    [
+     "Pacific",
+     "Summer 2026",
+     "Mass-producing and financing micro data center incredibly quickly."
+    ]
+   ],
+   "법무·컴플라이언스": [
+    [
+     "TovenAI",
+     "Summer 2026",
+     "AI agents for compliance at institutional trading firms"
+    ],
+    [
+     "Capto",
+     "Summer 2026",
+     "Helping startups win gov contracts"
+    ],
+    [
+     "Pennant",
+     "Summer 2026",
+     "The World Model for Corporate Governance"
+    ],
+    [
+     "Tarifflo Inc.",
+     "Summer 2026",
+     "Supply chain compliance and cost savings"
+    ],
+    [
+     "Shielded",
+     "Summer 2026",
+     "We help Fortune 500 companies hedge their supply chain risk"
+    ],
+    [
+     "Perceptron ML",
+     "Summer 2026",
+     "We make law firms AI-native."
+    ]
+   ],
+   "보안": [
+    [
+     "Conifer",
+     "Summer 2026",
+     "Least cost routing system to reduce 70%+ token spend"
+    ],
+    [
+     "Caution",
+     "Summer 2026",
+     "Hosting platform for software you can't afford to have hacked"
+    ],
+    [
+     "Verdict Machine",
+     "Summer 2026",
+     "AI cybersecurity for financial institutions' digital assets"
+    ],
+    [
+     "Palisade",
+     "Summer 2026",
+     "AI that finds and fixes OS-level vulnerabilities across device fleets"
+    ],
+    [
+     "Decawork",
+     "Summer 2026",
+     "Training company-specific models that approve AI actions."
+    ],
+    [
+     "Inkbox",
+     "Summer 2026",
+     "The identity and communication layer for AI agents"
+    ]
+   ],
+   "헬스케어": [
+    [
+     "Osseus",
+     "Summer 2026",
+     "The frontier data platform for aligned health and biological AI"
+    ],
+    [
+     "Allia Health",
+     "Summer 2026",
+     "AI-Native Medical Group for Mental Health"
+    ],
+    [
+     "Avoca Systems",
+     "Summer 2026",
+     "The AI operating system for radiology networks"
+    ],
+    [
+     "Hubble",
+     "Summer 2026",
+     "AI-native retrieval engine for medical records"
+    ],
+    [
+     "Care GP",
+     "Summer 2026",
+     "AI agents to run primary healthcare operations"
+    ],
+    [
+     "Radley",
+     "Summer 2026",
+     "The AI-native radiology practice"
+    ]
+   ],
+   "채용·HR": [
+    [
+     "Pluto",
+     "Summer 2026",
+     "LinkedIn for agents"
+    ],
+    [
+     "Bernard",
+     "Summer 2026",
+     "AI employees that run home appliance repair companies"
+    ],
+    [
+     "Kebra",
+     "Summer 2026",
+     "AI For The Skilled Workforce"
+    ],
+    [
+     "Litmus",
+     "Summer 2026",
+     "Evals for humans"
+    ],
+    [
+     "Tsenta",
+     "Summer 2026",
+     "AI career agent that finds matching jobs & applies on your behalf"
+    ],
+    [
+     "Prescience, Inc.",
+     "Summer 2026",
+     "Superintelligent health insurance that keeps employees healthy"
+    ]
+   ],
+   "문서·생산성": [
+    [
+     "OpenTag",
+     "Summer 2026",
+     "Model Agnostic AI coworker in Slack"
+    ],
+    [
+     "Billow AI Labs",
+     "Summer 2026",
+     "AI-native Accounting Firm that's killing Deloitte"
+    ],
+    [
+     "Nex",
+     "Summer 2026",
+     "AI for high volume GTM Engineering"
+    ],
+    [
+     "OneCLI",
+     "Summer 2026",
+     "The open source AI teammates for your company."
+    ],
+    [
+     "Capto",
+     "Summer 2026",
+     "Helping startups win gov contracts"
+    ],
+    [
+     "Vestris",
+     "Summer 2026",
+     "AI native platform for real estate closings"
+    ]
+   ],
+   "브라우저·확장": [
+    [
+     "Tilion",
+     "Fall 2026",
+     "Super fast, unblockable browser infra for agents"
+    ]
+   ],
+   "데이터·분석": [
+    [
+     "CoArena",
+     "Summer 2026",
+     "The biggest crowdsourced benchmark for Computer-Use"
+    ],
+    [
+     "Magma",
+     "Summer 2026",
+     "Monetize your agent's traces."
+    ],
+    [
+     "Atomarine",
+     "Summer 2026",
+     "Floating nuclear powered data centers at sea."
+    ],
+    [
+     "Osseus",
+     "Summer 2026",
+     "The frontier data platform for aligned health and biological AI"
+    ],
+    [
+     "CueBench",
+     "Summer 2026",
+     "RL post-training for science reasoning and performance engineering"
+    ],
+    [
+     "Petrarch",
+     "Summer 2026",
+     "Internal industrial company data for frontier labs"
+    ]
+   ],
+   "로봇·하드웨어": [
+    [
+     "hardware intelligence",
+     "Summer 2026",
+     "AI tools for the chips your AI runs on"
+    ],
+    [
+     "Salem Robotics Inc",
+     "Summer 2026",
+     "Deploying robots to replace workers in hazardous spaces"
+    ],
+    [
+     "Robocurve",
+     "Summer 2026",
+     "Evals for robots"
+    ],
+    [
+     "Dawn Industries",
+     "Summer 2026",
+     "Automatic Diagnosis & Fix for Industrial Automation Cells"
+    ],
+    [
+     "Vernius Systems, Inc.",
+     "Summer 2026",
+     "Mass-deployable radars for air defense"
+    ],
+    [
+     "Ethos Space Resources",
+     "Summer 2026",
+     "We make silicon on the Moon, to power everything in space."
+    ]
+   ],
+   "교육": [
+    [
+     "Experiential Labs",
+     "Summer 2026",
+     "Open source AI gateway that turns your traffic into better models"
+    ],
+    [
+     "Edviro",
+     "Summer 2026",
+     "AI That Operates Energy Infrastructure"
+    ],
+    [
+     "CoArena",
+     "Summer 2026",
+     "The biggest crowdsourced benchmark for Computer-Use"
+    ],
+    [
+     "Magma",
+     "Summer 2026",
+     "Monetize your agent's traces."
+    ],
+    [
+     "Autoresearch, Inc.",
+     "Summer 2026",
+     "Autoresearch as a service: we solve your hardest measurable problems"
+    ],
+    [
+     "CueBench",
+     "Summer 2026",
+     "RL post-training for science reasoning and performance engineering"
+    ]
+   ],
+   "커머스·리테일": [
+    [
+     "Waybill",
+     "Summer 2026",
+     "Agentic procurement & inventory for deep tech teams."
+    ],
+    [
+     "TryNearby",
+     "Summer 2026",
+     "Local creators for local businesses"
+    ],
+    [
+     "Marble",
+     "Summer 2026",
+     "The autonomous back-of-house for restaurants."
+    ],
+    [
+     "Palisade",
+     "Summer 2026",
+     "AI-native sales agents that run marketplaces"
+    ],
+    [
+     "Pango",
+     "Summer 2026",
+     "Agentic OS for e-commerce operations"
+    ],
+    [
+     "Theseus Robotics",
+     "Fall 2026",
+     "Humanoids to restock retail shelves & pick orders"
+    ]
+   ],
+   "부동산·건설": [
+    [
+     "SubVysion",
+     "Summer 2026",
+     "Autonomous rovers to make the ‘Google Maps’ of underground utilities"
+    ],
+    [
+     "Cosmic Robotics",
+     "Summer 2026",
+     "Autonomous construction on Earth and beyond"
+    ],
+    [
+     "Marengo",
+     "Summer 2026",
+     "AI-Native Engineering Firm designing Data Centers "
+    ],
+    [
+     "Vestris",
+     "Summer 2026",
+     "AI native platform for real estate closings"
+    ],
+    [
+     "FlowManual",
+     "Summer 2026",
+     "AI for Construction's Back Office"
+    ],
+    [
+     "Alloovium",
+     "Summer 2026",
+     "The company brain for construction companies"
+    ]
+   ],
+   "보험": [
+    [
+     "Florin",
+     "Summer 2026",
+     "Florin is an AI-native insurance company that runs autonomously"
+    ],
+    [
+     "PRINCEPS",
+     "Summer 2026",
+     "AI-native insurance company for the compute economy"
+    ],
+    [
+     "Denta",
+     "Summer 2026",
+     "Fortune 500 Dental Benefits for Startups"
+    ],
+    [
+     "Risklytics",
+     "Summer 2026",
+     "AI-Native Insurance for Frontier Tech"
+    ],
+    [
+     "Qlo",
+     "Summer 2026",
+     "Legora for commercial insurance carriers"
+    ],
+    [
+     "Insurf",
+     "Summer 2026",
+     "The AI-Native Decision Layer for Health Insurance"
+    ]
+   ],
+   "콘텐츠·디자인·영상": [
+    [
+     "CoArena",
+     "Summer 2026",
+     "The biggest crowdsourced benchmark for Computer-Use"
+    ],
+    [
+     "hardware intelligence",
+     "Summer 2026",
+     "AI tools for the chips your AI runs on"
+    ],
+    [
+     "OpenRelay",
+     "Summer 2026",
+     "Distributed, hardware-agnostic AI inference"
+    ],
+    [
+     "HyperProbe",
+     "Summer 2026",
+     "AI engineer that debugs and fixes production incidents in realtime"
+    ],
+    [
+     "Marengo",
+     "Summer 2026",
+     "AI-Native Engineering Firm designing Data Centers "
+    ],
+    [
+     "TryNearby",
+     "Summer 2026",
+     "Local creators for local businesses"
+    ]
+   ],
+   "물류·공급망": [
+    [
+     "SpaceFlow Technologies, Inc.",
+     "Summer 2026",
+     "AI-native procurement services for the physical economy"
+    ],
+    [
+     "Derya",
+     "Summer 2026",
+     "AI Brokers for Industrial Trade"
+    ],
+    [
+     "Waybill",
+     "Summer 2026",
+     "Agentic procurement & inventory for deep tech teams."
+    ],
+    [
+     "Ekho Labs",
+     "Summer 2026",
+     "World Model for Freight"
+    ],
+    [
+     "Whitespace",
+     "Summer 2026",
+     "AI Operating System for Wholesale Distribution"
+    ],
+    [
+     "Peer",
+     "Summer 2026",
+     "AI-native freight brokerage"
+    ]
+   ]
+  }
+ },
+ "ph": {
+  "n": 346,
+  "recent60": 251,
+  "cat_share": [
+   {
+    "분야": "AI 에이전트",
+    "전체": 17.1,
+    "최근60일": 17.5,
+    "최근60일 개수": 44
+   },
+   {
+    "분야": "콘텐츠·디자인·영상",
+    "전체": 12.7,
+    "최근60일": 15.1,
+    "최근60일 개수": 38
+   },
+   {
+    "분야": "개발도구·코딩",
+    "전체": 9.0,
+    "최근60일": 10.4,
+    "최근60일 개수": 26
+   },
+   {
+    "분야": "영업·마케팅",
+    "전체": 10.1,
+    "최근60일": 9.6,
+    "최근60일 개수": 24
+   },
+   {
+    "분야": "문서·생산성",
+    "전체": 8.1,
+    "최근60일": 8.4,
+    "최근60일 개수": 21
+   },
+   {
+    "분야": "브라우저·확장",
+    "전체": 6.1,
+    "최근60일": 6.8,
+    "최근60일 개수": 17
+   },
+   {
+    "분야": "음성·전화",
+    "전체": 6.6,
+    "최근60일": 6.8,
+    "최근60일 개수": 17
+   },
+   {
+    "분야": "MCP·LLM 인프라",
+    "전체": 3.8,
+    "최근60일": 4.4,
+    "최근60일 개수": 11
+   },
+   {
+    "분야": "커머스·리테일",
+    "전체": 1.2,
+    "최근60일": 1.6,
+    "최근60일 개수": 4
+   },
+   {
+    "분야": "법무·컴플라이언스",
+    "전체": 1.7,
+    "최근60일": 1.6,
+    "최근60일 개수": 4
+   },
+   {
+    "분야": "데이터·분석",
+    "전체": 3.2,
+    "최근60일": 1.6,
+    "최근60일 개수": 4
+   },
+   {
+    "분야": "로봇·하드웨어",
+    "전체": 0.6,
+    "최근60일": 0.8,
+    "최근60일 개수": 2
+   },
+   {
+    "분야": "채용·HR",
+    "전체": 0.3,
+    "최근60일": 0.4,
+    "최근60일 개수": 1
+   },
+   {
+    "분야": "헬스케어",
+    "전체": 0.3,
+    "최근60일": 0.4,
+    "최근60일 개수": 1
+   },
+   {
+    "분야": "고객지원",
+    "전체": 0.3,
+    "최근60일": 0.4,
+    "최근60일 개수": 1
+   },
+   {
+    "분야": "보안",
+    "전체": 0.3,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   },
+   {
+    "분야": "교육",
+    "전체": 0.0,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   },
+   {
+    "분야": "재무·회계",
+    "전체": 5.2,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   },
+   {
+    "분야": "부동산·건설",
+    "전체": 0.3,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   },
+   {
+    "분야": "보험",
+    "전체": 0.0,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   },
+   {
+    "분야": "물류·공급망",
+    "전체": 0.0,
+    "최근60일": 0.0,
+    "최근60일 개수": 0
+   }
+  ],
+  "chrome_ext_recent": [
+   [
+    "Toolaby",
+    "Get paid for your Chrome extension, in two lines of code",
+    "2026-09-30T17:37:33-07:00"
+   ],
+   [
+    "Rank Kiwi",
+    "Find top-performing content on Instagram & YouTube",
+    "2026-10-05T11:36:36-07:00"
+   ],
+   [
+    "History Monk",
+    "Fast History Search, Export & Bulk Delete",
+    "2026-10-09T10:05:55-07:00"
+   ],
+   [
+    "Skreno",
+    "Record, edit and share videos, all in your browser",
+    "2026-09-29T00:15:58-07:00"
+   ],
+   [
+    "Customer Service AI for Etsy",
+    "Answer Etsy buyer messages in seconds, always professional",
+    "2026-10-05T14:26:37-07:00"
+   ],
+   [
+    "MeetNote",
+    "AI meeting notes for Google Meet, no bot joins your call",
+    "2026-10-02T10:43:51-07:00"
+   ],
+   [
+    "Reassign",
+    "Your day, shaped into a story. The planner for makers",
+    "2026-10-02T15:49:04-07:00"
+   ],
+   [
+    "Open Inspector",
+    "Hover any website, get its design system. Open-source. Free.",
+    "2026-10-01T06:30:35-07:00"
+   ],
+   [
+    "GitSync",
+    "Sync branches between GitHub repos, right from Chrome",
+    "2026-10-01T14:29:07-07:00"
+   ],
+   [
+    "Otter Vault",
+    "Catch API keys the moment they appear, encrypted locally",
+    "2026-09-28T23:52:39-07:00"
+   ],
+   [
+    "Lisen",
+    "Free Read Aloud with Cartesia Voices",
+    "2026-09-22T23:59:19-07:00"
+   ],
+   [
+    "AgreeGuard",
+    "AI reads the fine print before you click \"I Agree\"",
+    "2026-09-22T13:11:59-07:00"
+   ],
+   [
+    "Flicka",
+    "Launch-ready product demos, from a Chrome extension",
+    "2026-09-20T01:57:52-07:00"
+   ],
+   [
+    "Lumiko",
+    "Screen recordings that edit themselves with Auto Zoom-Pan",
+    "2026-09-14T00:08:16-07:00"
+   ],
+   [
+    "moli",
+    "40MB Web Browser in CLI",
+    "2026-09-13T05:32:44-07:00"
+   ]
+  ]
+ },
+ "gh": {
+  "n_rows": 49,
+  "n_repos": 42,
+  "since_counts": {
+   "monthly": 23,
+   "daily": 13,
+   "weekly": 13
+  },
+  "cat": {
+   "AI 에이전트": 21,
+   "MCP·LLM 인프라": 13,
+   "개발도구·코딩": 13,
+   "음성·전화": 2,
+   "영업·마케팅": 0,
+   "고객지원": 0,
+   "재무·회계": 1,
+   "법무·컴플라이언스": 0,
+   "보안": 3,
+   "헬스케어": 1,
+   "채용·HR": 0,
+   "문서·생산성": 7,
+   "브라우저·확장": 2,
+   "데이터·분석": 6,
+   "로봇·하드웨어": 4,
+   "교육": 4,
+   "커머스·리테일": 0,
+   "부동산·건설": 0,
+   "보험": 0,
+   "콘텐츠·디자인·영상": 5,
+   "물류·공급망": 0
+  },
+  "kw": {
+   "AI agent": 21,
+   "MCP": 5,
+   "Claude/Claude Code": 11,
+   "skills/plugins": 15,
+   "LLM/모델": 9,
+   "브라우저/웹 자동화": 2
+  },
+  "topics": {
+   "claude-code": 8,
+   "agent-skills": 6,
+   "ai-agents": 6,
+   "ai": 6,
+   "llm": 5,
+   "mcp": 5,
+   "agent": 4,
+   "codex": 4,
+   "claude": 4,
+   "developer-tools": 3,
+   "ai-agent": 3,
+   "deep-learning": 3,
+   "machine-learning": 3,
+   "python": 3,
+   "dsh-plugin": 3,
+   "long-term-memory": 2,
+   "codex-cli": 2,
+   "skills": 2,
+   "macos": 2,
+   "agentic-ai": 2,
+   "mobile": 2,
+   "web": 2,
+   "windows": 2,
+   "claude-code-plugin": 2,
+   "local-first": 2
+  },
+  "lang": {
+   "TypeScript": 12,
+   "Python": 9,
+   "JavaScript": 5,
+   "Rust": 4,
+   "Go": 3,
+   "C++": 2,
+   "C": 2,
+   "HTML": 1
+  },
+  "top": [
+   [
+    "debpalash/VoiceStudio",
+    "monthly",
+    "34560",
+    "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+   ],
+   [
+    "bilawalsidhu/gods-eye-view",
+    "monthly",
+    "29212",
+    "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+   ],
+   [
+    "DietrichGebert/ponytail",
+    "monthly",
+    "27290",
+    "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+   ],
+   [
+    "morluto/rea",
+    "daily",
+    "25784",
+    "Reverse engineer anything with agents, from app behavior down to native binaries."
+   ],
+   [
+    "vectorize-io/hindsight",
+    "monthly",
+    "24617",
+    "Hindsight: Agent Memory That Learns"
+   ],
+   [
+    "alibaba/open-code-review",
+    "monthly",
+    "23028",
+    "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+   ],
+   [
+    "affaan-m/ECC",
+    "monthly",
+    "22710",
+    "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+   ],
+   [
+    "paperclipai/paperclip",
+    "monthly",
+    "19137",
+    "The open-source app everyone uses to manage agents at work"
+   ],
+   [
+    "boykopovar/AnyPS5",
+    "weekly",
+    "15539",
+    "Tool for automatic PS5 executables porting to Linux and Windows"
+   ],
+   [
+    "JustVugg/colibri",
+    "monthly",
+    "13755",
+    "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
+   ],
+   [
+    "heygen-com/hyperframes",
+    "monthly",
+    "11576",
+    "Write HTML. Render video. Built for agents."
+   ],
+   [
+    "addyosmani/agent-skills",
+    "monthly",
+    "11155",
+    "Production-grade engineering skills for AI coding agents."
+   ]
+  ]
+ },
+ "demand": {
+  "hn_ask_n": 14734,
+  "hn_ask_period": [
+   "2025-10-10",
+   "2026-10-10"
+  ],
+  "hn_req_n": 931,
+  "hn_strict_n": 78,
+  "reddit_n": 1322,
+  "reddit_req_n": 111,
+  "reddit_period": [
+   "2026-09-10",
+   "2026-10-10"
+  ],
+  "monthly": [
+   {
+    "month": "2025-10",
+    "ask": 736,
+    "req": 52,
+    "req_pct": 7.1
+   },
+   {
+    "month": "2025-11",
+    "ask": 1092,
+    "req": 55,
+    "req_pct": 5.0
+   },
+   {
+    "month": "2025-12",
+    "ask": 1386,
+    "req": 119,
+    "req_pct": 8.6
+   },
+   {
+    "month": "2026-01",
+    "ask": 1605,
+    "req": 105,
+    "req_pct": 6.5
+   },
+   {
+    "month": "2026-02",
+    "ask": 1468,
+    "req": 94,
+    "req_pct": 6.4
+   },
+   {
+    "month": "2026-03",
+    "ask": 1618,
+    "req": 114,
+    "req_pct": 7.0
+   },
+   {
+    "month": "2026-04",
+    "ask": 1226,
+    "req": 72,
+    "req_pct": 5.9
+   },
+   {
+    "month": "2026-05",
+    "ask": 1018,
+    "req": 66,
+    "req_pct": 6.5
+   },
+   {
+    "month": "2026-06",
+    "ask": 1146,
+    "req": 58,
+    "req_pct": 5.1
+   },
+   {
+    "month": "2026-07",
+    "ask": 1067,
+    "req": 60,
+    "req_pct": 5.6
+   },
+   {
+    "month": "2026-08",
+    "ask": 1009,
+    "req": 64,
+    "req_pct": 6.3
+   },
+   {
+    "month": "2026-09",
+    "ask": 1086,
+    "req": 63,
+    "req_pct": 5.8
+   },
+   {
+    "month": "2026-10",
+    "ask": 277,
+    "req": 9,
+    "req_pct": 3.2
+   }
+  ],
+  "pain": [
+   {
+    "index": "도구 찾기",
+    "HN": 337,
+    "Reddit": 31,
+    "합계": 368
+   },
+   {
+    "index": "품질·버그 불만",
+    "HN": 216,
+    "Reddit": 28,
+    "합계": 244
+   },
+   {
+    "index": "반복 수작업",
+    "HN": 176,
+    "Reddit": 39,
+    "합계": 215
+   },
+   {
+    "index": "대안 찾기",
+    "HN": 131,
+    "Reddit": 8,
+    "합계": 139
+   },
+   {
+    "index": "연동·내보내기",
+    "HN": 78,
+    "Reddit": 12,
+    "합계": 90
+   },
+   {
+    "index": "가격·구독 부담",
+    "HN": 59,
+    "Reddit": 9,
+    "합계": 68
+   },
+   {
+    "index": "개인정보·보안",
+    "HN": 56,
+    "Reddit": 4,
+    "합계": 60
+   },
+   {
+    "index": "정보 과부하·정리",
+    "HN": 48,
+    "Reddit": 7,
+    "합계": 55
+   },
+   {
+    "index": "집중·시간관리",
+    "HN": 42,
+    "Reddit": 11,
+    "합계": 53
+   },
+   {
+    "index": "고객·매출 확보",
+    "HN": 26,
+    "Reddit": 8,
+    "합계": 34
+   }
+  ],
+  "obj": [
+   {
+    "index": "AI 사용(ChatGPT·Claude 등)",
+    "HN": 335,
+    "Reddit": 11,
+    "합계": 346
+   },
+   {
+    "index": "PDF·문서",
+    "HN": 80,
+    "Reddit": 17,
+    "합계": 97
+   },
+   {
+    "index": "SNS·콘텐츠 발행",
+    "HN": 60,
+    "Reddit": 7,
+    "합계": 67
+   },
+   {
+    "index": "이메일·받은편지함",
+    "HN": 55,
+    "Reddit": 10,
+    "합계": 65
+   },
+   {
+    "index": "탭·북마크·브라우저",
+    "HN": 36,
+    "Reddit": 19,
+    "합계": 55
+   },
+   {
+    "index": "회의·노트",
+    "HN": 48,
+    "Reddit": 4,
+    "합계": 52
+   },
+   {
+    "index": "엑셀·스프레드시트",
+    "HN": 17,
+    "Reddit": 25,
+    "합계": 42
+   },
+   {
+    "index": "비밀번호·보안·개인정보",
+    "HN": 39,
+    "Reddit": 2,
+    "합계": 41
+   },
+   {
+    "index": "인보이스·결제·회계",
+    "HN": 35,
+    "Reddit": 5,
+    "합계": 40
+   },
+   {
+    "index": "고객지원·리뷰",
+    "HN": 32,
+    "Reddit": 4,
+    "합계": 36
+   },
+   {
+    "index": "CRM·리드·영업",
+    "HN": 20,
+    "Reddit": 4,
+    "합계": 24
+   },
+   {
+    "index": "구직·채용",
+    "HN": 20,
+    "Reddit": 2,
+    "합계": 22
+   },
+   {
+    "index": "일정·예약",
+    "HN": 6,
+    "Reddit": 4,
+    "합계": 10
+   },
+   {
+    "index": "웹 스크래핑·데이터 수집",
+    "HN": 6,
+    "Reddit": 0,
+    "합계": 6
+   }
+  ],
+  "subs": [
+   {
+    "sub": "Entrepreneur",
+    "posts": 107,
+    "req": 4,
+    "oldest": "2026-09-11",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "SaaS",
+    "posts": 193,
+    "req": 9,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "automation",
+    "posts": 142,
+    "req": 13,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-09"
+   },
+   {
+    "sub": "chrome_extensions",
+    "posts": 192,
+    "req": 16,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "excel",
+    "posts": 165,
+    "req": 26,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "nocode",
+    "posts": 158,
+    "req": 17,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "productivity",
+    "posts": 172,
+    "req": 19,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   },
+   {
+    "sub": "smallbusiness",
+    "posts": 193,
+    "req": 7,
+    "oldest": "2026-09-10",
+    "newest": "2026-10-10"
+   }
+  ],
+  "top_hn_strict": [
+   [
+    "2026-08-17",
+    "Ask HN: Alternatives to GitHub",
+    "437",
+    "https://news.ycombinator.com/item?id=49331033"
+   ],
+   [
+    "2026-08-03",
+    "Ask HN: What are the viable alternatives to DuckDuckGo?",
+    "94",
+    "https://news.ycombinator.com/item?id=49155492"
+   ],
+   [
+    "2026-05-20",
+    "Alternatives to HN for \"tech outside of AI\" discussion?",
+    "38",
+    "https://news.ycombinator.com/item?id=48202486"
+   ],
+   [
+    "2026-07-23",
+    "Ask HN: Is there a website that tracks excessive writes to SSDs in OS/app betas?",
+    "30",
+    "https://news.ycombinator.com/item?id=49022990"
+   ],
+   [
+    "2026-08-15",
+    "Alternative to Internet Archive",
+    "23",
+    "https://news.ycombinator.com/item?id=49309061"
+   ],
+   [
+    "2026-01-27",
+    "Ask HN: European alternative to Vercel/Cloudflare for hosting",
+    "20",
+    "https://news.ycombinator.com/item?id=46781700"
+   ],
+   [
+    "2026-08-28",
+    "Ask HN: Any true alternatives to electron JavaScript?",
+    "16",
+    "https://news.ycombinator.com/item?id=49478014"
+   ],
+   [
+    "2026-06-18",
+    "Ask HN: Is there a way to stop the animated Google Doodles?",
+    "14",
+    "https://news.ycombinator.com/item?id=48587539"
+   ],
+   [
+    "2026-09-18",
+    "Ask HN: Alternatives to Twitter/X?",
+    "13",
+    "https://news.ycombinator.com/item?id=49752806"
+   ],
+   [
+    "2026-04-06",
+    "Ask HN: Alternatives to Claude (Code)?",
+    "13",
+    "https://news.ycombinator.com/item?id=47666811"
+   ],
+   [
+    "2026-05-10",
+    "Best AI coding plan alternative to Claude and ChatGPT",
+    "13",
+    "https://news.ycombinator.com/item?id=48081266"
+   ],
+   [
+    "2025-10-11",
+    "Ask HN: What's the best alternative to Dragon NaturallySpeaking?",
+    "11",
+    "https://news.ycombinator.com/item?id=45552836"
+   ],
+   [
+    "2025-11-03",
+    "Ask HN: How long until solid decentralized alternative to Instagram?",
+    "10",
+    "https://news.ycombinator.com/item?id=45796787"
+   ],
+   [
+    "2026-05-01",
+    "SlothDB a 5X Faster Alternative to DuckDB, ClickHouse DB",
+    "10",
+    "https://news.ycombinator.com/item?id=47971921"
+   ],
+   [
+    "2026-08-28",
+    "Ask HN: Alternatives to Fail2ban?",
+    "10",
+    "https://news.ycombinator.com/item?id=49477766"
+   ],
+   [
+    "2026-05-03",
+    "Ask HN: Alternatives to VSCode?",
+    "9",
+    "https://news.ycombinator.com/item?id=47995837"
+   ],
+   [
+    "2026-08-24",
+    "Ask HN: Is there any way to use workflow to control Harness?",
+    "9",
+    "https://news.ycombinator.com/item?id=49421355"
+   ],
+   [
+    "2025-12-01",
+    "Ask HN: What alternatives to Docker Desktop are people using?",
+    "9",
+    "https://news.ycombinator.com/item?id=46115185"
+   ],
+   [
+    "2026-01-26",
+    "Ask HN: Is there a good open-source alternative to Adobe Acrobat?",
+    "9",
+    "https://news.ycombinator.com/item?id=46764607"
+   ],
+   [
+    "2026-09-01",
+    "Ask HN: Alternative to Proton Mail?",
+    "8",
+    "https://news.ycombinator.com/item?id=49523682"
+   ]
+  ],
+  "top_reddit_req": [
+   [
+    "SaaS",
+    "2026-10-10",
+    "I got tired of paying subscriptions just to record product demos for my SaaS, so I built my own Mac screen recorder",
+    "https://www.reddit.com/r/SaaS/comments/1x24egt/i_got_tired_of_paying_subscriptions_just_to/"
+   ],
+   [
+    "SaaS",
+    "2026-10-09",
+    "How to personalize live demos without rebuilding demo data every time?",
+    "https://www.reddit.com/r/SaaS/comments/1x1u7fp/how_to_personalize_live_demos_without_rebuilding/"
+   ],
+   [
+    "SaaS",
+    "2026-10-09",
+    "Tired of managing one project at a time?",
+    "https://www.reddit.com/r/SaaS/comments/1x1t8mo/tired_of_managing_one_project_at_a_time/"
+   ],
+   [
+    "SaaS",
+    "2026-10-09",
+    "We’re entering the “fuck it, I’ll build it myself” era of SaaS",
+    "https://www.reddit.com/r/SaaS/comments/1x1lewn/were_entering_the_fuck_it_ill_build_it_myself_era/"
+   ],
+   [
+    "SaaS",
+    "2026-10-09",
+    "Turn any app/website into an API",
+    "https://www.reddit.com/r/SaaS/comments/1x1epul/turn_any_appwebsite_into_an_api/"
+   ],
+   [
+    "SaaS",
+    "2026-10-09",
+    "How to growth a Startup",
+    "https://www.reddit.com/r/SaaS/comments/1x1905t/how_to_growth_a_startup/"
+   ],
+   [
+    "SaaS",
+    "2026-09-11",
+    "ban all “drop your product below” and similar posts",
+    "https://www.reddit.com/r/SaaS/comments/1wdpi9d/ban_all_drop_your_product_below_and_similar_posts/"
+   ],
+   [
+    "SaaS",
+    "2026-09-10",
+    "Tired of building non-profitable Saas",
+    "https://www.reddit.com/r/SaaS/comments/1wct79p/tired_of_building_nonprofitable_saas/"
+   ],
+   [
+    "SaaS",
+    "2026-09-16",
+    "Guys here is how i got my first paying customer even before promoting it anywhere else",
+    "https://www.reddit.com/r/SaaS/comments/1wi7lim/guys_here_is_how_i_got_my_first_paying_customer/"
+   ],
+   [
+    "Entrepreneur",
+    "2026-09-18",
+    "People who run more than one business, how do you handle the selling part",
+    "https://www.reddit.com/r/Entrepreneur/comments/1wk39i8/people_who_run_more_than_one_business_how_do_you/"
+   ],
+   [
+    "Entrepreneur",
+    "2026-09-15",
+    "Advice wanted: How can I market my home-maintenance service in front of more homeowners?",
+    "https://www.reddit.com/r/Entrepreneur/comments/1wh9tr7/advice_wanted_how_can_i_market_my_homemaintenance/"
+   ],
+   [
+    "Entrepreneur",
+    "2026-09-12",
+    "How do you manage an experienced employee who constantly tries to prove they know more than the manager?",
+    "https://www.reddit.com/r/Entrepreneur/comments/1wepztb/how_do_you_manage_an_experienced_employee_who/"
+   ],
+   [
+    "Entrepreneur",
+    "2026-09-11",
+    "How do you handle follow-ups when a prospect goes silent after you've done a lot of work for them?",
+    "https://www.reddit.com/r/Entrepreneur/comments/1wdliyd/how_do_you_handle_followups_when_a_prospect_goes/"
+   ],
+   [
+    "productivity",
+    "2026-10-09",
+    "Suggestions for a teacher schedule and tracking hours?",
+    "https://www.reddit.com/r/productivity/comments/1x1q1pu/suggestions_for_a_teacher_schedule_and_tracking/"
+   ],
+   [
+    "productivity",
+    "2026-10-09",
+    "How do you organize the different areas of your life?",
+    "https://www.reddit.com/r/productivity/comments/1x1al90/how_do_you_organize_the_different_areas_of_your/"
+   ],
+   [
+    "productivity",
+    "2026-10-08",
+    "Anyone else frustrated with how fragmented AI tools are for consulting work?",
+    "https://www.reddit.com/r/productivity/comments/1x0fldc/anyone_else_frustrated_with_how_fragmented_ai/"
+   ],
+   [
+    "productivity",
+    "2026-10-07",
+    "Cleaner Google Calendar + Google Tasks Alternative?",
+    "https://www.reddit.com/r/productivity/comments/1wzpsk4/cleaner_google_calendar_google_tasks_alternative/"
+   ],
+   [
+    "productivity",
+    "2026-10-05",
+    "How do you deal with the \"I'll just quickly check\" trap that eats half your day?",
+    "https://www.reddit.com/r/productivity/comments/1wyg4vc/how_do_you_deal_with_the_ill_just_quickly_check/"
+   ],
+   [
+    "productivity",
+    "2026-10-05",
+    "Chaos in my brain. Every day and I need help",
+    "https://www.reddit.com/r/productivity/comments/1wy6bzj/chaos_in_my_brain_every_day_and_i_need_help/"
+   ],
+   [
+    "productivity",
+    "2026-10-05",
+    "Searching for an e-book or PDF reader",
+    "https://www.reddit.com/r/productivity/comments/1wy2fgd/searching_for_an_ebook_or_pdf_reader/"
+   ],
+   [
+    "productivity",
+    "2026-10-03",
+    "Robust task management within Google ecosystem (or with Google integration)",
+    "https://www.reddit.com/r/productivity/comments/1wwvj3x/robust_task_management_within_google_ecosystem_or/"
+   ],
+   [
+    "productivity",
+    "2026-10-03",
+    "How do you handle occasions that always sneak up during your busiest weeks?",
+    "https://www.reddit.com/r/productivity/comments/1wwu61a/how_do_you_handle_occasions_that_always_sneak_up/"
+   ],
+   [
+    "productivity",
+    "2026-10-03",
+    "Does anyone else waste their best energy deciding what to work on?",
+    "https://www.reddit.com/r/productivity/comments/1wwmupg/does_anyone_else_waste_their_best_energy_deciding/"
+   ],
+   [
+    "productivity",
+    "2026-10-03",
+    "How do you organise your time?",
+    "https://www.reddit.com/r/productivity/comments/1wwatdv/how_do_you_organise_your_time/"
+   ],
+   [
+    "productivity",
+    "2026-10-01",
+    "Habit/fitness tracker widget for iPhone",
+    "https://www.reddit.com/r/productivity/comments/1wva0pc/habitfitness_tracker_widget_for_iphone/"
+   ],
+   [
+    "productivity",
+    "2026-10-01",
+    "I realized I don't retain information because I only read. But how do I generate questions based on video lessons in a specific niche?",
+    "https://www.reddit.com/r/productivity/comments/1wuw8s4/i_realized_i_dont_retain_information_because_i/"
+   ],
+   [
+    "productivity",
+    "2026-09-28",
+    "how do you manage to have a good work life balance?",
+    "https://www.reddit.com/r/productivity/comments/1wsj9v4/how_do_you_manage_to_have_a_good_work_life_balance/"
+   ],
+   [
+    "productivity",
+    "2026-09-11",
+    "How to have enough energy for personal growth after work?",
+    "https://www.reddit.com/r/productivity/comments/1wdlkl7/how_to_have_enough_energy_for_personal_growth/"
+   ],
+   [
+    "productivity",
+    "2026-09-27",
+    "How do you guys deal with information overload?",
+    "https://www.reddit.com/r/productivity/comments/1wrhlol/how_do_you_guys_deal_with_information_overload/"
+   ],
+   [
+    "productivity",
+    "2026-09-30",
+    "I’m tired of constantly procrastinating, falling behind, and starting over",
+    "https://www.reddit.com/r/productivity/comments/1wu49bc/im_tired_of_constantly_procrastinating_falling/"
+   ],
+   [
+    "productivity",
+    "2026-09-14",
+    "How can i improve my shitty ass memory",
+    "https://www.reddit.com/r/productivity/comments/1wg6ujm/how_can_i_improve_my_shitty_ass_memory/"
+   ],
+   [
+    "productivity",
+    "2026-09-28",
+    "Is there an app where people actually hold you accountable to be productive?",
+    "https://www.reddit.com/r/productivity/comments/1wsmymp/is_there_an_app_where_people_actually_hold_you/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-10",
+    "An easy, built-in way to ask users why they uninstall your Chrome extension (wish I knew this earlier)",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x2e5nt/an_easy_builtin_way_to_ask_users_why_they/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-10",
+    "Built an open-source extension to add native filter chips to GitHub PRs (MV3, zero telemetry)",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x2ddwc/built_an_opensource_extension_to_add_native/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-10",
+    "I build custom Chrome extensions to automate repetitive tasks — anyone need one?",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x2bj3h/i_build_custom_chrome_extensions_to_automate/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-10",
+    "I built a Chrome extension, CyberShield Vault, so your data stays 100% in your control instead of facing cloud breaches and heavy annual charges—features 1-click CSV import, zero-trust auto-lock, and offline encryption",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x2acfr/i_built_a_chrome_extension_cybershield_vault_so/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-10",
+    "VerifyGo — a quick-use tool",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x29ufs/verifygo_a_quickuse_tool/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-09",
+    "I got tired of losing every CSS change I make in DevTools, so I built a Chrome extension that keeps them",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x1s3id/i_got_tired_of_losing_every_css_change_i_make_in/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-09",
+    "I built a Chrome extension that makes your bookmarks feel like Safari’s Favourites",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x1r0ve/i_built_a_chrome_extension_that_makes_your/"
+   ],
+   [
+    "chrome_extensions",
+    "2026-10-09",
+    "Tired of doomscrolling: Built a lightweight extension that lets you set custom time limits on Shorts, Reels, and TikTok",
+    "https://www.reddit.com/r/chrome_extensions/comments/1x1ihkn/tired_of_doomscrolling_built_a_lightweight/"
+   ]
+  ],
+  "show_n": 1124,
+  "show_cat": [
+   {
+    "분야": "AI 에이전트",
+    "2026Q2": 20.4,
+    "2026Q3": 16.6,
+    "2026Q4": 21.1
+   },
+   {
+    "분야": "MCP·LLM 인프라",
+    "2026Q2": 10.1,
+    "2026Q3": 11.1,
+    "2026Q4": 5.3
+   },
+   {
+    "분야": "개발도구·코딩",
+    "2026Q2": 33.3,
+    "2026Q3": 26.1,
+    "2026Q4": 24.6
+   },
+   {
+    "분야": "음성·전화",
+    "2026Q2": 7.0,
+    "2026Q3": 7.4,
+    "2026Q4": 10.5
+   },
+   {
+    "분야": "영업·마케팅",
+    "2026Q2": 1.3,
+    "2026Q3": 1.5,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "고객지원",
+    "2026Q2": 0.2,
+    "2026Q3": 0.5,
+    "2026Q4": 0.0
+   },
+   {
+    "분야": "재무·회계",
+    "2026Q2": 1.1,
+    "2026Q3": 1.1,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "법무·컴플라이언스",
+    "2026Q2": 0.7,
+    "2026Q3": 1.5,
+    "2026Q4": 0.0
+   },
+   {
+    "분야": "보안",
+    "2026Q2": 2.0,
+    "2026Q3": 2.1,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "헬스케어",
+    "2026Q2": 1.5,
+    "2026Q3": 0.5,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "채용·HR",
+    "2026Q2": 0.7,
+    "2026Q3": 1.1,
+    "2026Q4": 0.0
+   },
+   {
+    "분야": "문서·생산성",
+    "2026Q2": 12.5,
+    "2026Q3": 10.3,
+    "2026Q4": 8.8
+   },
+   {
+    "분야": "브라우저·확장",
+    "2026Q2": 7.9,
+    "2026Q3": 7.9,
+    "2026Q4": 5.3
+   },
+   {
+    "분야": "데이터·분석",
+    "2026Q2": 9.2,
+    "2026Q3": 7.2,
+    "2026Q4": 8.8
+   },
+   {
+    "분야": "로봇·하드웨어",
+    "2026Q2": 0.9,
+    "2026Q3": 4.3,
+    "2026Q4": 0.0
+   },
+   {
+    "분야": "교육",
+    "2026Q2": 5.0,
+    "2026Q3": 4.3,
+    "2026Q4": 5.3
+   },
+   {
+    "분야": "커머스·리테일",
+    "2026Q2": 1.5,
+    "2026Q3": 0.8,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "부동산·건설",
+    "2026Q2": 0.0,
+    "2026Q3": 0.5,
+    "2026Q4": 0.0
+   },
+   {
+    "분야": "보험",
+    "2026Q2": 0.0,
+    "2026Q3": 0.2,
+    "2026Q4": 1.8
+   },
+   {
+    "분야": "콘텐츠·디자인·영상",
+    "2026Q2": 12.5,
+    "2026Q3": 11.8,
+    "2026Q4": 7.0
+   },
+   {
+    "분야": "물류·공급망",
+    "2026Q2": 1.1,
+    "2026Q3": 0.5,
+    "2026Q4": 0.0
+   }
+  ],
+  "show_top": [
+   [
+    "2026-07-19",
+    2935,
+    "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s"
+   ],
+   [
+    "2026-09-15",
+    2391,
+    "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations"
+   ],
+   [
+    "2026-07-31",
+    1680,
+    "Show HN: Elevators"
+   ],
+   [
+    "2026-06-11",
+    1481,
+    "Show HN: Homebrew 6.0.0"
+   ],
+   [
+    "2026-06-08",
+    1181,
+    "Show HN: Performative-UI – A react component library of design tropes"
+   ],
+   [
+    "2026-07-09",
+    1160,
+    "Show HN: 18 Words"
+   ],
+   [
+    "2026-07-22",
+    1033,
+    "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)"
+   ],
+   [
+    "2026-07-09",
+    937,
+    "Show HN: Getting GLM 5.2 running on my slow computer"
+   ],
+   [
+    "2026-07-29",
+    919,
+    "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac"
+   ],
+   [
+    "2026-09-23",
+    862,
+    "Show HN: Make cursed fonts like Times New Bastard"
+   ],
+   [
+    "2026-06-25",
+    822,
+    "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments"
+   ],
+   [
+    "2026-05-12",
+    776,
+    "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model"
+   ],
+   [
+    "2026-05-18",
+    730,
+    "Show HN: Files.md – Open-source alternative to Obsidian"
+   ],
+   [
+    "2026-10-07",
+    713,
+    "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app"
+   ],
+   [
+    "2026-06-14",
+    712,
+    "Show HN: Kage – Shadow any website to a single binary for offline viewing"
+   ]
+  ],
+  "ideas": [
+   {
+    "아이디어": "엑셀 수식·정리 도우미",
+    "HN요청글": 13,
+    "Reddit요청글": 24,
+    "요청글 댓글합": 33,
+    "PH유사(346중)": 1,
+    "ShowHN유사": 9,
+    "YC유사(24~26)": 8,
+    "난이도": "하",
+    "대표글": [
+     "Ask HN: How do you deal with large, hard-to-read Excel formulas?",
+     "Please recommend CRM for small hardware startup"
+    ],
+    "수요점수": 61.7
+   },
+   {
+    "아이디어": "이메일 후속조치·요약 비서",
+    "HN요청글": 17,
+    "Reddit요청글": 3,
+    "요청글 댓글합": 80,
+    "PH유사(346중)": 1,
+    "ShowHN유사": 7,
+    "YC유사(24~26)": 5,
+    "난이도": "중",
+    "대표글": [
+     "Ask HN: If OpenAI hacked HuggingFace, why aren't OpenAI prosecuted?",
+     "Ask HN: Yahoo deleted all my emails. Now what?"
+    ],
+    "수요점수": 24.6
+   },
+   {
+    "아이디어": "인보이스·영수증 자동 수집",
+    "HN요청글": 13,
+    "Reddit요청글": 4,
+    "요청글 댓글합": 94,
+    "PH유사(346중)": 4,
+    "ShowHN유사": 2,
+    "YC유사(24~26)": 2,
+    "난이도": "중",
+    "대표글": [
+     "Ask HN: How do you handle clients who don't pay on time?",
+     "AI hallucinate. Do you ever double check the output?"
+    ],
+    "수요점수": 22.9
+   },
+   {
+    "아이디어": "유튜브·회의·웨비나 요약 노트",
+    "HN요청글": 17,
+    "Reddit요청글": 2,
+    "요청글 댓글합": 75,
+    "PH유사(346중)": 4,
+    "ShowHN유사": 18,
+    "YC유사(24~26)": 2,
+    "난이도": "하",
+    "대표글": [
+     "Ask HN: How to boost Gemini transcription accuracy for company names?",
+     "How do you keep up with AI/crypto/markets without drowning in noise?"
+    ],
+    "수요점수": 22.5
+   },
+   {
+    "아이디어": "SNS·링크드인 게시/리드 수집",
+    "HN요청글": 16,
+    "Reddit요청글": 1,
+    "요청글 댓글합": 52,
+    "PH유사(346중)": 6,
+    "ShowHN유사": 3,
+    "YC유사(24~26)": 20,
+    "난이도": "중",
+    "대표글": [
+     "Tell HN: Tired of Generic Long Form A.I Posts",
+     "Ask HN: Where to find cool companies to work for?"
+    ],
+    "수요점수": 19.0
+   },
+   {
+    "아이디어": "집중·시간 기록(자동 타임시트)",
+    "HN요청글": 9,
+    "Reddit요청글": 3,
+    "요청글 댓글합": 190,
+    "PH유사(346중)": 5,
+    "ShowHN유사": 12,
+    "YC유사(24~26)": 6,
+    "난이도": "하",
+    "대표글": [
+     "Ask HN: ADHD – How do you manage the constant stream of thoughts and ideas?",
+     "Ask HN: Is there a way to stop the animated Google Doodles?"
+    ],
+    "수요점수": 18.8
+   },
+   {
+    "아이디어": "반복 웹 업무 녹화→자동 실행",
+    "HN요청글": 12,
+    "Reddit요청글": 3,
+    "요청글 댓글합": 5,
+    "PH유사(346중)": 1,
+    "ShowHN유사": 8,
+    "YC유사(24~26)": 9,
+    "난이도": "상",
+    "대표글": [
+     "Ask HN: Has AI affected negatively the job market for devs?",
+     "How I Streamlined My Development Workflow – A Game Changer for Productivity"
+    ],
+    "수요점수": 18.1
+   },
+   {
+    "아이디어": "구직 지원서 자동 맞춤",
+    "HN요청글": 10,
+    "Reddit요청글": 1,
+    "요청글 댓글합": 39,
+    "PH유사(346중)": 1,
+    "ShowHN유사": 4,
+    "YC유사(24~26)": 2,
+    "난이도": "중",
+    "대표글": [
+     "Ask HN: How do you reset an AppleID?",
+     "I built an API to stop manual data entry from invoices and resumes"
+    ],
+    "수요점수": 12.8
+   },
+   {
+    "아이디어": "민감정보 마스킹 후 AI 붙여넣기",
+    "HN요청글": 11,
+    "Reddit요청글": 0,
+    "요청글 댓글합": 86,
+    "PH유사(346중)": 0,
+    "ShowHN유사": 3,
+    "YC유사(24~26)": 2,
+    "난이도": "중",
+    "대표글": [
+     "Ask HN: Do you trust AI agents with API keys / private keys?",
+     "Ask HN: Is there a no-LLM license yet?"
+    ],
+    "수요점수": 12.7
+   },
+   {
+    "아이디어": "탭·북마크 AI 정리/다시찾기",
+    "HN요청글": 4,
+    "Reddit요청글": 2,
+    "요청글 댓글합": 43,
+    "PH유사(346중)": 7,
+    "ShowHN유사": 9,
+    "YC유사(24~26)": 0,
+    "난이도": "하",
+    "대표글": [
+     "Ask HN: How do you manage too many open tabs?",
+     "Ask HN: Is there a \"mouse\" for parallel work?"
+    ],
+    "수요점수": 8.9
+   },
+   {
+    "아이디어": "웹페이지 표·목록 → 시트 추출",
+    "HN요청글": 5,
+    "Reddit요청글": 0,
+    "요청글 댓글합": 10,
+    "PH유사(346중)": 1,
+    "ShowHN유사": 9,
+    "YC유사(24~26)": 0,
+    "난이도": "중",
+    "대표글": [
+     "I built an API to stop manual data entry from invoices and resumes",
+     "Ask HN: How do you track 2026 AI price wars? I built a tool to help"
+    ],
+    "수요점수": 5.2
+   },
+   {
+    "아이디어": "AI 대화·프롬프트 관리",
+    "HN요청글": 3,
+    "Reddit요청글": 0,
+    "요청글 댓글합": 7,
+    "PH유사(346중)": 0,
+    "ShowHN유사": 0,
+    "YC유사(24~26)": 1,
+    "난이도": "하",
+    "대표글": [
+     "Ask HN: How do you store your (LLM) prompts?",
+     "Ask HN: Codex conversations failing to converge across devices?"
+    ],
+    "수요점수": 3.1
+   },
+   {
+    "아이디어": "고객 리뷰·피드백 모아보기",
+    "HN요청글": 2,
+    "Reddit요청글": 0,
+    "요청글 댓글합": 0,
+    "PH유사(346중)": 3,
+    "ShowHN유사": 18,
+    "YC유사(24~26)": 8,
+    "난이도": "중",
+    "대표글": [
+     "Ask HN: Data analyst and software engineering? Is there a role like this?",
+     "Ask HN: How do you handle AI maintenance?"
+    ],
+    "수요점수": 2.0
+   },
+   {
+    "아이디어": "가격·페이지 변경 모니터링 알림",
+    "HN요청글": 1,
+    "Reddit요청글": 0,
+    "요청글 댓글합": 0,
+    "PH유사(346중)": 5,
+    "ShowHN유사": 9,
+    "YC유사(24~26)": 20,
+    "난이도": "하",
+    "대표글": [
+     "Feedback about a Visualping alternative using AI to monitor websites"
+    ],
+    "수요점수": 1.0
+   }
+  ]
+ },
+ "generated_at": "2026-10-10T21:48:28"
+}

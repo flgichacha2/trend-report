@@ -1,0 +1,287 @@
+{
+ "date": "2026-10-10",
+ "days": 2,
+ "prev_snapshot": null,
+ "status": {
+  "PH": "ok 348",
+  "HN": "ok ask 58 / show 249",
+  "Reddit": "ok 4/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429, nocode:HTTPError429)",
+  "GitHub": "ok 26",
+  "YC": {
+   "skipped": false,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 26,
+  "HN Ask": 58,
+  "PH": 348,
+  "Reddit": 312,
+  "Show HN": 249
+ },
+ "new_counts": {
+  "GitHub": 26,
+  "HN Ask": 58,
+  "PH": 220,
+  "Reddit": 312,
+  "Show HN": 249
+ },
+ "launch_cats": {
+  "개발도구·코딩": 98,
+  "AI 에이전트": 95,
+  "콘텐츠·디자인·영상": 65,
+  "문서·생산성": 56,
+  "MCP·LLM 인프라": 43,
+  "브라우저·확장": 32,
+  "음성·전화": 31,
+  "영업·마케팅": 28,
+  "데이터·분석": 23,
+  "법무·컴플라이언스": 9,
+  "교육": 8,
+  "커머스·리테일": 7,
+  "로봇·하드웨어": 5,
+  "헬스케어": 4,
+  "채용·HR": 4,
+  "재무·회계": 3,
+  "고객지원": 2,
+  "물류·공급망": 1
+ },
+ "launch_n": 495,
+ "req_n": 32,
+ "req_by_src": {
+  "HN Ask": 2,
+  "Reddit": 30
+ },
+ "pains": {
+  "반복 수작업": 13,
+  "품질·버그 불만": 10,
+  "도구 찾기": 8,
+  "연동·내보내기": 5,
+  "정보 과부하·정리": 4,
+  "가격·구독 부담": 4,
+  "고객·매출 확보": 2,
+  "대안 찾기": 2,
+  "집중·시간관리": 1
+ },
+ "objs": {
+  "탭·북마크·브라우저": 14,
+  "AI 사용(ChatGPT·Claude 등)": 9,
+  "SNS·콘텐츠 발행": 7,
+  "고객지원·리뷰": 5,
+  "PDF·문서": 5,
+  "이메일·받은편지함": 4,
+  "인보이스·결제·회계": 3,
+  "회의·노트": 2,
+  "CRM·리드·영업": 2,
+  "구직·채용": 2,
+  "엑셀·스프레드시트": 1
+ },
+ "ideas_req": {
+  "탭·북마크 AI 정리/다시찾기": 4,
+  "유튜브·회의·웨비나 요약 노트": 2,
+  "SNS·링크드인 게시/리드 수집": 2,
+  "반복 웹 업무 녹화→자동 실행": 2,
+  "인보이스·영수증 자동 수집": 2,
+  "엑셀 수식·정리 도우미": 1,
+  "이메일 후속조치·요약 비서": 1,
+  "집중·시간 기록(자동 타임시트)": 1,
+  "구직 지원서 자동 맞춤": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 17,
+  "집중·시간 기록(자동 타임시트)": 8,
+  "가격·페이지 변경 모니터링 알림": 7,
+  "SNS·링크드인 게시/리드 수집": 6,
+  "이메일 후속조치·요약 비서": 5,
+  "탭·북마크 AI 정리/다시찾기": 4,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "엑셀 수식·정리 도우미": 3,
+  "웹페이지 표·목록 → 시트 추출": 3,
+  "구직 지원서 자동 맞춤": 3,
+  "반복 웹 업무 녹화→자동 실행": 2,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "gh_new_repos": [
+  "morluto/rea",
+  "boykopovar/AnyPS5",
+  "storytold/artcraft",
+  "cathrynlavery/diagram-design",
+  "mksglu/context-mode",
+  "mattpocock/skills",
+  "flutter/flutter",
+  "tensorflow/tensorflow",
+  "hugohe3/ppt-master",
+  "pytorch/pytorch"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   25784,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "boykopovar/AnyPS5",
+   5831,
+   "Tool for automatic PS5 executables porting to Linux and Windows"
+  ],
+  [
+   "storytold/artcraft",
+   3217,
+   "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+  ],
+  [
+   "cathrynlavery/diagram-design",
+   1189,
+   "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+  ],
+  [
+   "mksglu/context-mode",
+   178,
+   "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  ]
+ ],
+ "ph_new": [
+  [
+   "Hypervibe",
+   "Run your AI coding agents on one infinite board"
+  ],
+  [
+   "Kitbar",
+   "Your dev tools, in one bar."
+  ],
+  [
+   "AgentDock",
+   "Answer Claude Code & Codex from one Inbox, in any terminal"
+  ],
+  [
+   "Toolaby",
+   "Get paid for your Chrome extension, in two lines of code"
+  ],
+  [
+   "Skreno",
+   "Record, edit and share videos, all in your browser"
+  ],
+  [
+   "History Monk",
+   "Fast History Search, Export & Bulk Delete"
+  ],
+  [
+   "put·here",
+   "A place to collect notes to organize them later"
+  ],
+  [
+   "Onepin",
+   "AI voiceover with every name, price and date said right"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   400
+  ],
+  [
+   "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+   344
+  ],
+  [
+   "Show HN: Quake ported to safe Rust, playable in browser",
+   230
+  ],
+  [
+   "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
+   219
+  ],
+  [
+   "Show HN: The rarest tech books and docs you've probably never read",
+   143
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: Any solution for bookmarks on various services?",
+   5
+  ],
+  [
+   "HN Ask",
+   "Does YC use AI agents to review your pitch?",
+   0
+  ],
+  [
+   "Reddit",
+   "What is the weirdest thing a bank asked you for when opening a business account?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "At what point do you stop work for a late client? Do you have a fixed day or do you decide each time?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "What are hidden cost and headaches to hiring your first employee?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "In this fast growing generation, what's the one task in your business you wish you could stop doing manually?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "What Customer Support Tasks Would You Most Like to Automate?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "Web Markups reached 83 installs—anyone here using it?",
+   "chrome_extensions"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}
