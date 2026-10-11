@@ -1,0 +1,26 @@
+{
+ "date": "20261011",
+ "finished_at": "2026-10-11T20:43:11",
+ "elapsed_sec": 43.3,
+ "api_rows": 1709,
+ "api_ok": [
+  "general_restaurants",
+  "rest_cafes",
+  "bakeries"
+ ],
+ "file_slugs": [
+  "karaoke_rooms",
+  "fitness_centers",
+  "pc_bangs",
+  "lodgings",
+  "beauty_salons",
+  "laundries",
+  "animal_hospitals",
+  "pet_grooming",
+  "animal_boarding",
+  "food_vending_machines",
+  "martial_arts_dojo"
+ ],
+ "prev_snapshot": "20261010",
+ "complete": true
+}

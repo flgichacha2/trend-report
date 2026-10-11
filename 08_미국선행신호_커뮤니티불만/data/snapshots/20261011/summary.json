@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-11",
+ "days": 2,
+ "prev_snapshot": "20261010",
+ "status": {
+  "PH": "ok 353",
+  "HN": "ok ask 55 / show 184",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 20",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 20,
+  "HN Ask": 55,
+  "PH": 353,
+  "Reddit": 322,
+  "Show HN": 184
+ },
+ "new_counts": {
+  "GitHub": 4,
+  "HN Ask": 30,
+  "PH": 26,
+  "Reddit": 285,
+  "Show HN": 80
+ },
+ "launch_cats": {
+  "개발도구·코딩": 28,
+  "AI 에이전트": 16,
+  "문서·생산성": 9,
+  "브라우저·확장": 8,
+  "MCP·LLM 인프라": 8,
+  "콘텐츠·디자인·영상": 7,
+  "음성·전화": 4,
+  "데이터·분석": 4,
+  "영업·마케팅": 3,
+  "보안": 3,
+  "로봇·하드웨어": 3,
+  "교육": 2,
+  "법무·컴플라이언스": 2,
+  "커머스·리테일": 2,
+  "채용·HR": 1,
+  "재무·회계": 1,
+  "헬스케어": 1
+ },
+ "launch_n": 110,
+ "req_n": 35,
+ "req_by_src": {
+  "HN Ask": 5,
+  "Reddit": 30
+ },
+ "pains": {
+  "반복 수작업": 14,
+  "품질·버그 불만": 8,
+  "고객·매출 확보": 7,
+  "도구 찾기": 7,
+  "가격·구독 부담": 4,
+  "정보 과부하·정리": 4,
+  "대안 찾기": 2,
+  "연동·내보내기": 2,
+  "개인정보·보안": 1,
+  "집중·시간관리": 1
+ },
+ "objs": {
+  "탭·북마크·브라우저": 12,
+  "SNS·콘텐츠 발행": 9,
+  "AI 사용(ChatGPT·Claude 등)": 8,
+  "이메일·받은편지함": 6,
+  "CRM·리드·영업": 5,
+  "PDF·문서": 4,
+  "고객지원·리뷰": 3,
+  "인보이스·결제·회계": 3,
+  "회의·노트": 2,
+  "일정·예약": 1
+ },
+ "ideas_req": {
+  "이메일 후속조치·요약 비서": 3,
+  "탭·북마크 AI 정리/다시찾기": 3,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "인보이스·영수증 자동 수집": 2,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "집중·시간 기록(자동 타임시트)": 1,
+  "반복 웹 업무 녹화→자동 실행": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 5,
+  "엑셀 수식·정리 도우미": 2,
+  "가격·페이지 변경 모니터링 알림": 2,
+  "웹페이지 표·목록 → 시트 추출": 2,
+  "구직 지원서 자동 맞춤": 1,
+  "인보이스·영수증 자동 수집": 1,
+  "집중·시간 기록(자동 타임시트)": 1,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "유튜브·회의·웨비나 요약 노트": 1,
+  "탭·북마크 AI 정리/다시찾기": 1
+ },
+ "gh_new_repos": [
+  "bilawalsidhu/gods-eye-view",
+  "lyogavin/airllm",
+  "chrislgarry/Apollo-11",
+  "danyuchn/asd-ste100-skill"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   25585,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "boykopovar/AnyPS5",
+   3977,
+   "Tool for automatic PS5 executables porting to Linux and Windows"
+  ],
+  [
+   "storytold/artcraft",
+   2956,
+   "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+  ],
+  [
+   "cathrynlavery/diagram-design",
+   1083,
+   "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+  ],
+  [
+   "bilawalsidhu/gods-eye-view",
+   872,
+   "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+  ]
+ ],
+ "ph_new": [
+  [
+   "DevTerminal",
+   "A macOS terminal with a Run button that knows your project"
+  ],
+  [
+   "kōdlo",
+   "End-to-end sales workspace with unified context"
+  ],
+  [
+   "Foley",
+   "A voice to-do list that files, plans and asks first"
+  ],
+  [
+   "Tori",
+   "Japanese listening practice built from your own sentences"
+  ],
+  [
+   "Gboard Kurukuru Version",
+   "Your fingers stay put. The keys come around"
+  ],
+  [
+   "OpenScreen 2",
+   "Record your demo and let your AI agent do the edits"
+  ],
+  [
+   "Automations in Perplexity Computer",
+   "Automations that remember, act, and keep work moving"
+  ],
+  [
+   "HireKey",
+   "Your recruiter-informed AI copilot for tech job search"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+   416
+  ],
+  [
+   "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+   253
+  ],
+  [
+   "Show HN: The rarest tech books and docs you've probably never read",
+   170
+  ],
+  [
+   "Show HN: A simple to-do app for iPhone, Mac, and your agent",
+   16
+  ],
+  [
+   "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
+   15
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "I am so tired of startups doing worse than me",
+   9
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Any solution for bookmarks on various services?",
+   5
+  ],
+  [
+   "HN Ask",
+   "Chatcasting, an Alternative to Podcasting",
+   2
+  ],
+  [
+   "HN Ask",
+   "In agentic programming how do you handle follow up task",
+   1
+  ],
+  [
+   "HN Ask",
+   "Does YC use AI agents to review your pitch?",
+   0
+  ],
+  [
+   "Reddit",
+   "Building My SaaS Solo ,130 Users in the Last 24 Hours and Growing",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "Where would a follow-up reminder actually get your attention? (WhatsApp, Telegram, email, other)",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "What is your go-to tool to make a promo video for SaaS for free?",
+   "SaaS"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}
