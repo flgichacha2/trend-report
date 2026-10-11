@@ -321,7 +321,9 @@ def main():
         ok = send_document(html_path, f"📎 {TODAY:%m/%d} 리포트 웹페이지 버전 (파일을 열면 브라우저에서 보여요)",
                            token, chat, a.dry_run) and ok
     if results or failed:
-        body = "\n\n".join([header] + results + (["⚠️ 확인 필요\n" + "\n".join(failed)] if failed else []))
+        # 메일 본문 = 텔레그램에 보낸 메시지 그대로(HTML 전용 항목 제외), 첨부 = 텔레그램 첨부 HTML
+        sent_msgs = [t for i, t in enumerate(results) if i not in html_only_nos]
+        body = "\n\n".join([header] + sent_msgs + (["⚠️ 확인 필요\n" + "\n".join(failed)] if failed else []))
         send_email(f"[트렌드 리포트] {TODAY:%Y-%m-%d} ({mode}{' · ' + a.label if a.label else ''})",
                    body + "\n\n※ 투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님", html_path, env, a.dry_run)
     try:
