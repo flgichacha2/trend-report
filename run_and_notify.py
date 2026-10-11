@@ -151,6 +151,42 @@ def build_html(results, failed, header, label):
             f'<nav>{"".join(nav)}</nav>{"".join(parts)}</div></body></html>')
 
 
+def build_email_html(results, failed, header):
+    """메일 본문용 HTML: 메일 앱(Gmail 등)은 CSS 변수·<style>을 제대로 못 쓰므로 스타일을 요소마다 직접 넣는다."""
+    import html as H
+    esc = H.escape
+    C = {"fg": "#16222b", "muted": "#5b6b76", "line": "#d9e1e6", "accent": "#0e6e6b", "soft": "#e2f1ef", "card": "#ffffff"}
+    out = []
+    for text in results:
+        lines = [l.rstrip() for l in text.splitlines() if l.strip()]
+        if not lines:
+            continue
+        out.append(f'<h2 style="font-size:18px;margin:28px 0 8px;padding-bottom:6px;border-bottom:2px solid {C["fg"]};color:{C["fg"]}">'
+                   f'{esc(lines[0].lstrip("📌 ").strip())}</h2>')
+        for l in lines[1:]:
+            head = next((k for k in SECTION_KEYS if l.startswith(k[0])), None)
+            if head:
+                todo = head[0] == "✅"
+                name = l[len(head[0]):].strip() or head[1]
+                out.append(f'<p style="margin:14px 0 4px;font-size:13px;font-weight:700;letter-spacing:.04em;'
+                           f'color:{C["accent"] if todo else C["muted"]}">{esc(head[0] + " " + name)}</p>')
+            elif l.startswith("※"):
+                out.append(f'<p style="margin:6px 0;font-size:12px;color:{C["muted"]}">{esc(l)}</p>')
+            else:
+                item = l.lstrip("•·-– ").strip()
+                out.append(f'<p style="margin:3px 0 3px 12px;font-size:14px;line-height:1.6;color:{C["fg"]}">• {esc(item)}</p>')
+    if failed:
+        out.append(f'<h2 style="font-size:16px;margin:28px 0 8px;color:{C["fg"]}">⚠️ 확인 필요</h2>'
+                   + "".join(f'<p style="margin:3px 0;font-size:14px">• {esc(f)}</p>' for f in failed))
+    h1, *sub = header.splitlines()
+    return (f'<div style="max-width:760px;margin:0 auto;padding:16px;font-family:\'Apple SD Gothic Neo\',\'Malgun Gothic\',sans-serif;'
+            f'color:{C["fg"]};background:{C["card"]}">'
+            f'<h1 style="font-size:22px;margin:0 0 6px">{esc(h1.lstrip("📊 "))}</h1>'
+            f'<p style="margin:0 0 8px;font-size:13px;color:{C["muted"]}">{esc(" ".join(sub))}</p>'
+            + "".join(out) +
+            f'<p style="margin:28px 0 0;font-size:12px;color:{C["muted"]}">투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님</p></div>')
+
+
 def send_document(path, caption, token, chat, dry):
     if dry:
         print(f"[HTML 미리보기] {path}")
@@ -169,7 +205,7 @@ def send_document(path, caption, token, chat, dry):
     return False
 
 
-def send_email(subject, body, attach_path, env, dry):
+def send_email(subject, body, attach_path, env, dry, html_body=None):
     """Gmail·네이버 SMTP로 같은 내용을 메일 발송(보내는 주소 도메인으로 서버 자동 선택, EMAIL_SMTP_HOST로 지정 가능). EMAIL_TO·EMAIL_SMTP_USER·EMAIL_APP_PASSWORD가 모두 있을 때만.
     실패해도 텔레그램 발송 결과에는 영향 없음(로그만)."""
     to, user, pw = (env.get(k, "").strip() for k in ("EMAIL_TO", "EMAIL_SMTP_USER", "EMAIL_APP_PASSWORD"))
@@ -183,7 +219,9 @@ def send_email(subject, body, attach_path, env, dry):
     msg = EmailMessage()
     msg["Subject"], msg["From"], msg["To"] = subject, user, to
     msg.set_content(body)
-    if attach_path:
+    if html_body:
+        msg.add_alternative(html_body, subtype="html")  # 본문에 리포트 전체를 펼쳐 보여줌(첨부 없음)
+    elif attach_path:
         msg.add_attachment(pathlib.Path(attach_path).read_bytes(), maintype="text", subtype="html",
                            filename=pathlib.Path(attach_path).name)
     host = env.get("EMAIL_SMTP_HOST", "").strip() or (
@@ -321,11 +359,12 @@ def main():
         ok = send_document(html_path, f"📎 {TODAY:%m/%d} 리포트 웹페이지 버전 (파일을 열면 브라우저에서 보여요)",
                            token, chat, a.dry_run) and ok
     if results or failed:
-        # 메일 본문 = 텔레그램에 보낸 메시지 그대로(HTML 전용 항목 제외), 첨부 = 텔레그램 첨부 HTML
-        sent_msgs = [t for i, t in enumerate(results) if i not in html_only_nos]
-        body = "\n\n".join([header] + sent_msgs + (["⚠️ 확인 필요\n" + "\n".join(failed)] if failed else []))
+        # 메일 = 첨부 없이 본문에 전체 항목(HTML 전용 항목 포함)을 펼쳐서. 글자 버전도 함께 넣음
+        mail_header = header.split("\n(")[0]
+        body = "\n\n".join([mail_header] + results + (["⚠️ 확인 필요\n" + "\n".join(failed)] if failed else []))
         send_email(f"[트렌드 리포트] {TODAY:%Y-%m-%d} ({mode}{' · ' + a.label if a.label else ''})",
-                   body + "\n\n※ 투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님", html_path, env, a.dry_run)
+                   body + "\n\n※ 투자·부동산 내용은 판단 재료이며 매수·매도 권유가 아님", None, env, a.dry_run,
+                   html_body=build_email_html(results, failed, mail_header))
     try:
         prune_dart_cache()
     except Exception as e:
