@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-12",
+ "days": 2,
+ "prev_snapshot": "20261011",
+ "status": {
+  "PH": "ok 354",
+  "HN": "ok ask 63 / show 208",
+  "Reddit": "ok 4/8 (차단·실패: Entrepreneur:HTTPError429, chrome_extensions:HTTPError429, smallbusiness:HTTPError429, nocode:HTTPError429)",
+  "GitHub": "ok 20",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 20,
+  "HN Ask": 63,
+  "PH": 354,
+  "Reddit": 137,
+  "Show HN": 208
+ },
+ "new_counts": {
+  "GitHub": 6,
+  "HN Ask": 31,
+  "PH": 21,
+  "Reddit": 105,
+  "Show HN": 126
+ },
+ "launch_cats": {
+  "개발도구·코딩": 43,
+  "AI 에이전트": 26,
+  "콘텐츠·디자인·영상": 21,
+  "브라우저·확장": 21,
+  "문서·생산성": 20,
+  "MCP·LLM 인프라": 15,
+  "음성·전화": 11,
+  "데이터·분석": 10,
+  "영업·마케팅": 7,
+  "로봇·하드웨어": 5,
+  "교육": 4,
+  "보안": 3,
+  "재무·회계": 3,
+  "커머스·리테일": 2,
+  "헬스케어": 2,
+  "채용·HR": 1,
+  "물류·공급망": 1
+ },
+ "launch_n": 153,
+ "req_n": 20,
+ "req_by_src": {
+  "HN Ask": 4,
+  "Reddit": 16
+ },
+ "pains": {
+  "반복 수작업": 9,
+  "도구 찾기": 7,
+  "대안 찾기": 5,
+  "품질·버그 불만": 5,
+  "정보 과부하·정리": 3,
+  "고객·매출 확보": 3,
+  "가격·구독 부담": 2,
+  "집중·시간관리": 2,
+  "연동·내보내기": 2
+ },
+ "objs": {
+  "AI 사용(ChatGPT·Claude 등)": 6,
+  "SNS·콘텐츠 발행": 5,
+  "이메일·받은편지함": 3,
+  "회의·노트": 2,
+  "엑셀·스프레드시트": 2,
+  "PDF·문서": 2,
+  "일정·예약": 1,
+  "인보이스·결제·회계": 1,
+  "CRM·리드·영업": 1
+ },
+ "ideas_req": {
+  "이메일 후속조치·요약 비서": 3,
+  "반복 웹 업무 녹화→자동 실행": 3,
+  "엑셀 수식·정리 도우미": 2,
+  "SNS·링크드인 게시/리드 수집": 2,
+  "유튜브·회의·웨비나 요약 노트": 1,
+  "집중·시간 기록(자동 타임시트)": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 8,
+  "집중·시간 기록(자동 타임시트)": 4,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "가격·페이지 변경 모니터링 알림": 2,
+  "이메일 후속조치·요약 비서": 1,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "웹페이지 표·목록 → 시트 추출": 1,
+  "구직 지원서 자동 맞춤": 1,
+  "민감정보 마스킹 후 AI 붙여넣기": 1
+ },
+ "gh_new_repos": [
+  "mksglu/context-mode",
+  "open-webui/open-webui",
+  "microsoft/BitNet",
+  "Alishahryar1/free-claude-code",
+  "morluto/rea",
+  "DuarteSantos8/openGym"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   45495,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "bilawalsidhu/gods-eye-view",
+   1903,
+   "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+  ],
+  [
+   "mksglu/context-mode",
+   485,
+   "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  ],
+  [
+   "storytold/artcraft",
+   4106,
+   "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+  ],
+  [
+   "open-webui/open-webui",
+   142,
+   "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Knocket",
+   "Chat with visitors from your website or link"
+  ],
+  [
+   "Manifold MCP",
+   "SEO, AI answers, social, ads and leads data for your agent"
+  ],
+  [
+   "Cube Forms",
+   "Forms that can be filled by agents"
+  ],
+  [
+   "Kudos 3.0",
+   "The AI that finds money you're missing and gets it back"
+  ],
+  [
+   "Dropstone CLI",
+   "The self-learning coding agent for your terminal"
+  ],
+  [
+   "Bearconnect 2.0",
+   "AI-Powered LinkedIn Platform for Content and Outreach"
+  ],
+  [
+   "Ancher 2.0",
+   "Turn everything you read and save into work you can ship"
+  ],
+  [
+   "Google EmbeddingGemma 2",
+   "An open, lightweight multimodal embedding model"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+   275
+  ],
+  [
+   "Show HN: BetterWispr – Free, open-source dictation for Mac",
+   196
+  ],
+  [
+   "Show HN: PS2 games statically recompiled to WebAssembly",
+   63
+  ],
+  [
+   "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+   30
+  ],
+  [
+   "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+   24
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "I am so tired of startups doing worse than me",
+   13
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Is there any defense against LLM-based reverse engineering?",
+   8
+  ],
+  [
+   "HN Ask",
+   "Chatcasting, an Alternative to Podcasting",
+   3
+  ],
+  [
+   "HN Ask",
+   "In agentic programming how do you handle follow up task",
+   3
+  ],
+  [
+   "Reddit",
+   "Would you drop M365 or Google Workspace for one tool that does it all?",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "Developers and SaaS builders: how do you know what’s actually happening inside your product?",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "I used Codex and Devin to build an alternative to Gamma after running into a frustrating problem at work.",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "I made software that automatically cuts your videos in Premiere Pro without AI! (And it does a lot more!)",
+   "SaaS"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}

@@ -1,0 +1,6 @@
+﻿rcept_no,rcept_dt,corp_name,market,report_nm,status,source,source_url,has_aoi_change,purpose_change,n_added,added_items,reason,already_seen
+20261012000153,20261012,하이드로리튬,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/10/12/000153/20261012000282/00591.htm,True,False,0,,,False
+20261012000175,20261012,레메디,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/10/12/000175/20261012000353/00591.htm,False,False,0,,,False
+20261012000392,20261012,아센디오,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/10/12/000392/20261012001016/00591.htm,False,False,0,,,False
+20261012000396,20261012,스코넥,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/10/12/000396/20261012001021/00591.htm,False,False,0,,,False
+20261012000425,20261012,나노팀,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/10/12/000425/20261012001087/00591.htm,True,False,0,,,False
