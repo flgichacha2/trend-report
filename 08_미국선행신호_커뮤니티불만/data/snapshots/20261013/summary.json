@@ -1,0 +1,274 @@
+{
+ "date": "2026-10-13",
+ "days": 2,
+ "prev_snapshot": "20261012",
+ "status": {
+  "PH": "ok 344",
+  "HN": "ok ask 56 / show 271",
+  "Reddit": "ok 4/8 (차단·실패: Entrepreneur:HTTPError429, chrome_extensions:HTTPError429, smallbusiness:HTTPError429, nocode:HTTPError429)",
+  "GitHub": "ok 19",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 19,
+  "HN Ask": 56,
+  "PH": 344,
+  "Reddit": 148,
+  "Show HN": 271
+ },
+ "new_counts": {
+  "GitHub": 5,
+  "HN Ask": 25,
+  "PH": 29,
+  "Reddit": 117,
+  "Show HN": 146
+ },
+ "launch_cats": {
+  "개발도구·코딩": 49,
+  "AI 에이전트": 38,
+  "콘텐츠·디자인·영상": 26,
+  "문서·생산성": 22,
+  "브라우저·확장": 19,
+  "MCP·LLM 인프라": 15,
+  "데이터·분석": 11,
+  "음성·전화": 9,
+  "교육": 8,
+  "영업·마케팅": 7,
+  "보안": 4,
+  "헬스케어": 4,
+  "재무·회계": 4,
+  "로봇·하드웨어": 3,
+  "채용·HR": 2,
+  "법무·컴플라이언스": 2,
+  "고객지원": 1,
+  "부동산·건설": 1
+ },
+ "launch_n": 180,
+ "req_n": 27,
+ "req_by_src": {
+  "HN Ask": 4,
+  "Reddit": 23
+ },
+ "pains": {
+  "반복 수작업": 12,
+  "도구 찾기": 11,
+  "대안 찾기": 5,
+  "품질·버그 불만": 4,
+  "연동·내보내기": 4,
+  "정보 과부하·정리": 4,
+  "고객·매출 확보": 2,
+  "가격·구독 부담": 2,
+  "집중·시간관리": 2
+ },
+ "objs": {
+  "AI 사용(ChatGPT·Claude 등)": 11,
+  "엑셀·스프레드시트": 5,
+  "PDF·문서": 5,
+  "SNS·콘텐츠 발행": 3,
+  "이메일·받은편지함": 3,
+  "회의·노트": 3,
+  "CRM·리드·영업": 2,
+  "일정·예약": 2,
+  "인보이스·결제·회계": 1,
+  "웹 스크래핑·데이터 수집": 1
+ },
+ "ideas_req": {
+  "엑셀 수식·정리 도우미": 5,
+  "반복 웹 업무 녹화→자동 실행": 5,
+  "SNS·링크드인 게시/리드 수집": 2,
+  "이메일 후속조치·요약 비서": 2,
+  "고객 리뷰·피드백 모아보기": 1,
+  "집중·시간 기록(자동 타임시트)": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 11,
+  "집중·시간 기록(자동 타임시트)": 7,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "가격·페이지 변경 모니터링 알림": 3,
+  "엑셀 수식·정리 도우미": 2,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "이메일 후속조치·요약 비서": 2,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "gh_new_repos": [
+  "debpalash/VoiceStudio",
+  "vercel-labs/skills",
+  "xtool-org/xtool",
+  "EpicGames/raddebugger",
+  "cathrynlavery/diagram-design"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   54706,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "bilawalsidhu/gods-eye-view",
+   1961,
+   "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+  ],
+  [
+   "debpalash/VoiceStudio",
+   1691,
+   "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+  ],
+  [
+   "mksglu/context-mode",
+   978,
+   "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  ],
+  [
+   "cathrynlavery/diagram-design",
+   1813,
+   "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+  ]
+ ],
+ "ph_new": [
+  [
+   "MentionBird",
+   "Ahrefs for AI Search"
+  ],
+  [
+   "Mi Speaks 2.0",
+   "Books and PDFs read aloud by neural voices, on device"
+  ],
+  [
+   "Fina Business",
+   "The flexible $20/mo QuickBooks alternative for founders"
+  ],
+  [
+   "Articos MCP",
+   "See how simulated buyers react, right in your agent"
+  ],
+  [
+   "OpenWhispr for iOS",
+   "100% open source, free & on device transcription"
+  ],
+  [
+   "Remocn Studio",
+   "Ship a launch video without opening After Effects"
+  ],
+  [
+   "Kai",
+   "Autonomous assistant designed to handle meetings and email"
+  ],
+  [
+   "PostNitro for Agents",
+   "Let your AI agent design and publish social posts"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: PS2 games statically recompiled to WebAssembly",
+   296
+  ],
+  [
+   "Show HN: BetterWispr – Free, open-source dictation for Mac",
+   209
+  ],
+  [
+   "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+   106
+  ],
+  [
+   "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+   72
+  ],
+  [
+   "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
+   68
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: Is there any defense against LLM-based reverse engineering?",
+   10
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you manage technical debt when coding with AI?",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: CAD for wood working with LLM support?",
+   2
+  ],
+  [
+   "HN Ask",
+   "HN Feature Request: Option to hide repetitive AI complaints",
+   1
+  ],
+  [
+   "Reddit",
+   "Workbook links breaking in Google Drive",
+   "excel"
+  ],
+  [
+   "Reddit",
+   "Simple Twitter post automation",
+   "automation"
+  ],
+  [
+   "Reddit",
+   "I got sick and tired of rejection letters that I created an N8N automation that puts rejection in specific labels and removes them from my Inbox.",
+   "automation"
+  ],
+  [
+   "Reddit",
+   "Anyone automated podcast post-production end to end with an AI agent?",
+   "automation"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}

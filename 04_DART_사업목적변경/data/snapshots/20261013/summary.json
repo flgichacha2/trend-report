@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-13",
+ "route": "KIND",
+ "route_note": "",
+ "window": {
+  "from": "2026-10-12",
+  "to": "2026-10-13"
+ },
+ "notices_listed": 13,
+ "notices_new": 8,
+ "notices_parsed_new": 8,
+ "pending": 0,
+ "aoi_change_corps": 2,
+ "purpose_change_corps": 2,
+ "purpose_added_corps": 2,
+ "by_market": {
+  "코스닥": 1,
+  "유가증권": 1
+ },
+ "theme_counts": {
+  "AI(인공지능)": 2,
+  "로봇": 2,
+  "클라우드·SW·빅데이터": 2,
+  "우주항공": 1,
+  "드론·UAM": 1
+ },
+ "hot3_corps": [
+  "엠플러스"
+ ],
+ "bulk10_corps": []
+}

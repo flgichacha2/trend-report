@@ -70,7 +70,7 @@
  {
   "region": "gangnam",
   "name": "강남구",
-  "total_24m": 1917,
+  "total_24m": 1920,
   "vol_cur": 602,
   "vol_prev": 439,
   "vol_chg_pct": 37.12984054669703,
@@ -78,7 +78,7 @@
   "pp_prev": 4834.593502124646,
   "paired_chg_pct": 11.263736263736268,
   "paired_n": 59,
-  "since_jul": 224,
+  "since_jul": 227,
   "new_high": 54,
   "drop10": 7,
   "median_build_year": 2013.0,
