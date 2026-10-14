@@ -1,0 +1,286 @@
+{
+ "date": "2026-10-14",
+ "days": 2,
+ "prev_snapshot": "20261013",
+ "status": {
+  "PH": "ok 337",
+  "HN": "ok ask 57 / show 348",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 24",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 24,
+  "HN Ask": 57,
+  "PH": 337,
+  "Reddit": 329,
+  "Show HN": 348
+ },
+ "new_counts": {
+  "GitHub": 11,
+  "HN Ask": 35,
+  "PH": 45,
+  "Reddit": 329,
+  "Show HN": 206
+ },
+ "launch_cats": {
+  "개발도구·코딩": 67,
+  "AI 에이전트": 59,
+  "문서·생산성": 34,
+  "콘텐츠·디자인·영상": 26,
+  "MCP·LLM 인프라": 19,
+  "음성·전화": 18,
+  "브라우저·확장": 16,
+  "데이터·분석": 15,
+  "교육": 8,
+  "법무·컴플라이언스": 7,
+  "커머스·리테일": 7,
+  "로봇·하드웨어": 6,
+  "보안": 6,
+  "영업·마케팅": 5,
+  "헬스케어": 5,
+  "재무·회계": 4,
+  "채용·HR": 3,
+  "고객지원": 2,
+  "보험": 1
+ },
+ "launch_n": 262,
+ "req_n": 33,
+ "req_by_src": {
+  "HN Ask": 6,
+  "Reddit": 27
+ },
+ "pains": {
+  "도구 찾기": 12,
+  "반복 수작업": 12,
+  "품질·버그 불만": 10,
+  "가격·구독 부담": 7,
+  "고객·매출 확보": 6,
+  "연동·내보내기": 6,
+  "대안 찾기": 6,
+  "정보 과부하·정리": 4,
+  "개인정보·보안": 3,
+  "집중·시간관리": 1
+ },
+ "objs": {
+  "탭·북마크·브라우저": 11,
+  "AI 사용(ChatGPT·Claude 등)": 9,
+  "SNS·콘텐츠 발행": 7,
+  "고객지원·리뷰": 4,
+  "인보이스·결제·회계": 3,
+  "CRM·리드·영업": 2,
+  "회의·노트": 2,
+  "PDF·문서": 2,
+  "비밀번호·보안·개인정보": 2,
+  "이메일·받은편지함": 1,
+  "엑셀·스프레드시트": 1
+ },
+ "ideas_req": {
+  "탭·북마크 AI 정리/다시찾기": 3,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "고객 리뷰·피드백 모아보기": 2,
+  "반복 웹 업무 녹화→자동 실행": 2,
+  "엑셀 수식·정리 도우미": 1,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 8,
+  "엑셀 수식·정리 도우미": 4,
+  "집중·시간 기록(자동 타임시트)": 2,
+  "웹페이지 표·목록 → 시트 추출": 2,
+  "인보이스·영수증 자동 수집": 2,
+  "구직 지원서 자동 맞춤": 1,
+  "이메일 후속조치·요약 비서": 1,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "유튜브·회의·웨비나 요약 노트": 1,
+  "민감정보 마스킹 후 AI 붙여넣기": 1,
+  "가격·페이지 변경 모니터링 알림": 1
+ },
+ "gh_new_repos": [
+  "nvm-sh/nvm",
+  "K-Dense-AI/scientific-agent-skills",
+  "HKUDS/CLI-Anything",
+  "ifixai-ai/iFixAi",
+  "vxcontrol/pentagi",
+  "rust-lang/rust",
+  "ntdevlabs/tiny11builder",
+  "NationalSecurityAgency/ghidra",
+  "morluto/rea",
+  "twostraws/SwiftUI-Agent-Skill"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   41187,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "debpalash/VoiceStudio",
+   3547,
+   "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+  ],
+  [
+   "mksglu/context-mode",
+   946,
+   "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  ],
+  [
+   "nvm-sh/nvm",
+   45,
+   "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions."
+  ],
+  [
+   "K-Dense-AI/scientific-agent-skills",
+   146,
+   "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+  ]
+ ],
+ "ph_new": [
+  [
+   "LegacyFixer",
+   "Python dependency security scans with optional fix PRs"
+  ],
+  [
+   "Diagramly",
+   "Sketch systems at the speed you think"
+  ],
+  [
+   "Dashrendr",
+   "Build dashboards visually, embed them anywhere"
+  ],
+  [
+   "Payload Peek",
+   "Catch Webhooks. Inspect Payloads. Generate TypeScript."
+  ],
+  [
+   "Elocuenti",
+   "Agentic commerce: sell on WhatsApp and AI assistants"
+  ],
+  [
+   "Spinachi AI",
+   "Your family's personal health manager on WhatsApp"
+  ],
+  [
+   "WriterzRoom",
+   "Governed multi-agent AI content for regulated industries"
+  ],
+  [
+   "Etchv",
+   "invisible forensic watermarks in images, PDFs and videos"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+   466
+  ],
+  [
+   "Show HN: Use your OpenAI subscription to create audiobooks",
+   164
+  ],
+  [
+   "Show HN: How random are you?",
+   163
+  ],
+  [
+   "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+   136
+  ],
+  [
+   "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   107
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: CAD for wood working with LLM support?",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you manage technical debt when coding with AI?",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Are signed URL previews feasible?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: What tool/process do you use to understand code changes made by agents?",
+   2
+  ],
+  [
+   "HN Ask",
+   "HN Feature Request: Option to hide repetitive AI complaints",
+   2
+  ],
+  [
+   "Reddit",
+   "Is it possible to modify Chrome Extensions?",
+   "chrome_extensions"
+  ],
+  [
+   "Reddit",
+   "60+ Installs already🔥!, We built a Chrome extension for navigating long AI chats, looking for honest feedback!!",
+   "chrome_extensions"
+  ],
+  [
+   "Reddit",
+   "TabMerger v3 - A OneTab / Toby alternative with end-to-end encrypted sync (source-available, free tier works offline)",
+   "chrome_extensions"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}

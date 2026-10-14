@@ -19,7 +19,7 @@
  {
   "region": "yeongjong",
   "name": "영종도",
-  "total_24m": 244,
+  "total_24m": 245,
   "vol_cur": 64,
   "vol_prev": 76,
   "vol_chg_pct": -15.789473684210531,
@@ -27,7 +27,7 @@
   "pp_prev": 969.146388096176,
   "paired_chg_pct": 1.2844702467343927,
   "paired_n": 16,
-  "since_jul": 22,
+  "since_jul": 23,
   "new_high": 3,
   "drop10": 4,
   "median_build_year": 2003.0,
@@ -53,7 +53,7 @@
  {
   "region": "pangyo",
   "name": "판교",
-  "total_24m": 113,
+  "total_24m": 114,
   "vol_cur": 40,
   "vol_prev": 34,
   "vol_chg_pct": 17.647058823529417,
@@ -61,7 +61,7 @@
   "pp_prev": 4396.630016993937,
   "paired_chg_pct": 10.344827586206895,
   "paired_n": 7,
-  "since_jul": 14,
+  "since_jul": 15,
   "new_high": 3,
   "drop10": 0,
   "median_build_year": 2010.0,
@@ -70,7 +70,7 @@
  {
   "region": "gangnam",
   "name": "강남구",
-  "total_24m": 1920,
+  "total_24m": 1926,
   "vol_cur": 602,
   "vol_prev": 439,
   "vol_chg_pct": 37.12984054669703,
@@ -78,9 +78,9 @@
   "pp_prev": 4834.593502124646,
   "paired_chg_pct": 11.263736263736268,
   "paired_n": 59,
-  "since_jul": 227,
-  "new_high": 54,
-  "drop10": 7,
+  "since_jul": 233,
+  "new_high": 55,
+  "drop10": 8,
   "median_build_year": 2013.0,
   "new_build_share": 9.634551495016613
  }
