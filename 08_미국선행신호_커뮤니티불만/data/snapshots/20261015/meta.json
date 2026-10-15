@@ -1,0 +1,19 @@
+{
+ "date": "20261015",
+ "finished_at": "2026-10-15T21:07:18",
+ "elapsed_sec": 229.5,
+ "rows": 1120,
+ "new": 481,
+ "status": {
+  "PH": "ok 344",
+  "HN": "ok ask 67 / show 357",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 23",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "prev_snapshot": "20261014",
+ "complete": true
+}

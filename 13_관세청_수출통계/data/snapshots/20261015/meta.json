@@ -1,0 +1,20 @@
+{
+ "date": "20261015",
+ "finished_at": "2026-10-15T21:10:10",
+ "elapsed_sec": 108.9,
+ "data_updated": true,
+ "kept_from": null,
+ "monthly_latest": "202609",
+ "monthly_source": "fetched",
+ "tentative_key": "202610:01~10",
+ "new_tentative": false,
+ "new_monthly": true,
+ "api": {
+  "status": "ok",
+  "apis": {
+   "관세청_품목별 국가별 수출입실적(GW)": "미승인(403)"
+  }
+ },
+ "prev_snapshot": "20261014",
+ "complete": true
+}

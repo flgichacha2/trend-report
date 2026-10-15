@@ -1,0 +1,286 @@
+{
+ "date": "2026-10-15",
+ "days": 2,
+ "prev_snapshot": "20261014",
+ "status": {
+  "PH": "ok 344",
+  "HN": "ok ask 67 / show 357",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 23",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 23,
+  "HN Ask": 67,
+  "PH": 344,
+  "Reddit": 329,
+  "Show HN": 357
+ },
+ "new_counts": {
+  "GitHub": 10,
+  "HN Ask": 35,
+  "PH": 37,
+  "Reddit": 241,
+  "Show HN": 158
+ },
+ "launch_cats": {
+  "개발도구·코딩": 59,
+  "AI 에이전트": 38,
+  "문서·생산성": 23,
+  "MCP·LLM 인프라": 19,
+  "음성·전화": 16,
+  "콘텐츠·디자인·영상": 14,
+  "브라우저·확장": 12,
+  "데이터·분석": 9,
+  "교육": 5,
+  "로봇·하드웨어": 4,
+  "법무·컴플라이언스": 3,
+  "재무·회계": 2,
+  "보안": 2,
+  "영업·마케팅": 2,
+  "채용·HR": 2,
+  "고객지원": 1,
+  "보험": 1,
+  "헬스케어": 1,
+  "물류·공급망": 1
+ },
+ "launch_n": 205,
+ "req_n": 42,
+ "req_by_src": {
+  "HN Ask": 9,
+  "Reddit": 33
+ },
+ "pains": {
+  "품질·버그 불만": 12,
+  "도구 찾기": 11,
+  "반복 수작업": 10,
+  "연동·내보내기": 8,
+  "가격·구독 부담": 6,
+  "대안 찾기": 5,
+  "개인정보·보안": 4,
+  "집중·시간관리": 4,
+  "정보 과부하·정리": 3,
+  "고객·매출 확보": 1
+ },
+ "objs": {
+  "탭·북마크·브라우저": 15,
+  "AI 사용(ChatGPT·Claude 등)": 11,
+  "PDF·문서": 7,
+  "SNS·콘텐츠 발행": 5,
+  "고객지원·리뷰": 5,
+  "이메일·받은편지함": 4,
+  "회의·노트": 3,
+  "인보이스·결제·회계": 3,
+  "엑셀·스프레드시트": 2,
+  "구직·채용": 2,
+  "CRM·리드·영업": 2,
+  "일정·예약": 2,
+  "비밀번호·보안·개인정보": 1
+ },
+ "ideas_req": {
+  "유튜브·회의·웨비나 요약 노트": 4,
+  "구직 지원서 자동 맞춤": 2,
+  "이메일 후속조치·요약 비서": 2,
+  "고객 리뷰·피드백 모아보기": 1,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "엑셀 수식·정리 도우미": 1,
+  "탭·북마크 AI 정리/다시찾기": 1,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 6,
+  "집중·시간 기록(자동 타임시트)": 2,
+  "이메일 후속조치·요약 비서": 2,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "유튜브·회의·웨비나 요약 노트": 2,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "가격·페이지 변경 모니터링 알림": 1,
+  "엑셀 수식·정리 도우미": 1
+ },
+ "gh_new_repos": [
+  "anthropics/claude-plugins-official",
+  "JuliusBrussee/caveman",
+  "obra/superpowers",
+  "ruvnet/ruflo",
+  "affaan-m/ECC",
+  "lightseekorg/tokenspeed",
+  "xerj-org/xerj",
+  "ranxianglei/billion-context",
+  "DuarteSantos8/openGym",
+  "cursor/plugins"
+ ],
+ "gh_daily_top": [
+  [
+   "morluto/rea",
+   32282,
+   "Reverse engineer anything with agents, from app behavior down to native binaries."
+  ],
+  [
+   "anthropics/claude-plugins-official",
+   181,
+   "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  ],
+  [
+   "K-Dense-AI/scientific-agent-skills",
+   1091,
+   "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+  ],
+  [
+   "JuliusBrussee/caveman",
+   398,
+   "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+  ],
+  [
+   "debpalash/VoiceStudio",
+   3027,
+   "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+  ]
+ ],
+ "ph_new": [
+  [
+   "Afterparty",
+   "Automated actions for meeting deliverables"
+  ],
+  [
+   "Chatway MCP",
+   "Let ChatGPT & Claude answer customer support tickets via MCP"
+  ],
+  [
+   "Talanoa",
+   "Email that feels like chat."
+  ],
+  [
+   "Nostaliga",
+   "Rediscover the days behind your favorite songs"
+  ],
+  [
+   "siliXon",
+   "Turn a plain English idea into a circuit board you can order"
+  ],
+  [
+   "Ubuntu 26.10 (Stonking Stingray)",
+   "GNOME 51, Rust coreutils, and a refreshed Linux desktop"
+  ],
+  [
+   "withHuman",
+   "A human approval layer for AI Agents"
+  ],
+  [
+   "OpenMuse",
+   "Opensource, self hostable personal assistant for any harness"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+   561
+  ],
+  [
+   "Show HN: How random are you?",
+   211
+  ],
+  [
+   "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+   185
+  ],
+  [
+   "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   117
+  ],
+  [
+   "Show HN: I built a tool to track what AI leaders say and how their views change",
+   117
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: How do you avoid building verbose AI slop designs?",
+   5
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Anyone used SERPSpur as an alternative to Ahrefs and SEmrush?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: What tool/process do you use to understand code changes made by agents?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Are signed URL previews feasible?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Any way to remove ads in Apple apps?",
+   1
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you find good developer tools quickly?",
+   1
+  ],
+  [
+   "HN Ask",
+   "How are you centralising AI for development at your company?",
+   0
+  ],
+  [
+   "HN Ask",
+   "Is there any free eBook reader that can sync my highlights to obsidian vaults?",
+   0
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}
