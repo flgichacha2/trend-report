@@ -1,0 +1,281 @@
+{
+ "date": "2026-10-16",
+ "days": 2,
+ "prev_snapshot": "20261015",
+ "status": {
+  "PH": "ok 350",
+  "HN": "ok ask 68 / show 305",
+  "Reddit": "ok 4/8 (차단·실패: Entrepreneur:HTTPError429, chrome_extensions:HTTPError429, smallbusiness:HTTPError429, nocode:HTTPError429)",
+  "GitHub": "ok 24",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "counts": {
+  "GitHub": 24,
+  "HN Ask": 68,
+  "PH": 350,
+  "Reddit": 167,
+  "Show HN": 305
+ },
+ "new_counts": {
+  "GitHub": 8,
+  "HN Ask": 34,
+  "PH": 23,
+  "Reddit": 158,
+  "Show HN": 148
+ },
+ "launch_cats": {
+  "개발도구·코딩": 44,
+  "AI 에이전트": 35,
+  "콘텐츠·디자인·영상": 21,
+  "MCP·LLM 인프라": 17,
+  "음성·전화": 16,
+  "문서·생산성": 14,
+  "브라우저·확장": 13,
+  "데이터·분석": 11,
+  "교육": 7,
+  "로봇·하드웨어": 6,
+  "법무·컴플라이언스": 3,
+  "보안": 3,
+  "채용·HR": 3,
+  "재무·회계": 1,
+  "헬스케어": 1,
+  "커머스·리테일": 1,
+  "부동산·건설": 1,
+  "영업·마케팅": 1
+ },
+ "launch_n": 179,
+ "req_n": 31,
+ "req_by_src": {
+  "HN Ask": 10,
+  "Reddit": 21
+ },
+ "pains": {
+  "품질·버그 불만": 13,
+  "도구 찾기": 11,
+  "가격·구독 부담": 7,
+  "반복 수작업": 6,
+  "대안 찾기": 4,
+  "개인정보·보안": 4,
+  "정보 과부하·정리": 3,
+  "고객·매출 확보": 2,
+  "연동·내보내기": 1,
+  "집중·시간관리": 1
+ },
+ "objs": {
+  "엑셀·스프레드시트": 7,
+  "PDF·문서": 6,
+  "AI 사용(ChatGPT·Claude 등)": 6,
+  "이메일·받은편지함": 3,
+  "SNS·콘텐츠 발행": 3,
+  "회의·노트": 3,
+  "구직·채용": 2,
+  "비밀번호·보안·개인정보": 2,
+  "고객지원·리뷰": 2,
+  "CRM·리드·영업": 1,
+  "일정·예약": 1,
+  "인보이스·결제·회계": 1
+ },
+ "ideas_req": {
+  "엑셀 수식·정리 도우미": 6,
+  "이메일 후속조치·요약 비서": 2,
+  "유튜브·회의·웨비나 요약 노트": 1,
+  "구직 지원서 자동 맞춤": 1,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 7,
+  "SNS·링크드인 게시/리드 수집": 3,
+  "반복 웹 업무 녹화→자동 실행": 2,
+  "유튜브·회의·웨비나 요약 노트": 2,
+  "가격·페이지 변경 모니터링 알림": 2,
+  "구직 지원서 자동 맞춤": 2,
+  "이메일 후속조치·요약 비서": 1,
+  "AI 대화·프롬프트 관리": 1,
+  "탭·북마크 AI 정리/다시찾기": 1
+ },
+ "gh_new_repos": [
+  "HKUDS/CLI-Anything",
+  "android/skills",
+  "cursor/plugins",
+  "MadsLorentzen/ai-job-search",
+  "hmjz100/LinkSwift",
+  "storytold/artcraft",
+  "mksglu/context-mode",
+  "anthropics/claude-plugins-official"
+ ],
+ "gh_daily_top": [
+  [
+   "anthropics/claude-plugins-official",
+   1552,
+   "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+  ],
+  [
+   "K-Dense-AI/scientific-agent-skills",
+   1158,
+   "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+  ],
+  [
+   "affaan-m/ECC",
+   1057,
+   "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  ],
+  [
+   "HKUDS/CLI-Anything",
+   716,
+   "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  ],
+  [
+   "mksglu/context-mode",
+   449,
+   "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  ]
+ ],
+ "ph_new": [
+  [
+   "Fish Audio Drama 3",
+   "AI voice acting you can direct, not just generate"
+  ],
+  [
+   "Tesla Roadster",
+   "The hypercar that flies"
+  ],
+  [
+   "Memory Chess",
+   "Study a chess position, then rebuild it from memory"
+  ],
+  [
+   "Pomerado",
+   "Turn any website into an API; Faster & reliable browser use"
+  ],
+  [
+   "Parallax",
+   "Every coding agent you run, in one place."
+  ],
+  [
+   "Hintly for Google Meet™",
+   "Real-time hints for every term you miss on Google Meet"
+  ],
+  [
+   "BOSS Console",
+   "A tiny OS for your always-on agents"
+  ],
+  [
+   "Tetriz Harness",
+   "Turn what your team learns into everyone’s agent setup"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Unfenced – Land for sale that borders public land",
+   298
+  ],
+  [
+   "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+   217
+  ],
+  [
+   "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
+   130
+  ],
+  [
+   "Show HN: I wrote an email app that accepts only one sender per inbox",
+   112
+  ],
+  [
+   "Show HN: Proa – A Rust web framework with fast SSR and multi-target rendering",
+   102
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: How do you avoid building verbose AI slop designs?",
+   5
+  ],
+  [
+   "HN Ask",
+   "Open Source Discord",
+   3
+  ],
+  [
+   "HN Ask",
+   "How are you centralising AI for development at your company?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Anyone used SERPSpur as an alternative to Ahrefs and SEmrush?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Any way to remove ads in Apple apps?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How are you navigating the current tech job market?",
+   1
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you find good developer tools quickly?",
+   1
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Any good polished email alternative to Proton Mail?",
+   1
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ },
+ "yc_prev": null
+}

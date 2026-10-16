@@ -1,0 +1,19 @@
+{
+ "date": "20261016",
+ "finished_at": "2026-10-16T21:09:44",
+ "elapsed_sec": 228.5,
+ "rows": 914,
+ "new": 371,
+ "status": {
+  "PH": "ok 350",
+  "HN": "ok ask 68 / show 305",
+  "Reddit": "ok 4/8 (차단·실패: Entrepreneur:HTTPError429, chrome_extensions:HTTPError429, smallbusiness:HTTPError429, nocode:HTTPError429)",
+  "GitHub": "ok 24",
+  "YC": {
+   "skipped": true,
+   "last": "20261010"
+  }
+ },
+ "prev_snapshot": "20261015",
+ "complete": true
+}
