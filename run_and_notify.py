@@ -71,6 +71,15 @@ def is_send_day(d):
     return d.weekday() == START_DATE.weekday()
 
 
+def last_send_day(d):
+    """d 이전(당일 제외) 가장 가까운 발송일 (최대 7일 전까지)."""
+    for k in range(1, 8):
+        x = d - dt.timedelta(days=k)
+        if is_send_day(x):
+            return x
+    return None
+
+
 def send(text, token, chat, dry):
     if dry:
         print("-" * 40 + "\n" + text)
@@ -289,10 +298,18 @@ def main():
     ap.add_argument("--label", default="", help="머리말·발송기록 구분용 (예: PC, GitHub)")
     a = ap.parse_args()
 
+    sfx = '_' + a.label if a.label else ''
+    send_day, late = TODAY, False
     if not a.force and not is_send_day(TODAY):
-        log(f"{TODAY} 발송일 아님 — 종료")
-        return
-    sent_flag = LOG_DIR / f"sent_{TODAY:%Y%m%d}{'_' + a.label if a.label else ''}.flag"
+        # PC가 꺼져 있어 지난 발송일을 놓쳤으면, 발송일이 아니어도 지금 늦게 보낸다
+        prev_day = last_send_day(TODAY)
+        if prev_day and not (LOG_DIR / f"sent_{prev_day:%Y%m%d}{sfx}.flag").exists():
+            send_day, late = prev_day, True
+            log(f"{prev_day} 발송분을 놓침 → 지금 늦게 발송")
+        else:
+            log(f"{TODAY} 발송일 아님 — 종료")
+            return
+    sent_flag = LOG_DIR / f"sent_{send_day:%Y%m%d}{sfx}.flag"
     if sent_flag.exists() and not a.force and not a.dry_run:
         log("오늘 이미 발송함 — 종료")
         return
@@ -341,6 +358,8 @@ def main():
             failed.append(f"[{no}] {title}: 요약 시간 초과")
 
     header = f"📊 트렌드 리포트 {TODAY:%Y-%m-%d} ({mode}{' · ' + a.label if a.label else ''})\n총 {len(results)}개 항목"
+    if late:
+        header += f" · {send_day:%m/%d} 발송분(PC 꺼짐으로 지연)"
     if mode == "매일":
         left = DAILY_DAYS - (TODAY - START_DATE).days - 1
         header += f" · 매일 발송 {left}일 남음, 이후 매주 {'월화수목금토일'[START_DATE.weekday()]}요일"
