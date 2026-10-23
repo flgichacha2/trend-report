@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-23",
+ "slugs": {
+  "karaoke_rooms": {
+   "downloaded_at": "2026-10-23T21:07:21",
+   "rows_total": 64415,
+   "area_rows": 707
+  },
+  "fitness_centers": {
+   "downloaded_at": "2026-10-23T21:07:29",
+   "rows_total": 28038,
+   "area_rows": 1282
+  },
+  "pc_bangs": {
+   "downloaded_at": "2026-10-23T21:07:38",
+   "rows_total": 82558,
+   "area_rows": 591
+  },
+  "lodgings": {
+   "downloaded_at": "2026-10-23T21:07:47",
+   "rows_total": 58922,
+   "area_rows": 1205
+  },
+  "beauty_salons": {
+   "downloaded_at": "2026-10-23T21:08:00",
+   "rows_total": 460446,
+   "area_rows": 9875
+  },
+  "laundries": {
+   "downloaded_at": "2026-10-23T21:08:15",
+   "rows_total": 67442,
+   "area_rows": 772
+  },
+  "animal_hospitals": {
+   "downloaded_at": "2026-10-23T21:08:23",
+   "rows_total": 10657,
+   "area_rows": 261
+  },
+  "pet_grooming": {
+   "downloaded_at": "2026-10-23T21:08:31",
+   "rows_total": 16272,
+   "area_rows": 486
+  },
+  "animal_boarding": {
+   "downloaded_at": "2026-10-23T21:08:38",
+   "rows_total": 10125,
+   "area_rows": 354
+  },
+  "food_vending_machines": {
+   "downloaded_at": "2026-10-23T21:08:48",
+   "rows_total": 271022,
+   "area_rows": 1700
+  },
+  "martial_arts_dojo": {
+   "downloaded_at": "2026-10-23T21:08:58",
+   "rows_total": 32913,
+   "area_rows": 561
+  }
+ }
+}

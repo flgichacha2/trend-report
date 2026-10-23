@@ -1,0 +1,336 @@
+{
+ "date": "2026-10-23",
+ "days": 2,
+ "prev_snapshot": "20261016",
+ "status": {
+  "PH": "ok 336",
+  "HN": "ok ask 94 / show 336",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 23",
+  "YC": {
+   "skipped": false,
+   "last": "20261023"
+  }
+ },
+ "counts": {
+  "GitHub": 23,
+  "HN Ask": 94,
+  "PH": 336,
+  "Reddit": 334,
+  "Show HN": 336
+ },
+ "new_counts": {
+  "GitHub": 19,
+  "HN Ask": 94,
+  "PH": 120,
+  "Reddit": 334,
+  "Show HN": 336
+ },
+ "launch_cats": {
+  "개발도구·코딩": 117,
+  "AI 에이전트": 111,
+  "문서·생산성": 59,
+  "콘텐츠·디자인·영상": 57,
+  "MCP·LLM 인프라": 51,
+  "브라우저·확장": 41,
+  "음성·전화": 36,
+  "데이터·분석": 34,
+  "교육": 17,
+  "영업·마케팅": 16,
+  "법무·컴플라이언스": 10,
+  "보안": 10,
+  "재무·회계": 8,
+  "로봇·하드웨어": 8,
+  "커머스·리테일": 6,
+  "부동산·건설": 4,
+  "헬스케어": 3,
+  "고객지원": 1,
+  "채용·HR": 1,
+  "물류·공급망": 1
+ },
+ "launch_n": 475,
+ "req_n": 44,
+ "req_by_src": {
+  "HN Ask": 5,
+  "Reddit": 39
+ },
+ "pains": {
+  "품질·버그 불만": 16,
+  "도구 찾기": 15,
+  "반복 수작업": 11,
+  "개인정보·보안": 10,
+  "가격·구독 부담": 9,
+  "집중·시간관리": 7,
+  "연동·내보내기": 6,
+  "정보 과부하·정리": 5,
+  "대안 찾기": 4,
+  "고객·매출 확보": 1
+ },
+ "objs": {
+  "AI 사용(ChatGPT·Claude 등)": 14,
+  "탭·북마크·브라우저": 14,
+  "비밀번호·보안·개인정보": 6,
+  "PDF·문서": 4,
+  "고객지원·리뷰": 3,
+  "회의·노트": 3,
+  "일정·예약": 2,
+  "인보이스·결제·회계": 2,
+  "엑셀·스프레드시트": 2,
+  "SNS·콘텐츠 발행": 2,
+  "이메일·받은편지함": 1,
+  "CRM·리드·영업": 1,
+  "웹 스크래핑·데이터 수집": 1
+ },
+ "ideas_req": {
+  "집중·시간 기록(자동 타임시트)": 2,
+  "웹페이지 표·목록 → 시트 추출": 2,
+  "엑셀 수식·정리 도우미": 2,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "민감정보 마스킹 후 AI 붙여넣기": 1,
+  "유튜브·회의·웨비나 요약 노트": 1,
+  "이메일 후속조치·요약 비서": 1,
+  "SNS·링크드인 게시/리드 수집": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 8,
+  "집중·시간 기록(자동 타임시트)": 6,
+  "유튜브·회의·웨비나 요약 노트": 5,
+  "가격·페이지 변경 모니터링 알림": 5,
+  "엑셀 수식·정리 도우미": 4,
+  "이메일 후속조치·요약 비서": 4,
+  "SNS·링크드인 게시/리드 수집": 3,
+  "반복 웹 업무 녹화→자동 실행": 3,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "구직 지원서 자동 맞춤": 2,
+  "민감정보 마스킹 후 AI 붙여넣기": 2,
+  "웹페이지 표·목록 → 시트 추출": 1,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "gh_new_repos": [
+  "cloudflare/security-audit-skill",
+  "php/php-src",
+  "anthropics/knowledge-work-plugins",
+  "NVIDIA/OpenShell",
+  "Renhuai123/ziwei-doushu",
+  "SnailSploit/Claude-Red",
+  "OpenBMB/VoxCPM",
+  "nodejs/node",
+  "ruvnet/ruflo",
+  "android/skills"
+ ],
+ "gh_daily_top": [
+  [
+   "cloudflare/security-audit-skill",
+   2706,
+   "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+  ],
+  [
+   "php/php-src",
+   722,
+   "The PHP Interpreter"
+  ],
+  [
+   "anthropics/knowledge-work-plugins",
+   643,
+   "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+  ],
+  [
+   "NVIDIA/OpenShell",
+   211,
+   "OpenShell is the safe, private runtime for autonomous AI agents."
+  ],
+  [
+   "Renhuai123/ziwei-doushu",
+   547,
+   "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Ovren Live Preview",
+   "See your product change live before it ships"
+  ],
+  [
+   "Dots",
+   "A customizable workspace built into your Mac's notch"
+  ],
+  [
+   "Product Hunt Visual Launch Editor",
+   "See your launch as you build it"
+  ],
+  [
+   "Peras",
+   "Pause Claude Code and Codex before they burn your week"
+  ],
+  [
+   "Agent Hunt",
+   "Live rankings of the tools AI agents use most"
+  ],
+  [
+   "Cloudflare Clairic",
+   "Cloudflare's AI model for fast, cheap data extraction"
+  ],
+  [
+   "Context Engine",
+   "One memory for your AI agents and human team members."
+  ],
+  [
+   "Truffle",
+   "Fix messy tags, covers and duplicates in your Mac library"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+   111
+  ],
+  [
+   "Show HN: Uberblok – an interactive museum of ZFS internals",
+   109
+  ],
+  [
+   "Show HN: Sumi.css – CSS Framework",
+   97
+  ],
+  [
+   "Show HN: UI micro interactions prompts for AI",
+   77
+  ],
+  [
+   "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+   75
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Open-source, cross-harness memory for AI agents",
+   14
+  ],
+  [
+   "HN Ask",
+   "Ask HN: What AI tools help me understand a MR?",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you keep your setup secure when using harnesses?",
+   3
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you handle AI security for automated vulnerability management?",
+   0
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Are Models Getting Better at Software Estimations of Time/Effort/Cost?",
+   0
+  ],
+  [
+   "Reddit",
+   "[Advice] Ok /r/SaaS - We did a thing",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "I got tired of staring at analytics dashboards, so I built one with an analyst that reads them for me",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "Patched ~30 servers on mixed PHP/Node versions after PHP2Shell (CVE-2026-109618/109619)",
+   "SaaS"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-23",
+  "total": 6331,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 197,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 171
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 401,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.9,
+   "AI 에이전트": 25.9,
+   "개발도구·코딩": 16.2,
+   "교육": 13.5,
+   "데이터·분석": 11.5,
+   "헬스케어": 11.0,
+   "문서·생산성": 6.7,
+   "재무·회계": 6.0,
+   "보안": 5.2,
+   "MCP·LLM 인프라": 4.2,
+   "물류·공급망": 4.2,
+   "부동산·건설": 4.0,
+   "보험": 4.0,
+   "콘텐츠·디자인·영상": 3.7,
+   "영업·마케팅": 3.2,
+   "법무·컴플라이언스": 3.2,
+   "음성·전화": 2.7,
+   "채용·HR": 2.5,
+   "커머스·리테일": 1.7,
+   "브라우저·확장": 0.5,
+   "고객지원": 0.2
+  }
+ },
+ "yc_prev": {
+  "date": "2026-10-10",
+  "total": 6285,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 126
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 356,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.5,
+   "AI 에이전트": 24.2,
+   "개발도구·코딩": 14.6,
+   "교육": 14.0,
+   "헬스케어": 10.7,
+   "데이터·분석": 10.4,
+   "문서·생산성": 6.2,
+   "재무·회계": 5.9,
+   "보안": 5.3,
+   "물류·공급망": 4.5,
+   "보험": 4.5,
+   "MCP·LLM 인프라": 4.2,
+   "콘텐츠·디자인·영상": 3.9,
+   "부동산·건설": 3.7,
+   "법무·컴플라이언스": 3.1,
+   "영업·마케팅": 2.8,
+   "음성·전화": 2.2,
+   "커머스·리테일": 2.0,
+   "채용·HR": 2.0,
+   "고객지원": 0.3,
+   "브라우저·확장": 0.3
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-23",
+ "route": "KIND",
+ "route_note": "",
+ "window": {
+  "from": "2026-10-16",
+  "to": "2026-10-23"
+ },
+ "notices_listed": 36,
+ "notices_new": 27,
+ "notices_parsed_new": 25,
+ "pending": 0,
+ "aoi_change_corps": 11,
+ "purpose_change_corps": 3,
+ "purpose_added_corps": 3,
+ "by_market": {
+  "코스닥": 3
+ },
+ "theme_counts": {
+  "반도체": 1,
+  "바이오·헬스케어": 1,
+  "조선·해양": 1,
+  "부동산·임대·건설": 1,
+  "엔터·콘텐츠·게임": 1
+ },
+ "hot3_corps": [],
+ "bulk10_corps": []
+}
