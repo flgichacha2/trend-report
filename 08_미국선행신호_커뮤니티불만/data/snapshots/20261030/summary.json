@@ -1,0 +1,333 @@
+{
+ "date": "2026-10-30",
+ "days": 2,
+ "prev_snapshot": "20261023",
+ "status": {
+  "PH": "ok 338",
+  "HN": "ok ask 69 / show 327",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 28",
+  "YC": {
+   "skipped": false,
+   "last": "20261030"
+  }
+ },
+ "counts": {
+  "GitHub": 28,
+  "HN Ask": 69,
+  "PH": 338,
+  "Reddit": 334,
+  "Show HN": 327
+ },
+ "new_counts": {
+  "GitHub": 26,
+  "HN Ask": 69,
+  "PH": 114,
+  "Reddit": 334,
+  "Show HN": 327
+ },
+ "launch_cats": {
+  "개발도구·코딩": 116,
+  "AI 에이전트": 105,
+  "문서·생산성": 47,
+  "브라우저·확장": 45,
+  "음성·전화": 40,
+  "콘텐츠·디자인·영상": 39,
+  "MCP·LLM 인프라": 37,
+  "데이터·분석": 31,
+  "교육": 22,
+  "보안": 19,
+  "영업·마케팅": 16,
+  "재무·회계": 14,
+  "커머스·리테일": 9,
+  "법무·컴플라이언스": 8,
+  "헬스케어": 7,
+  "로봇·하드웨어": 6,
+  "채용·HR": 4,
+  "물류·공급망": 3,
+  "고객지원": 2
+ },
+ "launch_n": 467,
+ "req_n": 40,
+ "req_by_src": {
+  "HN Ask": 5,
+  "Reddit": 35
+ },
+ "pains": {
+  "품질·버그 불만": 15,
+  "반복 수작업": 12,
+  "도구 찾기": 12,
+  "가격·구독 부담": 10,
+  "대안 찾기": 9,
+  "개인정보·보안": 6,
+  "연동·내보내기": 6,
+  "정보 과부하·정리": 3,
+  "고객·매출 확보": 2,
+  "집중·시간관리": 1
+ },
+ "objs": {
+  "탭·북마크·브라우저": 15,
+  "AI 사용(ChatGPT·Claude 등)": 10,
+  "PDF·문서": 9,
+  "SNS·콘텐츠 발행": 7,
+  "일정·예약": 4,
+  "인보이스·결제·회계": 4,
+  "이메일·받은편지함": 4,
+  "회의·노트": 4,
+  "고객지원·리뷰": 3,
+  "구직·채용": 2,
+  "엑셀·스프레드시트": 2,
+  "비밀번호·보안·개인정보": 1
+ },
+ "ideas_req": {
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "구직 지원서 자동 맞춤": 2,
+  "엑셀 수식·정리 도우미": 2,
+  "탭·북마크 AI 정리/다시찾기": 2,
+  "이메일 후속조치·요약 비서": 2,
+  "AI 대화·프롬프트 관리": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 19,
+  "가격·페이지 변경 모니터링 알림": 8,
+  "집중·시간 기록(자동 타임시트)": 8,
+  "탭·북마크 AI 정리/다시찾기": 7,
+  "엑셀 수식·정리 도우미": 6,
+  "민감정보 마스킹 후 AI 붙여넣기": 5,
+  "이메일 후속조치·요약 비서": 5,
+  "SNS·링크드인 게시/리드 수집": 3,
+  "인보이스·영수증 자동 수집": 3,
+  "구직 지원서 자동 맞춤": 2,
+  "웹페이지 표·목록 → 시트 추출": 2,
+  "유튜브·회의·웨비나 요약 노트": 2,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "AI 대화·프롬프트 관리": 1
+ },
+ "gh_new_repos": [
+  "thedotmack/claude-mem",
+  "milind-soni/OpenMausBot",
+  "pbakaus/impeccable",
+  "CopilotKit/OpenBot",
+  "expo/skills",
+  "macro-inc/macro",
+  "mattpocock/skills",
+  "pingdotgg/t3code",
+  "HKUDS/DeepTutor",
+  "anthropics/skills"
+ ],
+ "gh_daily_top": [
+  [
+   "thedotmack/claude-mem",
+   1145,
+   "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+  ],
+  [
+   "milind-soni/OpenMausBot",
+   899,
+   "Open-source Grok Bot alternative with a virtual machine that bots can use"
+  ],
+  [
+   "pbakaus/impeccable",
+   2299,
+   "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+  ],
+  [
+   "CopilotKit/OpenBot",
+   707,
+   "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
+  ],
+  [
+   "Renhuai123/ziwei-doushu",
+   1146,
+   "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Canva Brush",
+   "Canva Brush: a vision-language model that edits your designs"
+  ],
+  [
+   "fastbrowse",
+   "Fastest open source browser agent"
+  ],
+  [
+   "SpeakON Agent",
+   "Turn natural speech into real work for an agent to complete"
+  ],
+  [
+   "Teable Mobile",
+   "Build the systems your team runs on, now from your phone"
+  ],
+  [
+   "Kestrix",
+   "Repo-agnostic CI control plane with DAG-based triggers."
+  ],
+  [
+   "Chopstick",
+   "Mac activity and action widgets that write themselves"
+  ],
+  [
+   "Nocto",
+   "Your MacBook notch, finally useful"
+  ],
+  [
+   "StereoLift Live",
+   "your desktop in real 3D, live on your Quest"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+   145
+  ],
+  [
+   "Show HN: I Turned DOOM into a Transformer",
+   99
+  ],
+  [
+   "Show HN: SlideBySide – Present slides without sharing your screen",
+   81
+  ],
+  [
+   "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
+   75
+  ],
+  [
+   "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+   54
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: How do you keep your mind from forgetting how to think?",
+   7
+  ],
+  [
+   "HN Ask",
+   "Everything I post doesn't go through",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Help My Sanity",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Anyone working in Intellingent Doc Processing (IDP)? What do you do?",
+   4
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Alternative to Tldraw Draw Fast?",
+   1
+  ],
+  [
+   "Reddit",
+   "How do you handle B2B orders without it turning into an email chain?",
+   "smallbusiness"
+  ],
+  [
+   "Reddit",
+   "I built a Chrome extension to organize YouTube subscriptions into groups body",
+   "chrome_extensions"
+  ],
+  [
+   "Reddit",
+   "I made an extension to save relative URL paths and jump between environments instantly",
+   "chrome_extensions"
+  ]
+ ],
+ "yc": {
+  "date": "2026-10-30",
+  "total": 6355,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 197,
+   "Spring 2026": 193,
+   "Summer 2026": 228,
+   "Fall 2026": 194
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 422,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.9,
+   "AI 에이전트": 26.1,
+   "개발도구·코딩": 17.1,
+   "교육": 13.0,
+   "데이터·분석": 11.4,
+   "헬스케어": 11.1,
+   "문서·생산성": 6.6,
+   "재무·회계": 6.4,
+   "보안": 5.5,
+   "MCP·LLM 인프라": 4.5,
+   "물류·공급망": 4.0,
+   "콘텐츠·디자인·영상": 3.8,
+   "부동산·건설": 3.8,
+   "보험": 3.8,
+   "법무·컴플라이언스": 3.3,
+   "영업·마케팅": 3.1,
+   "채용·HR": 2.4,
+   "음성·전화": 2.4,
+   "커머스·리테일": 1.7,
+   "브라우저·확장": 0.5,
+   "고객지원": 0.2
+  }
+ },
+ "yc_prev": {
+  "date": "2026-10-23",
+  "total": 6331,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 197,
+   "Spring 2026": 193,
+   "Summer 2026": 230,
+   "Fall 2026": 171
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 401,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.9,
+   "AI 에이전트": 25.9,
+   "개발도구·코딩": 16.2,
+   "교육": 13.5,
+   "데이터·분석": 11.5,
+   "헬스케어": 11.0,
+   "문서·생산성": 6.7,
+   "재무·회계": 6.0,
+   "보안": 5.2,
+   "MCP·LLM 인프라": 4.2,
+   "물류·공급망": 4.2,
+   "부동산·건설": 4.0,
+   "보험": 4.0,
+   "콘텐츠·디자인·영상": 3.7,
+   "영업·마케팅": 3.2,
+   "법무·컴플라이언스": 3.2,
+   "음성·전화": 2.7,
+   "채용·HR": 2.5,
+   "커머스·리테일": 1.7,
+   "브라우저·확장": 0.5,
+   "고객지원": 0.2
+  }
+ }
+}
