@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-13",
+ "days": 2,
+ "prev_snapshot": "20261106",
+ "status": {
+  "PH": "ok 343",
+  "HN": "ok ask 79 / show 362",
+  "Reddit": "ok 5/8 (차단·실패: productivity:HTTPError429, excel:HTTPError429, automation:HTTPError429)",
+  "GitHub": "ok 24",
+  "YC": {
+   "skipped": false,
+   "last": "20261113"
+  }
+ },
+ "counts": {
+  "GitHub": 24,
+  "HN Ask": 79,
+  "PH": 343,
+  "Reddit": 294,
+  "Show HN": 362
+ },
+ "new_counts": {
+  "GitHub": 21,
+  "HN Ask": 79,
+  "PH": 132,
+  "Reddit": 294,
+  "Show HN": 362
+ },
+ "launch_cats": {
+  "개발도구·코딩": 134,
+  "AI 에이전트": 116,
+  "문서·생산성": 63,
+  "콘텐츠·디자인·영상": 51,
+  "MCP·LLM 인프라": 51,
+  "음성·전화": 47,
+  "데이터·분석": 39,
+  "브라우저·확장": 35,
+  "교육": 19,
+  "영업·마케팅": 18,
+  "보안": 11,
+  "커머스·리테일": 8,
+  "법무·컴플라이언스": 7,
+  "부동산·건설": 6,
+  "로봇·하드웨어": 6,
+  "재무·회계": 6,
+  "헬스케어": 5,
+  "고객지원": 3,
+  "물류·공급망": 1,
+  "보험": 1
+ },
+ "launch_n": 515,
+ "req_n": 38,
+ "req_by_src": {
+  "HN Ask": 2,
+  "Reddit": 36
+ },
+ "pains": {
+  "반복 수작업": 12,
+  "품질·버그 불만": 12,
+  "도구 찾기": 10,
+  "정보 과부하·정리": 9,
+  "가격·구독 부담": 8,
+  "연동·내보내기": 7,
+  "대안 찾기": 6,
+  "고객·매출 확보": 5,
+  "집중·시간관리": 3,
+  "개인정보·보안": 3
+ },
+ "objs": {
+  "탭·북마크·브라우저": 13,
+  "AI 사용(ChatGPT·Claude 등)": 11,
+  "이메일·받은편지함": 6,
+  "일정·예약": 5,
+  "SNS·콘텐츠 발행": 5,
+  "회의·노트": 5,
+  "PDF·문서": 4,
+  "엑셀·스프레드시트": 4,
+  "CRM·리드·영업": 3,
+  "인보이스·결제·회계": 3,
+  "고객지원·리뷰": 2,
+  "비밀번호·보안·개인정보": 1,
+  "구직·채용": 1
+ },
+ "ideas_req": {
+  "엑셀 수식·정리 도우미": 4,
+  "탭·북마크 AI 정리/다시찾기": 4,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "이메일 후속조치·요약 비서": 3,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "민감정보 마스킹 후 AI 붙여넣기": 1,
+  "인보이스·영수증 자동 수집": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 18,
+  "가격·페이지 변경 모니터링 알림": 8,
+  "유튜브·회의·웨비나 요약 노트": 7,
+  "집중·시간 기록(자동 타임시트)": 6,
+  "이메일 후속조치·요약 비서": 5,
+  "탭·북마크 AI 정리/다시찾기": 5,
+  "민감정보 마스킹 후 AI 붙여넣기": 4,
+  "웹페이지 표·목록 → 시트 추출": 3,
+  "엑셀 수식·정리 도우미": 3,
+  "인보이스·영수증 자동 수집": 2,
+  "반복 웹 업무 녹화→자동 실행": 2,
+  "SNS·링크드인 게시/리드 수집": 1
+ },
+ "gh_new_repos": [
+  "GoogleChrome/modern-web-guidance-src",
+  "openai/codex-security",
+  "nvm-sh/nvm",
+  "pookjw/HermesEnabler",
+  "we-promise/sure",
+  "QwenLM/qwen-code",
+  "ashhart/TensorFold",
+  "nodejs/node",
+  "addyosmani/agent-skills",
+  "meta/astryx"
+ ],
+ "gh_daily_top": [
+  [
+   "GoogleChrome/modern-web-guidance-src",
+   799,
+   "Keep your coding agent up to date with the latest web best practices"
+  ],
+  [
+   "openai/codex-security",
+   663,
+   "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+  ],
+  [
+   "nvm-sh/nvm",
+   107,
+   "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions."
+  ],
+  [
+   "pookjw/HermesEnabler",
+   390,
+   "Enable Hermès Watch Faces on any Apple Watch devices"
+  ],
+  [
+   "we-promise/sure",
+   974,
+   "The personal finance app for everyone (by everyone)"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Infinite Drive",
+   "A cloud drive you stream to give your laptop infinite space"
+  ],
+  [
+   "Gnista",
+   "Run more coding agents, watch none of them"
+  ],
+  [
+   "Insight7 Voice AI Agents",
+   "AI voice agents that call your customers for you"
+  ],
+  [
+   "mang.sh",
+   "Natural Language  to Terminal Commands"
+  ],
+  [
+   "Grok Bot 1.0",
+   "Bots work together alongside your team"
+  ],
+  [
+   "Foxpit",
+   "Run Claude Code, Codex & OpenCode as one AI team"
+  ],
+  [
+   "Skysoon",
+   "Beautiful weather timelines and countdowns to what's next."
+  ],
+  [
+   "Crossfade",
+   "Let your coding agent design in your open Figma file"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   282
+  ],
+  [
+   "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+   234
+  ],
+  [
+   "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+   148
+  ],
+  [
+   "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
+   103
+  ],
+  [
+   "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+   82
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: \"No AI\" apps/companies/resources?",
+   8
+  ],
+  [
+   "HN Ask",
+   "Ask HN: What are alternatives to LinkedIn to share good works",
+   0
+  ],
+  [
+   "Reddit",
+   "300 signups and 15+ paying customers in 60 days. What worked, and what was a waste of money",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "What calendar app do you use, and what do you enjoy about it/wish was better?",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "How are you tracking what Reddit, Wikipedia and ChatGPT say about your category?",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "Guidde - The worst tool for creating instructional videos.",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "Got tired of searching \"[song] slowed + reverb\" on YouTube, so I vibe-coded a Mac app that does it live to my Apple Music",
+   "SaaS"
+  ],
+  [
+   "Reddit",
+   "How do you handle tangents during a Claude Code session?",
+   "SaaS"
+  ]
+ ],
+ "yc": {
+  "date": "2026-11-13",
+  "total": 6392,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 192,
+   "Summer 2026": 225,
+   "Fall 2026": 231
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 456,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.9,
+   "AI 에이전트": 27.0,
+   "개발도구·코딩": 17.3,
+   "교육": 12.5,
+   "데이터·분석": 11.8,
+   "헬스케어": 10.7,
+   "문서·생산성": 6.4,
+   "재무·회계": 5.9,
+   "보안": 4.8,
+   "물류·공급망": 4.2,
+   "부동산·건설": 3.9,
+   "콘텐츠·디자인·영상": 3.9,
+   "MCP·LLM 인프라": 3.7,
+   "법무·컴플라이언스": 3.7,
+   "보험": 3.7,
+   "음성·전화": 3.3,
+   "영업·마케팅": 3.1,
+   "채용·HR": 2.2,
+   "커머스·리테일": 2.0,
+   "브라우저·확장": 0.4,
+   "고객지원": 0.2
+  }
+ },
+ "yc_prev": {
+  "date": "2026-11-06",
+  "total": 6374,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 166,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 197,
+   "Spring 2026": 192,
+   "Summer 2026": 228,
+   "Fall 2026": 214
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 442,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.5,
+   "AI 에이전트": 26.0,
+   "개발도구·코딩": 17.2,
+   "교육": 12.7,
+   "데이터·분석": 11.8,
+   "헬스케어": 10.6,
+   "문서·생산성": 6.3,
+   "재무·회계": 6.3,
+   "보안": 5.2,
+   "물류·공급망": 4.3,
+   "MCP·LLM 인프라": 4.1,
+   "콘텐츠·디자인·영상": 4.1,
+   "부동산·건설": 3.6,
+   "보험": 3.6,
+   "법무·컴플라이언스": 3.4,
+   "영업·마케팅": 2.9,
+   "채용·HR": 2.5,
+   "음성·전화": 2.5,
+   "커머스·리테일": 2.0,
+   "브라우저·확장": 0.5,
+   "고객지원": 0.2
+  }
+ }
+}
