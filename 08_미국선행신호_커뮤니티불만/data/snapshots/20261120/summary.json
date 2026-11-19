@@ -1,0 +1,297 @@
+{
+ "date": "2026-11-20",
+ "days": 2,
+ "prev_snapshot": "20261113",
+ "status": {
+  "PH": "ok 334",
+  "HN": "ok ask 73 / show 362",
+  "Reddit": "ok 0/8 (차단·실패: SaaS:HTTPError404, Entrepreneur:HTTPError404, productivity:HTTPError429, chrome_extensions:HTTPError404, excel:HTTPError429, smallbusiness:HTTPError404, automation:HTTPError429, nocode:HTTPError404)",
+  "GitHub": "ok 29",
+  "YC": {
+   "skipped": false,
+   "last": "20261120"
+  }
+ },
+ "counts": {
+  "GitHub": 29,
+  "HN Ask": 73,
+  "PH": 334,
+  "Show HN": 362
+ },
+ "new_counts": {
+  "GitHub": 29,
+  "HN Ask": 73,
+  "PH": 128,
+  "Show HN": 362
+ },
+ "launch_cats": {
+  "개발도구·코딩": 134,
+  "AI 에이전트": 125,
+  "문서·생산성": 55,
+  "콘텐츠·디자인·영상": 54,
+  "MCP·LLM 인프라": 51,
+  "데이터·분석": 37,
+  "음성·전화": 35,
+  "브라우저·확장": 33,
+  "로봇·하드웨어": 16,
+  "영업·마케팅": 13,
+  "교육": 12,
+  "법무·컴플라이언스": 11,
+  "보안": 10,
+  "커머스·리테일": 9,
+  "재무·회계": 9,
+  "헬스케어": 5,
+  "고객지원": 4,
+  "보험": 2,
+  "채용·HR": 1,
+  "부동산·건설": 1,
+  "물류·공급망": 1
+ },
+ "launch_n": 519,
+ "req_n": 6,
+ "req_by_src": {
+  "HN Ask": 6
+ },
+ "pains": {
+  "품질·버그 불만": 3,
+  "집중·시간관리": 1,
+  "대안 찾기": 1,
+  "가격·구독 부담": 1
+ },
+ "objs": {
+  "AI 사용(ChatGPT·Claude 등)": 4
+ },
+ "ideas_req": {},
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 18,
+  "가격·페이지 변경 모니터링 알림": 11,
+  "엑셀 수식·정리 도우미": 5,
+  "탭·북마크 AI 정리/다시찾기": 5,
+  "유튜브·회의·웨비나 요약 노트": 4,
+  "집중·시간 기록(자동 타임시트)": 3,
+  "인보이스·영수증 자동 수집": 3,
+  "민감정보 마스킹 후 AI 붙여넣기": 3,
+  "구직 지원서 자동 맞춤": 3,
+  "이메일 후속조치·요약 비서": 2,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "웹페이지 표·목록 → 시트 추출": 1
+ },
+ "gh_new_repos": [
+  "elementalsouls/Claude-BugHunter",
+  "obra/superpowers",
+  "HKUDS/CLI-Anything",
+  "jingyaogong/minimind",
+  "cursor/plugins",
+  "firecrawl/firecrawl",
+  "nginx/nginx",
+  "openvinotoolkit/openvino",
+  "cathrynlavery/diagram-design",
+  "mvanhorn/last30days-skill"
+ ],
+ "gh_daily_top": [
+  [
+   "elementalsouls/Claude-BugHunter",
+   1353,
+   "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+  ],
+  [
+   "obra/superpowers",
+   2029,
+   "An agentic skills framework & software development methodology that works."
+  ],
+  [
+   "HKUDS/CLI-Anything",
+   899,
+   "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  ],
+  [
+   "jingyaogong/minimind",
+   301,
+   "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
+  ],
+  [
+   "cursor/plugins",
+   383,
+   "Cursor plugin specification and official plugins"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Tecla",
+   "A proactive AI agent whose interface is a TODO list"
+  ],
+  [
+   "CodeDesign v3",
+   "Run your website and business apps from ChatGPT or Claude"
+  ],
+  [
+   "Fieldwork Code",
+   "AI coding on your laptop or in the cloud, from your phone"
+  ],
+  [
+   "Upsolve MCP Connections",
+   "Plug Notion, Linear and more into your data agent"
+  ],
+  [
+   "Cleared",
+   "Your personal plan to give up vapes, pouches and cigarettes"
+  ],
+  [
+   "Stripo Email Widgets",
+   "Put a game, quiz or survey in your next email. No coding"
+  ],
+  [
+   "OfinTech Desk",
+   "Finance AI where every figure traces to its source"
+  ],
+  [
+   "Meilisearch Searchandising",
+   "Pin, boost, hide and personalize search results"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+   245
+  ],
+  [
+   "Show HN: Take Voyager 1 apart, down to a single memory chip",
+   231
+  ],
+  [
+   "Show HN: Type Fighter 2",
+   139
+  ],
+  [
+   "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+   134
+  ],
+  [
+   "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+   114
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Claude Gets Hella Paranoid",
+   11
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Anyone else blurting?",
+   9
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Are we all tired of all these skybreaking CVEs/RCEs?",
+   7
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you manage the curse of rabbit hole?",
+   7
+  ],
+  [
+   "HN Ask",
+   "GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root",
+   6
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Are you sick of buying domains",
+   3
+  ]
+ ],
+ "yc": {
+  "date": "2026-11-20",
+  "total": 6403,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 164,
+   "Spring 2025": 143,
+   "Summer 2025": 166,
+   "Fall 2025": 146,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 226,
+   "Fall 2026": 236
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 462,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.0,
+   "AI 에이전트": 27.9,
+   "개발도구·코딩": 17.5,
+   "교육": 12.6,
+   "데이터·분석": 12.1,
+   "헬스케어": 10.8,
+   "재무·회계": 6.1,
+   "문서·생산성": 5.8,
+   "보안": 4.8,
+   "MCP·LLM 인프라": 4.1,
+   "물류·공급망": 4.1,
+   "법무·컴플라이언스": 3.9,
+   "영업·마케팅": 3.7,
+   "콘텐츠·디자인·영상": 3.7,
+   "부동산·건설": 3.5,
+   "보험": 3.5,
+   "음성·전화": 2.8,
+   "커머스·리테일": 2.4,
+   "채용·HR": 2.2,
+   "고객지원": 0.4,
+   "브라우저·확장": 0.4
+  }
+ },
+ "yc_prev": {
+  "date": "2026-11-13",
+  "total": 6392,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 165,
+   "Spring 2025": 144,
+   "Summer 2025": 166,
+   "Fall 2025": 145,
+   "Winter 2026": 198,
+   "Spring 2026": 192,
+   "Summer 2026": 225,
+   "Fall 2026": 231
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 456,
+  "recent_cat_share": {
+   "로봇·하드웨어": 28.9,
+   "AI 에이전트": 27.0,
+   "개발도구·코딩": 17.3,
+   "교육": 12.5,
+   "데이터·분석": 11.8,
+   "헬스케어": 10.7,
+   "문서·생산성": 6.4,
+   "재무·회계": 5.9,
+   "보안": 4.8,
+   "물류·공급망": 4.2,
+   "부동산·건설": 3.9,
+   "콘텐츠·디자인·영상": 3.9,
+   "MCP·LLM 인프라": 3.7,
+   "법무·컴플라이언스": 3.7,
+   "보험": 3.7,
+   "음성·전화": 3.3,
+   "영업·마케팅": 3.1,
+   "채용·HR": 2.2,
+   "커머스·리테일": 2.0,
+   "브라우저·확장": 0.4,
+   "고객지원": 0.2
+  }
+ }
+}

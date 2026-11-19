@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-20",
+ "route": "KIND",
+ "route_note": "",
+ "window": {
+  "from": "2026-11-13",
+  "to": "2026-11-20"
+ },
+ "notices_listed": 31,
+ "notices_new": 31,
+ "notices_parsed_new": 28,
+ "pending": 0,
+ "aoi_change_corps": 11,
+ "purpose_change_corps": 3,
+ "purpose_added_corps": 2,
+ "by_market": {
+  "코스닥": 2
+ },
+ "theme_counts": {
+  "바이오·헬스케어": 1,
+  "부동산·임대·건설": 1,
+  "엔터·콘텐츠·게임": 1,
+  "식품·농업·외식": 1,
+  "투자·금융": 1
+ },
+ "hot3_corps": [],
+ "bulk10_corps": [
+  "로젠"
+ ]
+}
