@@ -1,0 +1,12 @@
+{
+ "date": "20261127",
+ "finished_at": "2026-11-27T05:26:44",
+ "elapsed_sec": 191.5,
+ "route": "KIND",
+ "requests": 107,
+ "window_from": "2026-11-20",
+ "window_to": "2026-11-27",
+ "next_from": "2026-11-27",
+ "prev_snapshot": "20261120",
+ "complete": true
+}

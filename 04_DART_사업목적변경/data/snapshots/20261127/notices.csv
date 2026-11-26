@@ -1,0 +1,36 @@
+﻿rcept_no,rcept_dt,corp_name,market,report_nm,status,source,source_url,has_aoi_change,purpose_change,n_added,added_items,reason,already_seen
+20261120000316,20261120,강원랜드,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000389/20261125001176/00591.htm,False,False,0,,,False
+20261120000324,20261120,한국전력공사,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/20/000324/20261120000717/00591.htm,True,False,0,,,False
+20261120000584,20261120,마크로젠,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/20/000584/20261120001433/00591.htm,False,False,0,,,False
+20261120000889,20261120,강원랜드,유가증권,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000389/20261125001176/00591.htm,False,False,0,,,False
+20261120000913,20261120,아미코젠,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000863/20261124001817/00591.htm,True,False,0,,,False
+20261120000920,20261120,폴라리스우노,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000867/20261124001821/00591.htm,True,True,3,"부동산 매매, 투자, 개발, 시행, 분양, 임대업 | 자회사(자회사 및 손자회사가 지배하는 회사를 포함한다. 이하 같다)의 주식 또는 지분을 취득, 소유함으로써 제반 사업을 지배, 자금 및 업무지원 경영지도, 상품의 개발 및 판매, 정리, 육성하는 사업 | 국내.외 유가증권(주식, 전환사채, 펀드 등)투자 및 관련 수익사업",사업목적 변경,False
+20261123000294,20261123,셀리드,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/23/000294/20261123000780/00591.htm,False,False,0,,,False
+20261123000311,20261123,질경이,코넥스,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/23/000311/20261123000856/00591.htm,True,False,0,,,False
+20261123000429,20261123,현대바이오,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/23/000429/20261123001128/00591.htm,False,False,0,,,False
+20261123000523,20261123,신한알파리츠,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/23/000523/20261123001296/00591.htm,False,False,0,,,False
+20261123000633,20261123,케이씨피드,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000532/20261124000992/00591.htm,False,False,0,,,False
+20261123000677,20261123,그린플러스,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/23/000677/20261123001619/00591.htm,True,True,1,"농업용 필름, 온실용 피복재 및 기능성 필름의 제조, 수입, 수출, 유통 및 판매업",사업목적 추가 (스마트팜 관련 사업영역 확대),False
+20261124000532,20261124,케이씨피드,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000532/20261124000992/00591.htm,False,False,0,,,False
+20261124000537,20261124,HMM,유가증권,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000537/20261124001006/00591.htm,False,False,0,,,False
+20261124000575,20261124,엔비티,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000575/20261124001149/00591.htm,True,True,0,,디지털자산 관련 사업을 추후 별도 법인을 통해 추진하는 방안 검토,False
+20261124000701,20261124,디앤디플랫폼리츠,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000701/20261124001482/00591.htm,False,False,0,,,False
+20261124000766,20261124,온코닉테라퓨틱스,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000766/20261124001618/00591.htm,True,False,0,,,False
+20261124000863,20261124,아미코젠,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000863/20261124001817/00591.htm,True,False,0,,,False
+20261124000867,20261124,폴라리스우노,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000867/20261124001821/00591.htm,True,True,3,"부동산 매매, 투자, 개발, 시행, 분양, 임대업 | 자회사(자회사 및 손자회사가 지배하는 회사를 포함한다. 이하 같다)의 주식 또는 지분을 취득, 소유함으로써 제반 사업을 지배, 자금 및 업무지원 경영지도, 상품의 개발 및 판매, 정리, 육성하는 사업 | 국내.외 유가증권(주식, 전환사채, 펀드 등)투자 및 관련 수익사업",사업목적 변경,False
+20261124000962,20261124,금호에이치티,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000962/20261124001956/00591.htm,True,True,2,"항공 모빌리티 부품 제조 및 판매업 | 로봇, 로봇 부품제조 및 판매업",사업 다각화,False
+20261124000964,20261124,원익큐브,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000964/20261124001960/00591.htm,True,False,0,,,False
+20261124000977,20261124,퀀텀레일,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/24/000977/20261124001997/00591.htm,True,True,0,,-,False
+20261125000165,20261125,한화엔진,유가증권,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000165/20261125000564/00591.htm,False,False,0,,,False
+20261125000241,20261125,평화산업,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000241/20261125000787/00591.htm,True,False,0,,,False
+20261125000297,20261125,동국제약,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000297/20261125000962/00591.htm,True,False,0,,,False
+20261125000389,20261125,강원랜드,유가증권,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000389/20261125001176/00591.htm,False,False,0,,,False
+20261125000432,20261125,현대차증권,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000432/20261125001290/00591.htm,False,False,0,,,False
+20261125000451,20261125,파버나인,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000451/20261125001336/00591.htm,True,True,2,로봇부품의 정밀가공 및 표면처리 | 로봇관련 제품의 제조 및 판매,사업목적 추가,False
+20261125000558,20261125,모아라이프플러스,코스닥,[정정]주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/25/000558/20261125001552/00591.htm,False,False,0,,,False
+20261126000139,20261126,에프에스티,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000139/20261126000253/00591.htm,False,False,0,,,False
+20261126000152,20261126,SIMPAC,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000152/20261126000303/00591.htm,True,False,0,,,False
+20261126000196,20261126,동국생명과학,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000196/20261126000452/00591.htm,True,False,0,,,False
+20261126000305,20261126,핀텔,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000305/20261126000913/00591.htm,True,False,0,,,False
+20261126000307,20261126,영진약품,유가증권,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000307/20261126000916/00591.htm,True,False,0,,,False
+20261126000536,20261126,티케이케미칼,코스닥,주주총회소집공고,ok,KIND,https://kind.krx.co.kr/external/2026/11/26/000536/20261126001513/00591.htm,False,False,0,,,False

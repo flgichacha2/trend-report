@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-27",
+ "collected_at": "2026-11-27T05:19:23",
+ "elapsed_sec": 248.6,
+ "rows_by_store": {
+  "appstore": 300,
+  "appstore_itunes": 2598,
+  "gplay": 2717
+ },
+ "chrome_rows": 861,
+ "chrome_unique": 793
+}

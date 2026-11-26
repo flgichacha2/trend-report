@@ -1,0 +1,289 @@
+{
+ "date": "2026-11-27",
+ "days": 2,
+ "prev_snapshot": "20261120",
+ "status": {
+  "PH": "ok 346",
+  "HN": "ok ask 83 / show 301",
+  "Reddit": "ok 0/8 (차단·실패: SaaS:HTTPError404, Entrepreneur:HTTPError404, productivity:HTTPError429, chrome_extensions:HTTPError404, excel:HTTPError429, smallbusiness:HTTPError404, automation:HTTPError429, nocode:HTTPError404)",
+  "GitHub": "ok 31",
+  "YC": {
+   "skipped": false,
+   "last": "20261127"
+  }
+ },
+ "counts": {
+  "GitHub": 31,
+  "HN Ask": 83,
+  "PH": 346,
+  "Show HN": 301
+ },
+ "new_counts": {
+  "GitHub": 2,
+  "HN Ask": 83,
+  "PH": 130,
+  "Show HN": 301
+ },
+ "launch_cats": {
+  "개발도구·코딩": 99,
+  "AI 에이전트": 86,
+  "브라우저·확장": 44,
+  "문서·생산성": 41,
+  "음성·전화": 40,
+  "MCP·LLM 인프라": 38,
+  "콘텐츠·디자인·영상": 32,
+  "데이터·분석": 25,
+  "교육": 16,
+  "로봇·하드웨어": 8,
+  "영업·마케팅": 7,
+  "재무·회계": 6,
+  "법무·컴플라이언스": 6,
+  "커머스·리테일": 5,
+  "보안": 5,
+  "채용·HR": 4,
+  "헬스케어": 4,
+  "부동산·건설": 2,
+  "고객지원": 1
+ },
+ "launch_n": 433,
+ "req_n": 5,
+ "req_by_src": {
+  "HN Ask": 5
+ },
+ "pains": {
+  "도구 찾기": 2,
+  "반복 수작업": 2,
+  "품질·버그 불만": 1,
+  "개인정보·보안": 1,
+  "가격·구독 부담": 1
+ },
+ "objs": {
+  "AI 사용(ChatGPT·Claude 등)": 2,
+  "이메일·받은편지함": 1,
+  "비밀번호·보안·개인정보": 1,
+  "SNS·콘텐츠 발행": 1
+ },
+ "ideas_req": {
+  "이메일 후속조치·요약 비서": 1
+ },
+ "ideas_launch": {
+  "고객 리뷰·피드백 모아보기": 9,
+  "탭·북마크 AI 정리/다시찾기": 6,
+  "가격·페이지 변경 모니터링 알림": 3,
+  "인보이스·영수증 자동 수집": 3,
+  "엑셀 수식·정리 도우미": 3,
+  "유튜브·회의·웨비나 요약 노트": 3,
+  "집중·시간 기록(자동 타임시트)": 2,
+  "민감정보 마스킹 후 AI 붙여넣기": 2,
+  "SNS·링크드인 게시/리드 수집": 1,
+  "이메일 후속조치·요약 비서": 1,
+  "웹페이지 표·목록 → 시트 추출": 1,
+  "반복 웹 업무 녹화→자동 실행": 1,
+  "구직 지원서 자동 맞춤": 1,
+  "AI 대화·프롬프트 관리": 1
+ },
+ "gh_new_repos": [
+  "n8n-io/nod",
+  "obsidianmd/obsidian-skills"
+ ],
+ "gh_daily_top": [
+  [
+   "elementalsouls/Claude-BugHunter",
+   1600,
+   "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+  ],
+  [
+   "obra/superpowers",
+   853,
+   "An agentic skills framework & software development methodology that works."
+  ],
+  [
+   "HKUDS/CLI-Anything",
+   744,
+   "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+  ],
+  [
+   "jingyaogong/minimind",
+   701,
+   "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
+  ],
+  [
+   "cursor/plugins",
+   268,
+   "Cursor plugin specification and official plugins"
+  ]
+ ],
+ "ph_new": [
+  [
+   "Mime",
+   "Silent dictation: mouth the words and it types them"
+  ],
+  [
+   "Upsolve Harness 2.0",
+   "A data agent that's 2x faster and learns every user"
+  ],
+  [
+   "NEXUS",
+   "Map codebase locally and AI changes only what you approved"
+  ],
+  [
+   "Chunkify",
+   "Video Streaming API for Developers & AI Agents"
+  ],
+  [
+   "OpenChat",
+   "Open-source live chat in your own Cloudflare account"
+  ],
+  [
+   "Hello Transcribe 5",
+   "Private transcription with speaker labels, all on device"
+  ],
+  [
+   "Ottante",
+   "Checks the work your AI agents did, right on your Mac"
+  ],
+  [
+   "SuperLoupe",
+   "search inside anything on your Mac"
+  ]
+ ],
+ "show_top": [
+  [
+   "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+   352
+  ],
+  [
+   "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+   82
+  ],
+  [
+   "Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)",
+   55
+  ],
+  [
+   "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+   37
+  ],
+  [
+   "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+   29
+  ]
+ ],
+ "req_top": [
+  [
+   "HN Ask",
+   "Ask HN: How do you find meaning of life at 41?",
+   75
+  ],
+  [
+   "HN Ask",
+   "Ask HN: Security for the Small Developer",
+   7
+  ],
+  [
+   "HN Ask",
+   "Ask HN: How do you handle corporate life?",
+   3
+  ],
+  [
+   "HN Ask",
+   "How do you make friends?",
+   2
+  ],
+  [
+   "HN Ask",
+   "Load balancing across AI subscriptions",
+   0
+  ]
+ ],
+ "yc": {
+  "date": "2026-11-27",
+  "total": 6409,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 164,
+   "Spring 2025": 143,
+   "Summer 2025": 166,
+   "Fall 2025": 146,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 226,
+   "Fall 2026": 238
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 464,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.7,
+   "AI 에이전트": 27.2,
+   "개발도구·코딩": 18.1,
+   "교육": 12.7,
+   "데이터·분석": 11.6,
+   "헬스케어": 10.8,
+   "재무·회계": 5.8,
+   "문서·생산성": 5.6,
+   "보안": 5.0,
+   "MCP·LLM 인프라": 4.3,
+   "콘텐츠·디자인·영상": 4.3,
+   "물류·공급망": 4.1,
+   "영업·마케팅": 3.9,
+   "법무·컴플라이언스": 3.9,
+   "부동산·건설": 3.4,
+   "보험": 3.4,
+   "음성·전화": 2.6,
+   "커머스·리테일": 2.4,
+   "채용·HR": 2.2,
+   "고객지원": 0.4,
+   "브라우저·확장": 0.4
+  }
+ },
+ "yc_prev": {
+  "date": "2026-11-20",
+  "total": 6403,
+  "batch_counts": {
+   "Winter 2024": 248,
+   "Summer 2024": 248,
+   "Fall 2024": 94,
+   "Winter 2025": 164,
+   "Spring 2025": 143,
+   "Summer 2025": 166,
+   "Fall 2025": 146,
+   "Winter 2026": 198,
+   "Spring 2026": 193,
+   "Summer 2026": 226,
+   "Fall 2026": 236
+  },
+  "recent_batches": [
+   "Summer 2026",
+   "Fall 2026"
+  ],
+  "recent_n": 462,
+  "recent_cat_share": {
+   "로봇·하드웨어": 29.0,
+   "AI 에이전트": 27.9,
+   "개발도구·코딩": 17.5,
+   "교육": 12.6,
+   "데이터·분석": 12.1,
+   "헬스케어": 10.8,
+   "재무·회계": 6.1,
+   "문서·생산성": 5.8,
+   "보안": 4.8,
+   "MCP·LLM 인프라": 4.1,
+   "물류·공급망": 4.1,
+   "법무·컴플라이언스": 3.9,
+   "영업·마케팅": 3.7,
+   "콘텐츠·디자인·영상": 3.7,
+   "부동산·건설": 3.5,
+   "보험": 3.5,
+   "음성·전화": 2.8,
+   "커머스·리테일": 2.4,
+   "채용·HR": 2.2,
+   "고객지원": 0.4,
+   "브라우저·확장": 0.4
+  }
+ }
+}

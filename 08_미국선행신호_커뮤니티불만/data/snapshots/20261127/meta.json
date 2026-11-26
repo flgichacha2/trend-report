@@ -1,0 +1,19 @@
+{
+ "date": "20261127",
+ "finished_at": "2026-11-27T05:45:15",
+ "elapsed_sec": 247.1,
+ "rows": 761,
+ "new": 516,
+ "status": {
+  "PH": "ok 346",
+  "HN": "ok ask 83 / show 301",
+  "Reddit": "ok 0/8 (차단·실패: SaaS:HTTPError404, Entrepreneur:HTTPError404, productivity:HTTPError429, chrome_extensions:HTTPError404, excel:HTTPError429, smallbusiness:HTTPError404, automation:HTTPError429, nocode:HTTPError404)",
+  "GitHub": "ok 31",
+  "YC": {
+   "skipped": false,
+   "last": "20261127"
+  }
+ },
+ "prev_snapshot": "20261120",
+ "complete": true
+}

@@ -1,0 +1,1317 @@
+{
+ "date": "2026-11-27",
+ "days": 30,
+ "api_status": {
+  "general_restaurants": "ok",
+  "rest_cafes": "ok",
+  "bakeries": "ok",
+  "karaoke_rooms": "건너뜀: HTTPError(403)",
+  "fitness_centers": "건너뜀: HTTPError(403)",
+  "pc_bangs": "건너뜀: HTTPError(403)",
+  "lodgings": "건너뜀: HTTPError(403)",
+  "beauty_salons": "건너뜀: HTTPError(403)",
+  "laundries": "건너뜀: HTTPError(403)",
+  "animal_hospitals": "건너뜀: HTTPError(403)",
+  "pet_grooming": "건너뜀: HTTPError(403)",
+  "animal_boarding": "건너뜀: HTTPError(403)",
+  "food_vending_machines": "건너뜀: HTTPError(403)",
+  "martial_arts_dojo": "건너뜀: HTTPError(403)"
+ },
+ "api": {
+  "서울 강남구": {
+   "open": 192,
+   "close": 210,
+   "open7": 28,
+   "close7": 26,
+   "open_real": 102,
+   "close_real": 120,
+   "open7_real": 11,
+   "close7_real": 7,
+   "open_by_type": [
+    [
+     "일반음식점",
+     "기타",
+     41
+    ],
+    [
+     "휴게음식점",
+     "기타 휴게음식점",
+     18
+    ],
+    [
+     "일반음식점",
+     "한식",
+     14
+    ],
+    [
+     "일반음식점",
+     "경양식",
+     6
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     6
+    ],
+    [
+     "일반음식점",
+     "일식",
+     5
+    ]
+   ],
+   "close_by_type": [
+    [
+     "일반음식점",
+     "한식",
+     30
+    ],
+    [
+     "일반음식점",
+     "경양식",
+     16
+    ],
+    [
+     "일반음식점",
+     "기타",
+     14
+    ],
+    [
+     "일반음식점",
+     "일식",
+     11
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     10
+    ],
+    [
+     "제과점",
+     "제과점영업",
+     6
+    ]
+   ],
+   "popup_open": 90,
+   "short_close": 90
+  },
+  "성남 분당구": {
+   "open": 67,
+   "close": 69,
+   "open7": 9,
+   "close7": 5,
+   "open_real": 41,
+   "close_real": 38,
+   "open7_real": 4,
+   "close7_real": 4,
+   "open_by_type": [
+    [
+     "일반음식점",
+     "한식",
+     10
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     7
+    ],
+    [
+     "일반음식점",
+     "일식",
+     5
+    ],
+    [
+     "휴게음식점",
+     "편의점",
+     5
+    ],
+    [
+     "휴게음식점",
+     "기타 휴게음식점",
+     3
+    ],
+    [
+     "일반음식점",
+     "기타",
+     3
+    ]
+   ],
+   "close_by_type": [
+    [
+     "휴게음식점",
+     "커피숍",
+     10
+    ],
+    [
+     "일반음식점",
+     "한식",
+     7
+    ],
+    [
+     "일반음식점",
+     "경양식",
+     5
+    ],
+    [
+     "휴게음식점",
+     "기타 휴게음식점",
+     3
+    ],
+    [
+     "휴게음식점",
+     "일반조리판매",
+     2
+    ],
+    [
+     "일반음식점",
+     "일식",
+     2
+    ]
+   ],
+   "popup_open": 26,
+   "short_close": 31
+  },
+  "인천 영종(옛 중구)": {
+   "open": 38,
+   "close": 29,
+   "open7": 4,
+   "close7": 4,
+   "open_real": 37,
+   "close_real": 29,
+   "open7_real": 4,
+   "close7_real": 4,
+   "open_by_type": [
+    [
+     "일반음식점",
+     "한식",
+     12
+    ],
+    [
+     "휴게음식점",
+     "기타 휴게음식점",
+     8
+    ],
+    [
+     "일반음식점",
+     "기타",
+     6
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     2
+    ],
+    [
+     "휴게음식점",
+     "편의점",
+     2
+    ],
+    [
+     "일반음식점",
+     "중국식",
+     2
+    ]
+   ],
+   "close_by_type": [
+    [
+     "일반음식점",
+     "기타",
+     8
+    ],
+    [
+     "일반음식점",
+     "한식",
+     8
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     3
+    ],
+    [
+     "일반음식점",
+     "경양식",
+     2
+    ],
+    [
+     "일반음식점",
+     "중국식",
+     2
+    ],
+    [
+     "휴게음식점",
+     "일반조리판매",
+     2
+    ]
+   ],
+   "popup_open": 1,
+   "short_close": 0
+  },
+  "제주 서귀포시": {
+   "open": 59,
+   "close": 64,
+   "open7": 5,
+   "close7": 20,
+   "open_real": 59,
+   "close_real": 37,
+   "open7_real": 5,
+   "close7_real": 3,
+   "open_by_type": [
+    [
+     "일반음식점",
+     "한식",
+     27
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     7
+    ],
+    [
+     "휴게음식점",
+     "일반조리판매",
+     3
+    ],
+    [
+     "휴게음식점",
+     "기타 휴게음식점",
+     3
+    ],
+    [
+     "일반음식점",
+     "분식",
+     3
+    ],
+    [
+     "일반음식점",
+     "경양식",
+     2
+    ]
+   ],
+   "close_by_type": [
+    [
+     "일반음식점",
+     "한식",
+     18
+    ],
+    [
+     "휴게음식점",
+     "커피숍",
+     4
+    ],
+    [
+     "휴게음식점",
+     "다방",
+     2
+    ],
+    [
+     "휴게음식점",
+     "일반조리판매",
+     2
+    ],
+    [
+     "일반음식점",
+     "외국음식전문점(인도,태국등)",
+     2
+    ],
+    [
+     "휴게음식점",
+     "편의점",
+     2
+    ]
+   ],
+   "popup_open": 0,
+   "short_close": 27
+  }
+ },
+ "files": {
+  "karaoke_rooms": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 0,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [
+      [
+       "노래연습장",
+       "노래연습장업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 1,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "노래연습장",
+       "노래연습장업",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "fitness_centers": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 2,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 2,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "체력단련장",
+       "체력단련장업",
+       2
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 2,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 2,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "체력단련장",
+       "체력단련장업",
+       2
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "pc_bangs": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 2,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 2,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "PC방",
+       "인터넷컴퓨터게임시설제공업",
+       2
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "PC방",
+       "인터넷컴퓨터게임시설제공업",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "PC방",
+       "인터넷컴퓨터게임시설제공업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "lodgings": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 4,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 4,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "숙박업",
+       "숙박업(생활)",
+       3
+      ],
+      [
+       "숙박업",
+       "관광호텔",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "숙박업",
+       "숙박업(생활)",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "숙박업",
+       "숙박업(생활)",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 1,
+     "close": 1,
+     "open7": 1,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 1,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "숙박업",
+       "숙박업 기타",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "숙박업",
+       "여관업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "beauty_salons": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 35,
+     "close": 25,
+     "open7": 4,
+     "close7": 4,
+     "open_real": 35,
+     "close_real": 25,
+     "open7_real": 4,
+     "close7_real": 4,
+     "open_by_type": [
+      [
+       "미용업",
+       "일반미용업",
+       14
+      ],
+      [
+       "미용업",
+       "피부미용업",
+       13
+      ],
+      [
+       "미용업",
+       "메이크업업",
+       4
+      ],
+      [
+       "미용업",
+       "네일아트업",
+       3
+      ],
+      [
+       "미용업",
+       "기타",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "미용업",
+       "일반미용업",
+       10
+      ],
+      [
+       "미용업",
+       "피부미용업",
+       7
+      ],
+      [
+       "미용업",
+       "메이크업업",
+       4
+      ],
+      [
+       "미용업",
+       "네일아트업",
+       4
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 8,
+     "close": 16,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 8,
+     "close_real": 16,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "미용업",
+       "일반미용업",
+       5
+      ],
+      [
+       "미용업",
+       "네일아트업",
+       2
+      ],
+      [
+       "미용업",
+       "피부미용업",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "미용업",
+       "일반미용업",
+       9
+      ],
+      [
+       "미용업",
+       "네일아트업",
+       3
+      ],
+      [
+       "미용업",
+       "피부미용업",
+       3
+      ],
+      [
+       "미용업",
+       "메이크업업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "미용업",
+       "일반미용업",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "미용업",
+       "피부미용업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 3,
+     "close": 4,
+     "open7": 1,
+     "close7": 1,
+     "open_real": 3,
+     "close_real": 4,
+     "open7_real": 1,
+     "close7_real": 1,
+     "open_by_type": [
+      [
+       "미용업",
+       "네일아트업",
+       1
+      ],
+      [
+       "미용업",
+       "메이크업업",
+       1
+      ],
+      [
+       "미용업",
+       "일반미용업",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "미용업",
+       "피부미용업",
+       3
+      ],
+      [
+       "미용업",
+       "네일아트업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "laundries": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 1,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "세탁업",
+       "일반세탁업",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "animal_hospitals": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 1,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물병원",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 2,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 2,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물병원",
+       "",
+       2
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "pet_grooming": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 1,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물미용업",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 1,
+     "close": 0,
+     "open7": 1,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 1,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물미용업",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 1,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물미용업",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물미용업",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "동물미용업",
+       "",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "animal_boarding": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 2,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 2,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물위탁관리업",
+       "",
+       2
+      ]
+     ],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "동물위탁관리업",
+       "",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "동물위탁관리업",
+       "",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "food_vending_machines": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 4,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 4,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       4
+      ]
+     ],
+     "close_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 0,
+     "close": 3,
+     "open7": 0,
+     "close7": 2,
+     "open_real": 0,
+     "close_real": 3,
+     "open7_real": 0,
+     "close7_real": 2,
+     "open_by_type": [],
+     "close_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       3
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 0,
+     "close": 2,
+     "open7": 0,
+     "close7": 1,
+     "open_real": 0,
+     "close_real": 2,
+     "open7_real": 0,
+     "close7_real": 1,
+     "open_by_type": [],
+     "close_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       2
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 1,
+     "close": 3,
+     "open7": 0,
+     "close7": 1,
+     "open_real": 1,
+     "close_real": 3,
+     "open7_real": 0,
+     "close7_real": 1,
+     "open_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "식품자동판매기업",
+       "식품자동판매기영업",
+       3
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  },
+  "martial_arts_dojo": {
+   "asof": "2026-11-27",
+   "areas": {
+    "서울 강남구": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "성남 분당구": {
+     "open": 1,
+     "close": 1,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 1,
+     "close_real": 1,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [
+      [
+       "체육도장업",
+       "태권도",
+       1
+      ]
+     ],
+     "close_by_type": [
+      [
+       "체육도장업",
+       "권투",
+       1
+      ]
+     ],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "인천 영종(옛 중구)": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    },
+    "제주 서귀포시": {
+     "open": 0,
+     "close": 0,
+     "open7": 0,
+     "close7": 0,
+     "open_real": 0,
+     "close_real": 0,
+     "open7_real": 0,
+     "close7_real": 0,
+     "open_by_type": [],
+     "close_by_type": [],
+     "popup_open": 0,
+     "short_close": 0
+    }
+   }
+  }
+ },
+ "file_info": {
+  "last_file_date": "2026-11-27",
+  "downloaded": true
+ }
+}
